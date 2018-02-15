@@ -947,6 +947,7 @@ label monikaroute:
     "So, we head outside, and within about a minute we’re stuck on what to do." 
     "I ask Monika what she had in mind, and she starts to think about it."
     mc "So… what were you actually planning to do out here?"
+    show monika 1bg at t11 zorder 2
     m 1bg "I don’t really know."
     m "I kinda just thought I would get you out here."
     mc "Great. We’re both stuck for ideas."
@@ -960,7 +961,7 @@ label monikaroute:
     "I’ve just gotten to third base for the third time when I notice someone approach us." 
     "As she gets closer, it appears to be Sayori."
     show sayori 4ba at l21 zorder 2
-    show monika 1a t22 zorder 3
+    show monika 1ba t22 zorder 3
     s 4ba "Hey guys! Are you playing baseball?"
     m 1ba "Yea!"
     m "And we’re doing perfectly fine, just the two of us!"
@@ -1311,6 +1312,7 @@ label monikaroute:
     mc "Monika, I wouldn’t stay here."
     mc "In case I don’t give the appearance, I’m sick today."
     mc "Sorry."
+    show monika 2bm at t11 zorder 2
     m 2bm "You’re sick?"
     m 3bn "[player], that’s a reason {i}for{/i} me to stay here!"
     m 3bl "Who’s gonna take care of you?"
@@ -1332,6 +1334,8 @@ label monikaroute:
                 m "Now go lay down somewhere."
                 m 2bf "I’ll follow you."
                 "I naturally go to the only comfortable bed, the one in my bedroom, and lay in it."
+                scene bg bedroom
+                show monika 1bc at t11 zorder 2
                 "Monika practically throws my cover over me."
                 m 1bc "Here."
                 m 1bd "Now, I’m going to get you something to make you feel better."
@@ -1383,7 +1387,7 @@ label monikaroute:
                 "Her mischievous grin remains in place through her entire sentence, and I can feel my face getting even redder."
                 "Monika grabs my remote and turns on the TV."
                 mc "Great, now this really is a hospital." 
-                mv "Bedbound, TV on, Nurse tending to my needs."
+                mc "Bedbound, TV on, Nurse tending to my needs."
                 m 1be "Well you’re sick, so you deserve it."
                 m 1bd "Now, is there something you wanted to watch?"
                 mc "Nope."
@@ -1446,7 +1450,8 @@ label monikaroute:
     "It's the best feeling in the world."
     "Being with her in general, is the best feeling in the world."
     "God, I love her so much."
-    m 1bb "Hello!"
+    show monika 1bb at t11 zorder 2
+    m 1bb "Hello!" 
     "Monika interupts my thinking."
     "She walks in, as usual."
     "She's quite bundled up."
@@ -1581,7 +1586,7 @@ label monikaroute:
     "Did someone else cheat on her?"
     "Does she think Sayori is better than her?"
     "What's going on?"
-    if monikaroute >= 3:
+    if MonikaVar >= 3:
         mc "Monika, I want an explanation."
         m 1bq "I..."
         m "..."
