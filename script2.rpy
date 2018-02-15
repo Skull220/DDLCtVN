@@ -14,7 +14,7 @@ label start:
     
     # Intro
     $ chapter = 0
-    call monikaroute
+    call ch0_main
     
     # Poem minigame 1
     call poem
