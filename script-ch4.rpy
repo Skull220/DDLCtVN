@@ -19,7 +19,7 @@ label ch4_main:
         "I’m sitting in my room watching something-or-another when I hear my doorbell ring." 
         "I check my hair, put on a pair of pants and go to answer the door."
         call ch4_exclusive_monika
-    elif ch4_s == "yuri":
+    elif ch4_scene == "yuri":
         "I've been getting increasingly anxious about Yuri's upcoming visit."
         "I keep telling myself there's no reason to be nervous, but it doesn't help much."
         "Yuri is clearly an introvert and also an intimate person in general."
