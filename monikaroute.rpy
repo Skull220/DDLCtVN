@@ -25,7 +25,7 @@ label monikaroute:
     "Natsuki begins to speak when Monika walks in."
     show yuri 2e zorder 4 at t44
     show natsuki at t43 zorder 3
-    show sayori at t42 zorder 2
+    show sayori 1b at t42 zorder 2
     show monika 2k zorder 5 at l41
     m "Sorry that I'm late, everyone!"
     m 3e "I swear, one of these days I'll have to get a watch or something."
