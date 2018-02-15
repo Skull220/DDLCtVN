@@ -31,4 +31,4 @@ label start:
     $ chapter = 3
     call ch3_edited
     call poemresponse_start
-    call _end
+    call ch3_end
