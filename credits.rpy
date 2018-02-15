@@ -630,5 +630,5 @@ label credits2:
         scene black
         show poem_end
         $ pause()
-        call screen dialog(message="Error: Script file is missing or corrupt.\nPlease reinstall the game.", ok_action=call start2)
+        call screen dialog(message="Error: Script file is missing or corrupt.\nPlease reinstall the game.", ok_action=Quit(confirm=False))
         return
