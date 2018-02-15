@@ -160,7 +160,7 @@ label monikaroute:
     play music t3
     
     "We arrive at the festival 20 minutes late and immediately get to work on helping set up the decorations that Yuri made for the Literature Club's event."
-    "Thankfully not much happened during our absense, but some of the stage was already set up."
+    "Thankfully not much happened during our absence, but some of the stage was already set up."
     "How Monika, Yuri, and Natsuki got a piano into the room is a mystery for the ages."
     "..."
     
@@ -356,7 +356,7 @@ label monikaroute:
     show yuri 1o at t11
     "Yuri squeals and quietly backs away from the other girls."
     show yuri 1p at t11
-    "As she backs up she accidentally bumps into one of the other students and finally takes notice of the growing crowd, furthering her embarassment."
+    "As she backs up she accidentally bumps into one of the other students and finally takes notice of the growing crowd, furthering her embarrassment."
     hide yuri
     show natsuki 2x at t32
     show sayori 4p at t33
@@ -382,7 +382,7 @@ label monikaroute:
     "Natsuki opens her mouth to retort, but she takes one look at me and quickly closes it."
     show natsuki 12b
     "At this point the crowd has mostly dispersed already, although a few students stuck around to thank Natsuki for the cupcakes."
-    "Even from here it’s noticeable that our signup sheet was just as empty as when we started..."
+    "Even from here it’s noticeable that our sign-up sheet was just as empty as when we started..."
 
     stop music fadeout 1.5
     scene bg club_day
@@ -410,7 +410,7 @@ label monikaroute:
     m "Sayori, [player]... I... I’m really sorry that I snapped at the both of you."
     m 3l "Look, I know that Sayori didn't intend to oversleep or lose her poem or whatever yesterday, and I know that you were both busy with bringing the decorations here too."
     show sayori 1n
-    m "I even noticed the effort that Sayori had put into her hygeine yesterday, I was honestly impressed."
+    m "I even noticed the effort that Sayori had put into her hygiene yesterday, I was honestly impressed."
     m "Given that, I can understand how you might lose track of things when your mind's so preoccupied."
     m 1r "And if I'm being honest, I share some of the blame for that too."
     m "As the one in charge of the events I should've had you both email me your poems last night, just in case."
@@ -517,7 +517,7 @@ label monikaroute:
     show natsuki at t42
     show yuri 3i at t44
     "Sayori seriously ponders that line for a moment, something I rarely see out of her."
-    s 1v "Well... I don’t wanna take on any more members if our founding members aren’t completely onboard."
+    s 1v "Well... I don’t wanna take on any more members if our founding members aren’t completely on-board."
     s "So, I guess that I agree with you guys."
     show monika at f41
     show sayori 1t at t43
@@ -854,7 +854,7 @@ label monikaroute:
                 "We missed about 5 minutes of the movie, but nothing important." 
                 "Its only when the movie really pick up that things really start to change." 
                 "It's a frame story. Some criminals go into an abandoned house, finding some dvds."
-                "They play each one, containing its own miniture horror story. Each scarier than the last."
+                "They play each one, containing its own miniature horror story. Each scarier than the last."
                 "The fifth one in particular gets to me."
                 "In fear, I close my eyes and close the gap between us, burying my face in her side."
                 "It’s only when I realize what I’ve done that I move away quickly."
@@ -898,7 +898,7 @@ label monikaroute:
                 mc "Please. I really don't want to watch this."
                 m 1ba "If you say so."
                 "She switches to a comedic movie."
-                "Neither of us have any real intrest in it." 
+                "Neither of us have any real interest in it." 
                 "By the time it ends, Monika gets up to leave. She turns to me." 
                 m 1bc "I’ll see you tomorrow."
                 m 2bb "Take care, alright?" 
@@ -1246,7 +1246,7 @@ label monikaroute:
                 m 1bi "[player]… I only meant to tease you, but…"
                 m "that was amazing, like nothing I’ve ever experienced."
                 mc "I feel the exact same way." 
-                mc "I-i’m glad you did that, Monika."
+                mc "I-I’m glad you did that, Monika."
                 "We look each other in the eyes for another few moments."
                 "Emerald green, the type of color you could spend the rest of your life looking at." 
                 "Fitting for Monika, the type of person you could spend the rest of your life with." 
@@ -1452,7 +1452,7 @@ label monikaroute:
     "God, I love her so much."
     show monika 1bb at t11 zorder 2
     m 1bb "Hello!" 
-    "Monika interupts my thinking."
+    "Monika interrupts my thinking."
     "She walks in, as usual."
     "She's quite bundled up."
     "She takes her stuff off and hangs it by the door."
@@ -1595,7 +1595,7 @@ label monikaroute:
         m 1br "... you're right."
         m "It's that..."
         "She sighs."
-        m 3bq "[player], i've never done this before."
+        m 3bq "[player], I've never done this before."
         m "I have no idea what to expect."
         m 3bp "Not only that, you and Sayori have been friends for so long..."
         m "And we've only just started dating..."
@@ -1623,11 +1623,11 @@ label monikaroute:
         m "I think we both know. Here, let me guess!"
         "And with that, she clears the gap between our mouths, kissing me." 
         "God, even after a second time, it feels so amazing."
-        "My heart beings to pound so quickly you could hook it up to a generator and power an entire city." 
+        "My heart begins to pound so quickly you could hook it up to a generator and power an entire city." 
         "She locks her arms around my neck, somehow making things even worse." 
         "She’s kissing me so passionately it’s actually pushing me down, and after a little bit I have to stop for air." 
         "We don’t REALLY stop though." 
-        "With our heads still together, we still excange small kisses in between recovering breaths."
+        "With our heads still together, we still exchange small kisses in between recovering breaths."
         m 2ba "[player]…"
         mc "Yes, Monika?"
         m "Why are we stopping here?"
