@@ -29,8 +29,6 @@ Monika's jealousy, Sayori's depression, Natsuki's home life, and Yuri's self har
 
 Each chapter will include one choice. At the final chapter, your choices will decide your ending.
 
-Each chapter will include one choice. At the final chapter, your choices will decide your ending.
-
 >After the added chapters, is that all?
 
 The mod is episodic, meaning new chapters will be added semifreqently.
@@ -49,6 +47,6 @@ II. Click "Releases", and find the latest release. Hotfix instructions will appe
 
 III. Unzip the file, and the "mod_assets" folder inside of it.
 
-IV. Drag and Drop the contents of the file to your /game/ folder in your DDLC install.
+IV. Drag and Drop the contents of the file to your /game/ folder in your DDLC install. Delete Script.rpa.
 
 V. Run the game. If all goes well, the application name at the top should say "Doki Doki, the Normal VN!"
