@@ -12,20 +12,6 @@ Current release is slated sometime before February 14th, 2018. Version 1.2, incl
 Monika's jealousy, Sayori's depression, Natsuki's home life, and Yuri's self harm are all issues present that you can help (or fail to help) deal with.
 
 >Will it keep the element of choice?
-# DDLC,The Normal VN!
->What is this hip, cool new mod?
-
-Esentially, as the name implies. Each character gets 7 more scenes with you, as well as Monika getting her own route.
-
->When do i get my hands on this?
-
-Current release is slated sometime before February 14th, 2018. Version 1.2, including new art and possibly new music, is planned for a later date.
-
->Will it keep the darker tone DDLC has?
-
-Monika's jealousy, Sayori's depression, Natsuki's home life, and Yuri's self harm are all issues present that you can help (or fail to help) deal with.
-
->Will it keep the element of choice?
 
 Each chapter will include one choice. At the final chapter, your choices will decide your ending.
 
