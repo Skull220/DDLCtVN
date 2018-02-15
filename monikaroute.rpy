@@ -915,6 +915,7 @@ label monikaroute:
     
     scene bg kitchen
     play music t2
+    show monika 2ba at t11 zorder 2
     "It’s Sunday, and before I even realize, Monika rings the doorbell." 
     "I go downstairs and answer it."
     m 2ba "Hey, [player]!" 
@@ -1302,7 +1303,7 @@ label monikaroute:
     "It’s Sunday, and for some reason I feel particularly off." 
     "I’m excited for Monika’s visit, but I feel ill;" 
     "it’s only when I start sneezing that I figure out why."
-    "I’ve developed a cold. Great." 
+    "I’ve developed a cold. Great."
     "I’m just about to prep some coffee when Monika knocks on the door, so of course I go to greet her." 
     "However, I tell her immediately the bad news."
     mc "Monika, I wouldn’t stay here."
