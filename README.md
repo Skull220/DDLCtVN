@@ -37,7 +37,7 @@ IV. Drag and Drop the contents of the file to your /game/ folder in your DDLC in
 
 V. Run the game. If all goes well, the application name at the top should say "Doki Doki, the Normal VN!"
 
-#CREDITS!
+# CREDITS!
 
 >Game Design/Writing Head
 
@@ -91,10 +91,10 @@ Stefano
 
 >Special Thanks
 
-"CampinKarl, for starting this all."
+CampinKarl, for starting this all.
 
-"Pi, for giving me a footing."
+Pi, for giving me a footing.
 
-"All my Friends in the DDMC, for keeping me up through thick and thin."
+All my Friends in the DDMC, for keeping me up through thick and thin.
 
-"And, of course, you, for enjoying my mod."
+And, of course, you, for enjoying my mod.
