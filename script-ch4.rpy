@@ -1484,7 +1484,7 @@ label ch4_exclusive_yuri:
             "..."
             "Hell yea."
             call yuriroute
- return
+return
         "Reject her":
             scene black
             hide yuri
