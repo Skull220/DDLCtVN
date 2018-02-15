@@ -1,4 +1,16 @@
+# This is used for top-level game strucutre.
+# Should not include any actual events or scripting; only logic and calling other labels.
+
 label start:
+    $ persistent.playthrough = 0
+    # Set the ID of this playthrough
+    $ anticheat = persistent.anticheat
+
+    # We'll keep track of the chapter we're on for poem response logic and other stuff
+    $ chapter = 0
+
+    #If they quit during a pause, we have to set _dismiss_pause to false again (I hate this hack)
+    $ _dismiss_pause = config.developer
 
     # Each of the girls' names before the MC learns their name throughout ch0.
     $ s_name = "Sayori"
@@ -12,6 +24,7 @@ label start:
     $ allow_skipping = True
     $ config.allow_skipping = True
     
+    if persistent.playthrough == 0:
     # Intro
     $ chapter = 0
     call ch0_main
