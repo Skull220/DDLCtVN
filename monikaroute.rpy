@@ -159,7 +159,7 @@ label monikaroute:
     with wipeleft_scene
     play music t3
     
-    "We arrive at the festival 20 minutes late and immediately get to work on helping set up the decorations that Yuri and I made for the Literature Club's event."
+    "We arrive at the festival 20 minutes late and immediately get to work on helping set up the decorations that Yuri made for the Literature Club's event."
     "Thankfully not much happened during our absense, but some of the stage was already set up."
     "How Monika, Yuri, and Natsuki got a piano into the room is a mystery for the ages."
     "..."
@@ -616,7 +616,7 @@ label monikaroute:
     with dissolve_scene_full
     
     "My heart skips a beat..."
-    "God, Sayori and I really are a couple now."
+    "God, Monika and I really are a couple now."
     "It's so weird. I never really expected it to happen, but here we are."
     "I always thought she was so out of my league. That I would be just crushing on her for the rest of highschool, to see her as my.. {i}girlfriend...{/i}"
     "I smile to myself."
@@ -815,7 +815,7 @@ label monikaroute:
     "Which at this point, it basically is." 
     "I wonder how long we’ll keep this up?"
     m 2bi "So!" 
-    m 3a "What’s the plan for today, huh?"
+    m 3ba "What’s the plan for today, huh?"
     "Monika patiently looks at me, smiling, perhaps in anticipation." 
     "I’m prepared to disappoint."
     mc "I… Uh…" 
@@ -885,8 +885,8 @@ label monikaroute:
                 m "This was a lot of fun, [player]."
                 m "I’m glad I come over every Sunday."
                 mc "I’m glad, too."
-                m 1c "I’ll see you tomorrow." 
-                m 2b "Take care, alright?" 
+                m 1bc "I’ll see you tomorrow." 
+                m 2bb "Take care, alright?" 
                 "We say our goodbyes and Monika leaves."
                 hide monika 
                 "I notice that even now I still can’t tell her I love her."
@@ -896,7 +896,7 @@ label monikaroute:
             "Change the Channel.":
                 m 2bf "…do you want me to change the channel?"
                 mc "Please. I really don't want to watch this."
-                m 1a "If you say so."
+                m 1ba "If you say so."
                 "She switches to a comedic movie."
                 "Neither of us have any real intrest in it." 
                 "By the time it ends, Monika gets up to leave. She turns to me." 
@@ -962,7 +962,7 @@ label monikaroute:
     show sayori 4ba at l21 zorder 2
     show monika 1a t22 zorder 3
     s 4ba "Hey guys! Are you playing baseball?"
-    m 1a "Yea!"
+    m 1ba "Yea!"
     m "And we’re doing perfectly fine, just the two of us!"
     "While Monika’s tone is cheery, her words seem to be subtly asking Sayori to leave." 
     "I decide to step in."
@@ -1120,7 +1120,7 @@ label monikaroute:
     mc "Well, alright." 
     mc "I’ll get today’s activity set up."
     "I start to walk away when I hear Monika pipe up."
-    m 1a "So, what is our activity going to be?" 
+    m 1ba "So, what is our activity going to be?" 
     "I smile."
     mc "We’re going to play some video games!"
     m 1bl "Video games?" 
@@ -1215,7 +1215,7 @@ label monikaroute:
                 "As if she somehow heard those prayers and wanted to spite me, she pushes up and pushes back down a little, feigning uncomfortableness."
                 "She’s probably a bit more uncomfortable now."
                 "Thanks, bloodflow."
-                m 1a "Wow, [player]." 
+                m 1ba "Wow, [player]." 
                 m "I didn’t think this night would turn out like this."
                 m "We haven’t even kissed yet~" 
                 "She says, keeping up the mocking tone."
@@ -1224,7 +1224,7 @@ label monikaroute:
                 m 4bk "[player], can you say that one more time~?"
                 mc "… never mind."
                 "She doesn't drop the subject."
-                m 1a "I heard something..." 
+                m 1ba "I heard something..." 
                 show monika 5a at face with dissolve
                 "She gets a bit closer to me."
                 m "And I think it had something to do with this~"
@@ -1328,7 +1328,7 @@ label monikaroute:
             "Let Monika in.":
                 $ MonikaVar += 1
                 mc "Alright, fine. But if you get sick, don’t blame me."
-                m 1a "I won’t."
+                m 1ba "I won’t."
                 m "Now go lay down somewhere."
                 m 2bf "I’ll follow you."
                 "I naturally go to the only comfortable bed, the one in my bedroom, and lay in it."
@@ -1583,11 +1583,11 @@ label monikaroute:
     "What's going on?"
     if monikaroute >= 3:
         mc "Monika, I want an explanation."
-        m 1q "I..."
+        m 1bq "I..."
         m "..."
         "She struggles to speak."
         "What's got her like this?"
-        m 1r "... you're right."
+        m 1br "... you're right."
         m "It's that..."
         "She sighs."
         m 3bq "[player], i've never done this before."
@@ -1632,7 +1632,7 @@ label monikaroute:
         mc "I-we-but-"
         "She puts a finger on my lips."
         m "Shh."
-        m 1a "The only thing I want to hear from you from now in is the sound of you screaming my name."
+        m 1ba "The only thing I want to hear from you from now in is the sound of you screaming my name."
         "{i}Gulp.{/i}"
     else:
         "I take my mind off it."
