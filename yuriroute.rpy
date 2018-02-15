@@ -567,7 +567,7 @@ label yuriroute:
             "All of her nervousness and concern disappear as she closes her eyes and thinks about the novel."
             "The way she's able to perfectly explain every detail..."
             "And her confidence in every word she states..."
-            "It's truely different."
+            "It's truly different."
             "By the time she's done, I could only stare."
             y 2n "D-Did I do something wrong?"
             y "Why are you staring like that?"
@@ -638,7 +638,7 @@ label yuriroute:
     y "Sure."
     "She sits on my bed."
     "I sit to the right of her."
-    "We're positioned paralell to how we were that first day of the literature club."
+    "We're positioned parallel to how we were that first day of the literature club."
     "Yuri seems a bit more... comfortable, this time."
     "We get started on reading, slowly getting into usual routine."
     "I begin to notice that as we get closer to the end, Yuri begins to tear up."
@@ -1230,7 +1230,7 @@ label yuriroute:
 
     scene bg bedroom
     with wipeleft_scene
-    "It's sunday."
+    "It's Sunday."
     "Technically, our 6 month anniversary."
     "It's not something you normally hear people celebrating..."
     "But I feel really good about it."
