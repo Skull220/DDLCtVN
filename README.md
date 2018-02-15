@@ -36,3 +36,65 @@ III. Unzip the file, and the "mod_assets" folder inside of it.
 IV. Drag and Drop the contents of the file to your /game/ folder in your DDLC install. Delete Script.rpa.
 
 V. Run the game. If all goes well, the application name at the top should say "Doki Doki, the Normal VN!"
+
+#CREDITS!
+
+>Game Design/Writing Head
+
+Skull(#5043)
+
+>Beta Readers/Beta Testers
+
+Romaninlove
+
+C.J. Cervera
+ 
+Cawliin
+
+Kade
+
+Koya-Sato
+
+Kuyoki
+
+Lucian Winters
+
+Monika(the intellegent one)
+
+Qui-Gon Sin
+
+Lou
+  
+Sergmanny
+    
+NNDanny
+
+>Writing/Coding Assistance
+
+NNDanny
+    
+Koya-Sato
+    
+Kuyoki
+
+Sergmanny
+
+>New Monika Expressions
+
+Monika After Story Team
+
+>Other New Art
+
+Lou
+
+Stefano
+
+>Special Thanks
+
+"CampinKarl, for starting this all."
+
+"Pi, for giving me a footing."
+
+"All my Friends in the DDMC, for keeping me up through thick and thin."
+
+"And, of course, you, for enjoying my mod."
