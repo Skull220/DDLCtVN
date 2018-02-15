@@ -32,3 +32,6 @@ label start:
     call ch3_edited
     call poemresponse_start
     call ch3_end
+    # Day 4
+    $ chapter = 4
+    call ch4_main
