@@ -1146,8 +1146,8 @@ image yuri dragon:
     "yuri 3"
 
 # Monika
-image monika 1 = im.Composite((960, 960), (0, 0), "mod_assets/1l.png", (0, 0), "monika/1r.png", (0, 0), "monika/a.png")
-image monika 2 = im.Composite((960, 960), (0, 0), "mod_assets/1l.png", (0, 0), "monika/2r.png", (0, 0), "monika/a.png")
+image monika 1 = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/1r.png", (0, 0), "monika/a.png")
+image monika 2 = im.Composite((960, 960), (0, 0), "monika/1l.png", (0, 0), "monika/2r.png", (0, 0), "monika/a.png")
 image monika 3 = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/1r.png", (0, 0), "monika/a.png")
 image monika 4 = im.Composite((960, 960), (0, 0), "monika/2l.png", (0, 0), "monika/2r.png", (0, 0), "monika/a.png")
 image monika 5 = im.Composite((960, 960), (0, 0), "monika/3a.png")
