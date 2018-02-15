@@ -29,7 +29,7 @@ To install it, you only need to do a few things.
 
 I. Verify that you have an install of DDLC that's unmodded, and completed to the credits.
 
-II. Click "Releases", and find the latest release. Hotfix instructions will appear if nessicary. Click on "Source Code(.zip)".
+II. Click "Releases", and find the latest release. Hotfix instructions will appear if necessary. Click on "Source Code(.zip)".
 
 III. Unzip the file, and the "mod_assets" folder inside of it.
 
