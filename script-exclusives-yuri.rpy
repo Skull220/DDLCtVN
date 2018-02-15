@@ -472,7 +472,6 @@ label yuri_exclusive_2_ch3:
     y "I'll hold the book, okay?"
     mc "Are you sure...?"
     y "Of course."
-    $ persistent.clear[3] = True
     scene y_cg2_bg
     show y_cg2_base
     show y_cg2_details
