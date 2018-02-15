@@ -429,7 +429,7 @@ label ch4_exclusive_sayori:
             "Sayori is the most important person to me."
             "And I'll do whatever it takes to have a happy future with her."
             call sayoriroute
-return
+            return
         "You'll always be my dearest friend.":
             scene black
             hide sayori
@@ -526,7 +526,7 @@ return
             "Sayori is the most important person to me."
             "And I'll do whatever it takes to have a happy future with her."
             call sayoriroute
-return
+            return
 
 label ch4_exclusive_natsuki:
     play music t6 fadeout 2.0
@@ -928,7 +928,7 @@ label ch4_exclusive_natsuki:
             n "I'll see you then!"
             "She walks off into the distance."
             call natsukiroute
-return
+            return
         "Reject her.":
             scene black
             hide monika
@@ -971,7 +971,7 @@ return
             n "I'll see you then!"
             "She walks off into the distance."
             call natsukiroute
-return
+            return
 
 label ch4_exclusive_yuri:
     play music t6 fadeout 2.0
@@ -1484,7 +1484,7 @@ label ch4_exclusive_yuri:
             "..."
             "Hell yea."
             call yuriroute
-return
+            return
         "Reject her":
             scene black
             hide yuri
@@ -1536,7 +1536,7 @@ return
             "..."
             "Hell yea."
             call yuriroute
-return
+            return
 
 label ch4_exclusive_monika: 
     play music t6 fadeout 2.0
@@ -1645,7 +1645,7 @@ label ch4_exclusive_monika:
             "I turn around and walk back into my house." 
             "The festival’s going to be great!"
             call monikaroute
-return
+            return
         "Deny her":
             scene black
             hide monika
@@ -1687,5 +1687,5 @@ return
             "I turn around and walk back into my house." 
             "The festival’s going to be great!"
             call monikaroute
-return
+            return
         
