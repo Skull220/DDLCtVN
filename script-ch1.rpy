@@ -139,7 +139,7 @@ label ch1_main:
         call monika_exclusive_1
 
     #After exclusive scene, we go back to poem responses
-    show monika 1 at t21 zorder 2
+    show monika 1a at t21 zorder 2
     hide sayori
     hide natsuki
     hide yuri
