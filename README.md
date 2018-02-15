@@ -27,7 +27,7 @@ This mod is 100% Copyleft. Anything and everything can be changed to your desire
 
 To install it, you only need to do a few things.
 
-I. Verify that you have an install of DDLC that's unmodded, and completed to the credits.
+I. Verify that you have an install of DDLC that's unmodded.
 
 II. Click "Releases", and find the latest release. Hotfix instructions will appear if necessary. Click on "Source Code(.zip)".
 
