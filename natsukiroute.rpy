@@ -163,7 +163,7 @@ label natsukiroute:
     play music t3
     
     "We arrive at the festival 20 minutes late and immediately get to work on helping set up the decorations that Yuri and I made for the Literature Club's event."
-    "Thankfully not much happened during our absense, but some of the stage was already set up."
+    "Thankfully not much happened during our absence, but some of the stage was already set up."
     "How Monika, Yuri, and Natsuki got a piano into the room is a mystery for the ages."
     "..."
     
@@ -414,7 +414,7 @@ label natsukiroute:
     m "Sayori, [player]... I... I’m really sorry that I snapped at the both of you."
     m 3l "Look, I know that Sayori didn't intend to oversleep or lose her poem or whatever yesterday, and I know that you were both busy with bringing the decorations here too."
     show sayori 1n
-    m "I even noticed the effort that Sayori had put into her hygeine yesterday, I was honestly impressed."
+    m "I even noticed the effort that Sayori had put into her hygiene yesterday, I was honestly impressed."
     m "Given that, I can understand how you might lose track of things when your mind's so preoccupied."
     m 1r "And if I'm being honest, I share some of the blame for that too."
     m "As the one in charge of the events I should've had you both email me your poems last night, just in case."
@@ -764,7 +764,7 @@ label natsukiroute:
             mc "No, don't worry."
             mc "I'll come up with something."
             mc "I mean, I forgot mine at the school festival."
-            mc "It's actally belivable that I might as well have forgotten it today too."
+            mc "It's actually believable that I might as well have forgotten it today too."
             "She looks at me, surprised."
             n 2u "W-Well, I guess I might bake you something as a thanks."
             mc "Really??"
@@ -997,7 +997,7 @@ label natsukiroute:
             mc "Of course, Natsuki."
             mc "You’re my girlfriend, and beyond that, I would do it for you anyway, because I care about you."
             "I expected that to cheer her up, but instead she seems to cry even harder."
-            n 4b2f "Damn it, [player]."
+            n 42bf "Damn it, [player]."
             n "You’re so nice to me, and I’ve been nothing but mean to you all this time."
             n "I have to be the worst girlfriend ever."
             "I put a hand on her head."
@@ -1095,6 +1095,7 @@ label natsukiroute:
     "We’ve done this quite a few times now, and it’s starting to set in as commonplace."
     "It’s still exciting each time, and it’s kind of become a factor of motivation for the rest of the week, but it’s a different kind of excitement now."
     "As I ponder this, Natsuki knocks on my door."
+    show natsuki 1ba at t11 zorder 2
     n 1ba "Hi, [player]!"
     "She’s in casual clothing as usual, and this time holding the next Parfait Girls under her arm."
     "She immediately takes one look at me and frowns."
@@ -1219,7 +1220,8 @@ label natsukiroute:
             mc "If you did, why would you date me?"
             mc "That seems like a bad idea, doesn’t it?"
             "She looks down, ashamed with herself."
-            n 12bf "Yea, but that’s not an excuse."
+            show natsuki 1bu at t11 zorder 2
+            n "Yea, but that’s not an excuse."
             n "When I first came in here, I completely dismissed this, didn’t even consider it a good idea."
             n 12bd "I’m lucky you even showed it to me."
             mc "Listen."
@@ -1321,10 +1323,10 @@ label natsukiroute:
     "I’m excited for Natsuki’s visit, but I feel ill; it’s only when I start sneezing that I figure out why."
     "I’ve developed a cold. Great." 
     "I’m just about to prep some coffee when Natsuki knocks on the door, so of course I go to greet her."
-    show natsuki 3ba
-    "However, I tell her immediately the bad news."
+    show natsuki 3ba at t11 zorder 2
+    "However, I immediately relay the bad news."
     mc "Natsuki, I wouldn’t stay here. In case I don’t give the appearance, I’m sick today. Sorry."
-    n 1be "Nice work, [Player]. Guess who has to take care of you now?"
+    n 1be "Nice work, [player]. Guess who has to take care of you now?"
     mc "I can take care of myself!"
     n "Yeah, sure you can. You got yourself sick, idiot, but you probably won’t make yourself better. Come on, let’s go."
     "I think about this for a moment."
@@ -1366,11 +1368,11 @@ label natsukiroute:
             "She puts on an angry face, but once she pulls up a chair and sits next to me it slowly starts to fade."
             show natsuki 3bu at t11 zorder 2
             "After a few seconds, she grabs my hand, and I look at her in suspicion."
-            n 22ba "I’m just trying to...keep your pulse in check."
+            n 2bw "I’m just trying to...keep your pulse in check."
             mc "That’s not how pulse works, that’d be my wrist."
             mc "Also, a cold wouldn’t really affect my pulse."
-            n 22bc "What, you don’t think I know that?"
-            n "I’m not stupid, [Player]!"
+            n  "What, you don’t think I know that?"
+            n "I’m not stupid, [player]!"
             "She doesn’t then mention why she’s REALLY holding my hand, but I do know, don't I?"
             "I decide to drop it anyways."
             "It won't do any good to let her know that I'm aware."
@@ -1477,7 +1479,7 @@ label natsukiroute:
         "I grab the box from her and set it down, and she buries her face in my chest, lightly sobbing."
         "Without really thinking, I wipe tears from her eyes."
         scene bg bedroom
-        show natsuki 22bf at t11 zorder 2
+        show natsuki 1bm at t11 zorder 2
         "She looks at me, for a straight half minute."
         "Her eyes are still slightly glistening from the tears."
         "I pick up her box, and start to go upstairs, motioning her to follow me."
@@ -1518,8 +1520,9 @@ label natsukiroute:
         "I’m perfectly fine here, as long as I explain to her what happened before she wakes up."
         "However, what I’m not expecting is for her to do is turn around and wrap her arms around me, settling into my side."
         "I panic."
-        "''What if she wakes up like this?''"
-        "''What is she going to say?''" "''What if this ruins everything?''"
+        "What if she wakes up like this?"
+        "What is she going to say?" 
+        "What if this ruins everything?"
         "Slowly and carefully, I pick up her top arm and put it on her side."
         "I then try to push my other arm out from under her, slowly once more so that she doesn’t awaken."
         "She’s completely separate from me once more, and I breath a sigh of relief."
@@ -1545,7 +1548,7 @@ label natsukiroute:
         mc "Natsuki, these are some of the best moments of my life, too."
         mc "I never want these to end."
         mc "I would love to spend every Sunday ‘till the day I die with you."
-        n 1ba "[Player], I want to spend every {i}day{/i} ‘till the day I die with you."
+        n 1ba "[player], I want to spend every {i}day{/i} ‘till the day I die with you."
         n 1bj "I want to spend the rest of my life with you."
         mc "Natsuki...I..."
         mc "God damnit, Natsuki."
