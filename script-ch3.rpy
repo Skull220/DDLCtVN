@@ -1,4 +1,4 @@
-label ch3_main:
+label ch3_edited:
     scene bg club_day
     with dissolve_scene_half
     play music t3
