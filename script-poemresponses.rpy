@@ -2340,8 +2340,7 @@ label ch1_m_start:
     mc "Yeah, that's true."
     "I hand Monika my poem."
     m 2a "...Mhm!"
-    $ nextscene = "m_" + poemwinner[0] + "_" + str(eval(poemwinner[0][0] + "_appeal"))
-    call expression nextscene
+    call m_sayori_1
 
     mc "I'm sure I'll end up trying different things a lot."
     mc "It could take a while before I feel comfortable doing this."
@@ -2379,8 +2378,7 @@ label ch2_m_start:
     "I give my poem to Monika."
     m "..."
     m "...Alright!"
-    $ nextscene = "m_" + poemwinner[1] + "_" + str(eval(poemwinner[1][0] + "_appeal"))
-    call expression nextscene
+    call m_sayori_2
 
     m 1a "But anyway..."
     m "You want to read my poem now?"
@@ -2402,8 +2400,7 @@ label ch3_m_start:
     mc "Sure..."
     "I let Monika take the poem I'm holding in my hands."
     m "..."
-    $ nextscene = "m_" + poemwinner[2] + "_" + str(eval(poemwinner[2][0] + "_appeal"))
-    call expression nextscene
+    call m_sayori_3
 
     m 1a "Anyway...!"
     m "I'll share my poem with you now, alright?"
