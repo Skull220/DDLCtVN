@@ -23,7 +23,7 @@ define gui.show_name = False
 
 ## The version of the game.
 
-define config.version = "1.1.0"
+define config.version = "1.2.5"
 
 
 ## Text that is placed on the game's about screen. To insert a blank line
@@ -36,7 +36,7 @@ define gui.about = _("")
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "Monika_After_Story"
+define build.name = "DDLCtVN"
 
 ## Sounds and music ############################################################
 
