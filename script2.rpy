@@ -2,6 +2,7 @@
 # Should not include any actual events or scripting; only logic and calling other labels.
 
 label start:
+    $ quick_menu = true
     # Intro
     $ chapter = 0
     call ch0_main
