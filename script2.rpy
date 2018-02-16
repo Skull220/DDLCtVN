@@ -36,3 +36,5 @@ label start:
     # Day 4
     $ chapter = 4
     call ch4_main
+
+return
