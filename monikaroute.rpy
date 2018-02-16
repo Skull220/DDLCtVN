@@ -1203,7 +1203,7 @@ label monikaroute:
                 "I know exactly what she’s doing, but it doesn’t stop it from working." 
                 "She gains the lead over me shortly after using her distraction tactic."
                 m "Hey, I’m getting better at this." 
-                m 1a "I told you, [player]."
+                m 1ba "I told you, [player]."
                 "She says it tauntingly, and I struggle to respond." 
                 "Eventually, however I begin to retake the lead."
                 "She changes strategies."
