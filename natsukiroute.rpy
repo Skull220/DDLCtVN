@@ -599,7 +599,7 @@ label natsukiroute:
     pause 1
     hide monika
     hide yuri
-    hide 
+    hide sayori
     show natsuki 2a at t11
     "Natsuki looks over at me and we both smile."
     "We all leave the club together, before Natsuki and I split off from the others."
