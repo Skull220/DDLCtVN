@@ -1557,7 +1557,7 @@ label natsukiroute:
         "She slowly begins weeping."
         n 1br "That’s..."
         n 12bf "Y-you’re the first person that’s ever said that to me."
-        n "I love you too, [Player]."
+        n "I love you too, [player]."
         "Natsuki being so candid makes me a bit shocked."
         "Without a word, I place my hand on the back of her head."
         hide natsuki
