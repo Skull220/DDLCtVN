@@ -697,7 +697,7 @@ label ch3_end_sayori:
     "She doesn't think Sayori will kill herself, does she?"
     "Sayori isn't that sad..."
     "Or... is she?"
-    "Today came out of left feild for me..."
+    "Today came out of left field for me..."
     "So I guess I really don't know. That doesn't seem out of the question."
     "Oh god..."
     "I really do have to help her."
