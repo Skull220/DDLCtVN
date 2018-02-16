@@ -523,6 +523,8 @@ screen main_menu():
             add "menu_bg"
             add "menu_art_y"
             add "menu_art_n"
+            add "menu_art_m"
+            add "menu_art_s"
     frame:
         pass
 
