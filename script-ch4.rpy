@@ -1548,7 +1548,7 @@ label ch4_exclusive_monika:
     "It’s weird seeing her in something other than her uniform, but casual clothes look really nice on her." 
     "I wonder if she's thinking about my clothes, too?"
     scene bedroom with wipeleft_scene
-    show monika 1k at l11 zorder 2
+    show monika 1bk at l11 zorder 2
     "We get settled in my room, and I get out the materials." 
     "Before we know it, we have a system established." 
     m 1bd "So, what do you think?" 
@@ -1617,7 +1617,7 @@ label ch4_exclusive_monika:
     "That’s what she says, but she doesn’t seem very happy about it." 
     "I show her out and she stops me before I go back in." 
     m 1bm "[player]…"
-    show monika 1m at face with dissolve
+    show monika 1bm at face with dissolve
     "She says. She starts to get rather close to me."
     m "I… oh, this is always so dumb when I see it in a movie, but now it all makes sense."
     m 1bn "I guess it's just best to say it, and avoid that trap."
