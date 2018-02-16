@@ -26,6 +26,7 @@ label monika_exclusive_1:
     "Monika and I exit the room."
     scene bg corridor
     with wipeleft_scene
+    show monika 2a at t11 zorder 2
     "We walk into the hallway. It's unfamiliar to me, being for third year students, but Monika leads the way."
     m "Ah, the club."
     m 2o "You know, we've only known each other for about a month..."
