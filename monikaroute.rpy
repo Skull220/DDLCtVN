@@ -1528,7 +1528,7 @@ label monikaroute:
     m 1bi "Nope! What?"
     mc "Hmmm… it’s a surprise."
     mc "But I’ll tell you it’s a nice, warm liquid to put inside you if you’re cold."
-    m 5ba "Ooh, [player], that’s a bit confident of you… "
+    m 4ba "Ooh, [player], that’s a bit confident of you… "
     "Her voice and expression both seem a bit more… sultry." 
     "I don’t really understand why."
     mc "Yep! Let me go and get it."
@@ -1556,9 +1556,11 @@ label monikaroute:
     "Real smooth."
     "I add the packets to our drinks and stir them."
     "I grab one in each hand, and walk back upstairs."
+    scene bg bedroom 
     "I reach my door."
     mc "Here we are!"
     "I hand her her cup and hold mine, as she reopens the cover fort."
+    show monika 1bj at t11 zorder 2
     m 1bj "Oh, with Marshmallows, too! Aww, thank you!"
     mc "You’re welcome."
     "She plays the show."
