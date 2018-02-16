@@ -37,4 +37,4 @@ label start:
     $ chapter = 4
     call ch4_main
 
-return
+    return
