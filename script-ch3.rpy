@@ -720,6 +720,7 @@ label ch3_end_sayori:
     "Should I go talk to her now?"
     "Well... she did leave so she didn't need to talk to me..."
     "Maybe just best to give her some space."
+    return
 
 label ch3_end_monika:
     $ ch4_scene = "monika"
