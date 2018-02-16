@@ -1672,7 +1672,7 @@ label ch4_exclusive_monika:
             show monika 1bp at t11 zorder 2
             mc "Y-Yeah. I'd l-love to."
             "Her eyes light up."
-            m 1b "Yay!"
+            m 1bb "Yay!"
             mc "I guess that makes the festival our first date, huh?"
             m "Yeah! Ahaha... I'll... see you there, [player]."
             "She walks off, probably the happiest I’ve ever seen her."
