@@ -1579,7 +1579,7 @@ label monikaroute:
     mc "What? No, Monika… I… I love you, Monika."
     m "Then, why are you talking to Sayori?"
     mc "Because she's my friend? Monika, you seem a bit... jealous."
-    "Monika realizes how she's coming of, and begins to calm down."
+    "Monika realizes how she's coming off, and begins to calm down."
     m 2bo "Jealous? Of her? Why would I be? I have nothing to be envious about..."
     mc "I agree. Yet, for some reason, you still are. Monika, do you really think I'd cheat on you?"
     m 1bq "Well, I don't mean it like that... but it just..."
