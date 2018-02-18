@@ -2340,7 +2340,8 @@ label ch1_m_start:
     mc "Yeah, that's true."
     "I hand Monika my poem."
     m 2a "...Mhm!"
-    call m_sayori_1
+    $ nextscene = "m_" + poemwinner[0] + "_" + str(eval(poemwinner[0][0] + "_appeal"))
+    call expression nextscene
 
     mc "I'm sure I'll end up trying different things a lot."
     mc "It could take a while before I feel comfortable doing this."
@@ -2378,7 +2379,8 @@ label ch2_m_start:
     "I give my poem to Monika."
     m "..."
     m "...Alright!"
-    call m_sayori_2
+    $ nextscene = "m_" + poemwinner[1] + "_" + str(eval(poemwinner[1][0] + "_appeal"))
+    call expression nextscene
 
     m 1a "But anyway..."
     m "You want to read my poem now?"
@@ -2400,8 +2402,9 @@ label ch3_m_start:
     mc "Sure..."
     "I let Monika take the poem I'm holding in my hands."
     m "..."
-    call m_sayori_3
-
+    $ nextscene = "m_" + poemwinner[1] + "_" + str(eval(poemwinner[2][0] + "_appeal"))
+    call expression nextscene
+    
     m 1a "Anyway...!"
     m "I'll share my poem with you now, alright?"
     mc "Er..."
@@ -2572,7 +2575,11 @@ label m_yuri_2:
     m 1n "Oh, well I know...!"
     m "I was just saying~"
     return
-
+    
+label m_monika_2:
+    m
+    return
+    
 label m_natsuki_3:
     m 2j "Sticking with the Natsuki style once more, I see~"
     m 2d "Hmm..."
@@ -2672,4 +2679,20 @@ label m_yuri_3:
     mc "You say that like I'm going to hurt her..."
     m 1l "Sorry, I didn't really mean that~"
     m "If anything, she might accidentally hurt herself."
+    return
+    
+label m_monika_3:
+    m 5a "Well, [player]..."
+    m "Why don't you just tell me?"
+    "I stare at her in confusion."
+    m 2m "Ahaha!"
+    m "You make it so obvious, sometimes."
+    m 5a "It's clear just who exactly you're writing these for..."
+    mc "Ehehe, well, I mean..."
+    m 3l "Aha, don't worry!"
+    m "It shows me that you're enjoying my poems."
+    m 3n "It's flattering."
+    m "Plus, looking at it is helpful."
+    m 4q "Seeing your own writing parroted back to you can help you see the flaws and strenghts of it better than just writing it and leaving it there."
+    m "So, thanks!"
     return
