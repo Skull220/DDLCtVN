@@ -489,14 +489,14 @@ label sayoriroute:
     "I smile."
     "She returns it, and we all leave the club."
     hide natsuki
-    hide sayori
+    hide yuri
     hide monika
-    "Me and Yuri leave together."
-    show yuri lt zorder 2 at t11
-    y 1t "[player], am I still coming over Sunday?"
+    "Me and Sayori leave together."
+    show sayori lt zorder 2 at t11
+    s 1t "[player], am I still coming over Sunday?"
     mc "I'd love to have you!"
     show yuri 1c zorder 2 at t11
-    "She blushes."
+    "She beams."
     "I'm so ready for Sunday."
     scene black
     with dissolve_scene_full
