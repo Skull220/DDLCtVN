@@ -138,7 +138,7 @@ default preferences.sfx_volume = 0.75
 ## This generally should not be changed, and if it is, should always be a
 ## literal string, not an expression.
 
-define config.save_directory = "DDLC-1454445547"
+define config.save_directory = "DDLCtVN"
 
 
 ## Icon
