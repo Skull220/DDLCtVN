@@ -31,7 +31,7 @@ I. Verify that you have an install of DDLC that's unmodded.
 
 II. Click "Releases", and find the latest release. Hotfix instructions will appear if necessary. Click on "Source Code(.zip)".
 
-III. Unzip the file, and the "mod_assets" folder inside of it.
+III. Unzip the file.
 
 IV. Drag and Drop the contents of the file to your /game/ folder in your DDLC install. Delete Scripts.rpa.
 
