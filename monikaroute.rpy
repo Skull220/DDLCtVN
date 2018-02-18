@@ -1263,7 +1263,7 @@ label monikaroute:
                 m "I’m glad to call you my boyfriend."
                 mc "That was an experience I’ve never had before." 
                 mc "All of these Sundays are."
-                mc "I’m glad you call you my girlfriend, as well."
+                mc "I’m glad to call you my girlfriend, as well."
                 "She kisses me on the cheek and walks out the door."
                 hide monika
                 "God, that was amazing."
