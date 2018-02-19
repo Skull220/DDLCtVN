@@ -295,7 +295,10 @@ label ch4_exclusive_sayori:
     mc "Sayori… It’s no problem." 
     mc "I’ll be heading out, alright?"
     s 1bv "Oh… alright. Bye [player]."
-    "I go downstairs, still thinking about Sayori, and as I get outside she rushes out to stop me."
+    hide sayori
+    scene bg house
+    "I go downstairs, still thinking about Sayori."
+    "As I get outside she rushes out to stop me."
     s "[player]!"
     s "I..."
     s "I'm not going tomorrow."
