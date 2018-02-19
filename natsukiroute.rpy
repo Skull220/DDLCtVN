@@ -807,8 +807,9 @@ label natsukiroute:
     "Man, I hope Natsuki gets a little bit more honest, or else..."
     "..."
     "Come to think of it, I don't think I mind either way."
+    
     stop music fadeout 2.0
-    pause 3
+    pause 2
     scene black
     with dissolve_scene_full
     
