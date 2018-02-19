@@ -4,10 +4,6 @@
 
 Esentially, as the name implies. Each character gets 7 more scenes with you, as well as Monika getting her own route.
 
->When do i get my hands on this?
-
-Current release is slated sometime before February 14th, 2018. Version 1.2, including new art and possibly new music, is planned for a later date.
-
 >Will it keep the darker tone DDLC has?
 
 Monika's jealousy, Sayori's depression, Natsuki's home life, and Yuri's self harm are all issues present that you can help (or fail to help) deal with.
@@ -18,7 +14,7 @@ Each chapter will include one choice. At the final chapter, your choices will de
 
 >After the added chapters, is that all?
 
-The mod is episodic, meaning new chapters will be added semifreqently.
+The mod is episodic, meaning new chapters will be added semifreqently. Episode 2 is planned sometime before June 31st, 2018.
 
 >Anything else I should know?
 
