@@ -1226,7 +1226,7 @@ label monikaroute:
                 mc "… never mind."
                 "She doesn't drop the subject."
                 m 1ba "I heard something..." 
-                show monika 5a at face with dissolve
+                show monika 4ba at face with dissolve
                 "She gets a bit closer to me."
                 m "And I think it had something to do with this~"
                 "Before I know it, Monika’s kissing me full on the lips, no holds barred." 
