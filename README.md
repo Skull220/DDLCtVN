@@ -1,3 +1,4 @@
+![DDLCtVN](https://raw.githubusercontent.com/Skull217/DDLCtVN/master/mod_assets/customlogo.png)
 # DDLC,The Normal VN!
 >What is this hip, cool new mod?
 
