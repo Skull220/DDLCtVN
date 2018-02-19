@@ -1651,7 +1651,7 @@ label monikaroute:
         "Monika's expressions show that she agrees with me on that."
         "Eventually, the episode ends, and Monika yawns, cutely."
         "Guess that's her leave, huh?"
-        m "Bye, [player]! Thanks for the hot chocolate and the good time, ahaha!"
+        m 4ba "Bye, [player]! Thanks for the hot chocolate and the good time, ahaha!"
         "She gives me a hug."
         "I notice an... oddity, in her breathing."
         "Ah, it's probably nothing."
