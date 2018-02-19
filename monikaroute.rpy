@@ -1569,7 +1569,7 @@ label monikaroute:
     "I get a text from Sayori."
     "She's asking if Monika's over, and is telling me to say hello for her."
     "Before I can, Monika sees the word \"Sayori\" at the top of my phone."
-    m 3bb "[player], are you talking to {i}her?{/i}"
+    m 3bh "[player], are you talking to {i}her?{/i}"
     mc "...Yea? She is my friend..."
     m "I can’t believe this. Are you… cheating on me?"
     mc "What?"
