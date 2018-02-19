@@ -1534,7 +1534,7 @@ return
 label ch4_exclusive_monika: 
     play music t6 fadeout 2.0
     scene bg house with wipeleft_scene
-    show monika 1k at l11 zorder 2
+    show monika 1bk at l11 zorder 2
 
     m "Hey, [player]!" 
     m 1ba "You ready to start with the decorations?"
