@@ -1484,6 +1484,8 @@ label monikaroute:
     "I let Monika go first for {i}obvious{/i} reasons, but she still notices."
     "God, what's with me today?"
     "Ah, whatever."
+    scene bg bedroom
+    show monika 3ba at t11 zorder 2
     "We arrive at my bedroom."
     "Monika starts things up by grabbing a remote."
     "She's flipping it over to some action show."
