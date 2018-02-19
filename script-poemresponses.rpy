@@ -2494,7 +2494,17 @@ label m_yuri_1:
     m "You do your own thing."
     m "Just keep exploring, and learn by trying new things!"
     return
-
+label m_monika_1:
+    m 3n "Wow, of all the first writing styles to choose..."
+    m "This one is really enjoyable!"
+    m 2j "The writing in it is really mysterious, and the meaning you get at first might not be the actual meaning there is..."
+    m "Reminds me a tiny bit of my own poems."
+    m 2k "Something really interesting about having a reader second guess themselves, you know?"
+    m "Tricking them to a dead end, or having them follow a clue that doesn't really mean anything."
+    m 2b "And hearing the different interpretations is really neat, too!"
+    m "But I'm sure you know all about that."
+    m 3b "After all, that's why this poem was so good!"
+    return
 label m_natsuki_2:
     m 1j "It's pretty good~"
     m 1a "You've been spending some time with Natsuki, haven't you?"
@@ -2577,7 +2587,18 @@ label m_yuri_2:
     return
     
 label m_monika_2:
-    m
+    m "Wow, I enjoyed this one more than your last!"
+    m 5a "The style of it really reminds me of someone."
+    mc "Really?"
+    "I blush."
+    "Does Monika know I've been taking inspiration from her?"
+    m 3k "Sayori, of course!"
+    "I breathe a sigh of relief. I guess not."
+    m 4n "Hmm... actually, Sayori might not be right..."
+    mc "Eh?"
+    "Is she messing with me?"
+    m 5a "I think we both know who this is really written for..."
+    m 2k "Ahaha~"
     return
     
 label m_natsuki_3:
