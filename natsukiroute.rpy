@@ -659,7 +659,7 @@ label natsukiroute:
     mc "Wow, thank you for your trust, Natsuki. You’re the best girlfriend ever. Now come sit down already."
     "I try to make sure my sarcasm is as obvious as possible. With a short giggle, she sits down, and shortly after class begins."
     hide natsuki
-    "About a quarter into the lecture, I feel drozy."
+    "About a quarter into the lecture, I feel drowzy."
     "Using what's left from my strength, I gently tap Natsuki's shoulder."
     "Curious as to what I want, even when she knows we shouldn’t be doing this, she looks at me."
     "I then started whispering."
