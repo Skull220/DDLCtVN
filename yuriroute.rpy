@@ -129,7 +129,7 @@ label yuriroute:
     "She apologizes for sleeping in."
     "She then tells me she'd be out in half an hour."
     "Great."
-    "I set down my bad against her fence, and lean against it."
+    "I set down my bag against her fence, and lean against it."
     "I grab a stone nearby and throw it, trying to pass the time."
     "..."
     scene bg house
@@ -515,7 +515,7 @@ label yuriroute:
     y 2w "Nope."
     "She says that rather sadly."
     mc "Well, then I will."
-    mc "Besides, It's \"what a boyfriend\" would do, right?"
+    mc "Besides, It's \"what a boyfriend would do\", right?"
     "I say the word boyfriend with a bit of a mocking tone."
     "It's always been kind of stupid to me."
     "How we have to proclaim that we're dating every few minutes."
@@ -616,7 +616,7 @@ label yuriroute:
             "I wake up to an emptied classroom and Yuri tapping me on the shoulder."
 
     show yuri 4b at t11 zorder 2
-    y 4b "Uhh... Do you want to... walk to club together?"
+    y 4b "Uhh... Do you want to... walk to the literature club together?"
     mc "Sure!"
     show yuri at thide zorder 1
     hide yuri
@@ -671,7 +671,7 @@ label yuriroute:
     y 2bu "I... I'm alright. Don't worry."
     mc "Of course I did."
     mc "I want to make sure you're okay."
-    mc "I l--- I care about you, you know?"
+    mc "I l- I care about you, you know?"
     y 1bq "I... thank you, [player]."
     y 2bs "That's extremely sweet."
     "I smile at her, and through light tears, she smiles back."
@@ -802,7 +802,7 @@ label yuriroute:
     "I smile, nod, and turn back to our current read."
     "I get invested in the book, but Yuri seems to be gauging my reaction to it."
     "I figure it's a chapter she read already, so I turn the page of my own volition."
-    "I notice that as I get to parts to certain characters, she seems to get nervous."
+    "I notice that as I get to certain parts, or to certain characters, she seems to get nervous."
     "Almost as if she wants to know how I react to their actions."
     "It seems she might identify with this character a bit."
     "I've not even noticed how much worse the storm has gotten until the power goes out."
@@ -860,7 +860,7 @@ label yuriroute:
             y "It's weird to get someone to even talk to me as much as you do, much less this..."
             y "It's great."
             y "It's always been that nobody would speak to me other than to get homework or something."
-            y "It's good to have someone who I can talk my mind with and feel comfortable around, you know?"
+            y "It's good to have someone who I can speak my mind with and feel comfortable around, you know?"
             "I never really considered that Yuri has so much pent up loneliness, but I guess it comes with keeping so much to yourself."
             mc "I'm glad I could be that for you, Yuri."
             mc "Plus, reading like this is fun regardless."
@@ -1123,7 +1123,7 @@ label yuriroute:
     y 1bn "Sick? Ah, [player], that isn't good."
     y "Who's there to take care of you?"
     mc "Uhh... Me?"
-    mc "There's no one else here, I but I don't mind taking care of myself."
+    mc "There's no one else here, but I don't mind taking care of myself."
     y "O-oh."
     y 2bl "It's just that you seem a bit too sick for you to take care of yourself, and I don't really mind helping..."
     "I think about this for a moment."
