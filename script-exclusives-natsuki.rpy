@@ -437,7 +437,6 @@ label natsuki_exclusive_2_ch3:
     n "{i}W-What are you looking at?!{/i}"
     mc "--!"
     show n_cg2_base at n_cg2_wiggle_loop
-    show n_cg2_exp1 at n_cg2_wiggle_loop
     show n_cg2_exp2 at n_cg2_wiggle_loop
     n "You're trying to look at my...m-my..."
     "Natsuki's legs shake."
