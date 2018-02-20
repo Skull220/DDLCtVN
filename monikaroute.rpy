@@ -909,7 +909,7 @@ label monikaroute:
                 m 1bc "I’ll see you tomorrow." 
                 m 2bb "Take care, alright?" 
                 "We say our goodbyes and Monika leaves."
-                show monika at thide zorder 1
+                show monika 2bb at thide zorder 1
                 hide monika 
                 "I notice that even now I still can’t tell her I love her."
                 "I guess that’s alright, she already knows, but I still lack the confidence." 
@@ -925,7 +925,7 @@ label monikaroute:
                 m 1bc "I’ll see you tomorrow."
                 m 2bb "Take care, alright?" 
                 "We say our goodbyes and Monika leaves."
-                show monika at thide zorder 1
+                show monika 2bb at thide zorder 1
                 hide monika 
                 "I mentally hit myself for skipping on the movie."
                 "I guess that’s alright, she already knows, but I still lack the confidence." 
@@ -1077,8 +1077,8 @@ label monikaroute:
                     "While the tension still remains, it’s quickly overshadowed by our enjoyment of the game."
                     "And hey, Monika and Sayori are playing on the same team, at least for right now."
                     "That’s good enough for me."
-                    show monika at thide zorder 1
-                    show sayori at thide zorder 1
+                    show monika 1bq at thide zorder 1
+                    show sayori 1bh at thide zorder 1
                     hide monika
                     hide sayori
                 "Continue Playing.":
@@ -1108,7 +1108,7 @@ label monikaroute:
                     m "I'm looking forward to our weekly games, ehehe!" 
                     m "I'll catch you later~!"
                     mc "Y-Yeah, see ya."
-                    show monika at thide zorder 1
+                    show monika 2bk at thide zorder 1
                     hide monika
                     "I wave goodbye to her."
                     "Two \"dates\" so far and I still can’t say the words."
@@ -1293,7 +1293,7 @@ label monikaroute:
                 mc "All of these Sundays are."
                 mc "I’m glad to call you my girlfriend, as well."
                 "She kisses me on the cheek and walks out the door."
-                show monika at thide zorder 1
+                show monika 2be at thide zorder 1
                 hide monika
                 "God, that was amazing."
             "A Co-Op game.":
@@ -1397,7 +1397,7 @@ label monikaroute:
                 m 1bp "Here, I should get you some."
                 m 3bp "Where do you keep them?"
                 mc "Right there, over on my desk."
-                show monika at thide zorder 1
+                show monika 3bp at thide zorder 1
                 hide monika
                 "I pray to every god I can think of that she doesn’t put two and two together with the lotion right next to it."
                 "And seeing as her face changes when she grabs it, I’m thinking at none of them answered." 
@@ -1463,7 +1463,7 @@ label monikaroute:
                 m "But feel better, alright?"
                 mc "I will. Don’t worry about me."
                 "She looks at me once more, distraught."
-                show monika at thide zorder 1
+                show monika 2bd at thide zorder 1
                 hide monika
                 "When she walks off, I feel kinda bad, even if it is for her own good." 
                 "I guess we’ll both have to live with it, though."
@@ -1565,7 +1565,7 @@ label monikaroute:
     "Her voice and expression both seem a bit more… sultry." 
     "I don’t really understand why."
     mc "Yep! Let me go and get it."
-    show monika at thide zorder 1
+    show monika 4ba at thide zorder 1
     hide monika
     "I get out from our blanket wrap, and for some reason she looks very confused." 
     "I walk through the hall, and down the stairs."
@@ -1689,7 +1689,7 @@ label monikaroute:
         "She gives me a hug."
         "I notice an... oddity, in her breathing."
         "Ah, it's probably nothing."
-        show monika at thide zorder 1
+        show monika at 4ba thide zorder 1
         hide monika
         "She leaves, walking out."
         "I turn to the TV and flip to something else."
