@@ -1489,6 +1489,7 @@ label natsukiroute:
         "At once, I go over to her and hug her tightly."
         show natsuki at thide zorder 1
         hide natsuki
+        scene black
         "She almost drops the box in shock."
         "I..."
         mc "Shhh. It’ll be alright, Natsuki."
