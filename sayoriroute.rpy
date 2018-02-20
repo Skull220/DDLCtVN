@@ -939,8 +939,8 @@ label sayoriroute:
 
         "Tell Sayori to leave.":
             mc "Fine, Sayori." 
-            "As much as I don’t want to do it, you can go."
-            "I WILL see you Monday, got it?"
+            mc "As much as I don’t want to do it, you can go."
+            mc "I WILL see you Monday, got it?"
             s 4bd "Thanks, [player]." 
             s 4bc "I knew you would agree in the end."
             s "I’ll think about everything that’s happened here later." 
