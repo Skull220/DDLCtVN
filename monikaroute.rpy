@@ -1689,7 +1689,7 @@ label monikaroute:
         "She gives me a hug."
         "I notice an... oddity, in her breathing."
         "Ah, it's probably nothing."
-        show monika at 4ba thide zorder 1
+        show monika 4ba at thide zorder 1
         hide monika
         "She leaves, walking out."
         "I turn to the TV and flip to something else."
