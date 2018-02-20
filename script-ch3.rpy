@@ -811,11 +811,16 @@ label ch3_end_monika:
     n 4y "And I know ex-act-ly why you’re doing it!"
     "Me and Monika look at each other."
     "She comes up to me and whispers in my ear."
-    
+    m 5a "Maybe it'd be best to just leave, huh?"
     "So that’s exactly what we do."
+    
     "In hindsight, I feel kinda bad for letting them argue like that, but they’re probably not going to kill each other."
     "Probably."
-
+    hide natsuki
+    hide yuri
+    scene bg corridor
+    with wipeleft_scene
+    show monika 1b at t11 zorder 2
     "We’re almost out of the hall when Monika stops me." 
     m 1b "Hey, here’s my number, alright?" 
     m 3l "Just in case... we need to talk about anything."
