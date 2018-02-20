@@ -57,6 +57,8 @@ label sayoriroute:
     "Natsuki’s glare is lost on Sayori’s cheerful grin." 
     
     "Monika walks into the room."
+    show sayori at thide zorder 1
+    show natsuki at thide zorder 1
     hide sayori
     hide natsuki
     show yuri 2e zorder 3 at t22
@@ -147,7 +149,7 @@ label sayoriroute:
     "Geez, come on, Sayori, are you dead or something?"
     "Wake up!"
     "Ugh, guess I can't do much else."    
-    "{cps=*.33}I open the door...{/cps}"
+    "{cps=*.33}I gently open the door...{/cps}"
     scene bg sayori_bedroom
     "To see her asleep." 
     "I walk over and tap her on the shoulder." 
@@ -217,6 +219,9 @@ label sayoriroute:
     show natsuki at t42
     show yuri at t44
     mc "Ah, speaking of anyone else, is there someone who signed up to join the club, yet?"
+    show yuri at thide zorder 1
+    show natsuki at thide zorder 1
+    show sayori at thide zorder 1
     hide yuri
     hide natsuki
     hide sayori
@@ -324,6 +329,9 @@ label sayoriroute:
     show yuri at t44
     m "Quiet, Yuri!"
     $ m_name = "Monika"
+    show monika at thide zorder 1
+    show sayori at thide zorder 1
+    show natsuki at thide zorder 1
     hide monika
     hide sayori
     hide natsuki
@@ -331,6 +339,7 @@ label sayoriroute:
     "Yuri squeals softly and backs away."
     show yuri 1p at t11
     "She, however, notices the crowd and is even more scared."
+    show yuri at thide zorder 1
     hide yuri
     show natsuki 2x at t32
     show sayori 4p at t33
@@ -488,6 +497,9 @@ label sayoriroute:
     "Yuri looks at me."
     "I smile."
     "She returns it, and we all leave the club."
+    show natsuki at thide zorder 1
+    show yuri at thide zorder 1
+    show monika at thide zorder 1
     hide natsuki
     hide yuri
     hide monika
@@ -495,7 +507,7 @@ label sayoriroute:
     show sayori lt zorder 2 at t11
     s 1t "[player], am I still coming over Sunday?"
     mc "I'd love to have you!"
-    show yuri 1c zorder 2 at t11
+    show sayori 1c zorder 2 at t11
     "She beams."
     "I'm so ready for Sunday."
     scene black
@@ -571,7 +583,8 @@ label sayoriroute:
             mc "Hey, if being a wuss stops us from being killed, I'm glad to have changed."
             s 5d "You're no fun now..." 
             s 5b "It's alright, nothing will happen!"
-            "With that, she walks off." 
+            "With that, she walks off."
+            show sayori at thide zorder 1
             hide sayori
             "Begrudgingly, I follow her." 
             "I'm glad I did, as next I see her she's falling on her back into a creek."
@@ -636,10 +649,12 @@ label sayoriroute:
             n 1z "Yea, sure it isn't." 
             n 1y "I'd tell you two to get a room if there was one without a teacher in it." 
             n "Bye lovey doveys~"
+            show natsuki at thide zorder 1
             hide natsuki
             "Sayori buries her face in her hands, clearly embarrased."
             "I don't blame her." 
             "Even I get a bit red after hearing Natsuki's statement."
+            show sayori at thide zorder 1
             hide sayori
             "We both head to our classes."
             scene bg class_day
@@ -791,6 +806,7 @@ label sayoriroute:
                 mc "Later, Sayori."
                 "There, things are back to normal." 
                 "We say our goodbyes and Sayori leaves."
+                show sayori at thide zorder 1
                 hide sayori 
                 "I notice that even now I still can’t tell her I love her." 
                 "I still lack the confidence even after all this time."
@@ -804,7 +820,8 @@ label sayoriroute:
                 s 1ba "I’ll see you tomorrow, alright?" 
                 mc "Sure thing, later Sayori."
                 "There, things are back to normal." 
-                "We say our goodbyes and Sayori leaves." 
+                "We say our goodbyes and Sayori leaves."
+                show sayori at thide zorder 1
                 hide sayori
                 "I mentally kick myself for being so mean to her."
     "That sucks." 
@@ -927,7 +944,8 @@ label sayoriroute:
             s 4bd "Thanks, [player]." 
             s 4bc "I knew you would agree in the end."
             s "I’ll think about everything that’s happened here later." 
-            "Perhaps the most terrifying thing was that she didn’t say ‘yes’ upon leaving..." 
+            "Perhaps the most terrifying thing was that she didn’t say ‘yes’ upon leaving..."
+            show sayori at thide zorder 1
             hide sayori
             "But when she leaves I feel awful." 
             "Was that really the right idea?" 
@@ -1023,6 +1041,7 @@ label sayoriroute:
             show sayori 2bv at t11 zorder 2
             "Sayori struggles to think of a response."
             "I get up and wrap my arms around her."
+            show sayori at thide zorder 1
             hide sayori
             scene black
             #Replace this maybe
@@ -1074,6 +1093,7 @@ label sayoriroute:
     s 3ba "Oooh, video games!"
     s 3br "Sounds good, [player]!" 
     s "I’ll wait for you down here."
+    show sayori at thide zorder 1
     hide sayori
     "I go upstairs and grab the wires, console, controller, and a couple of games."
     "I remember as well to fix my hair."
@@ -1108,6 +1128,7 @@ label sayoriroute:
             s "Do you think we can do something different next week?"
             mc "O-Oh..."
             mc "Sure thing, Sayori! I’ll see you Monday."
+            show sayori at thide zorder 1
             hide sayori
             "It's clear Sayori didn't enjoy herself today." 
             "What was I thinking, choosing a game she clearly didn't enjoy?" 
@@ -1129,6 +1150,7 @@ label sayoriroute:
             s "Do you think we can do something different next week?"
             mc "O-Oh..."
             mc "Sure thing, Sayori! I’ll see you Monday."
+            show sayori at thide zorder 1
             hide sayori
             "It's clear Sayori didn't enjoy herself today." 
             "What was I thinking, choosing a game she clearly didn't enjoy?" 
@@ -1183,6 +1205,7 @@ label sayoriroute:
             mc "Yes, Sayo-"
             show sayori 2bt at face zorder 1
             "In an instant, Sayori's lips meet mine."
+            show sayori at thide zorder 1
             hide sayori
             scene black
             "My heartbeat starts increasing erratically."
@@ -1228,7 +1251,8 @@ label sayoriroute:
             "She smiles at me, knowing that what I’ve said was true." 
             mc "And I feel the exact same way, so..."
             mc "Thank you, as well. I’ll see you tomorrow."
-            "She runs back up to me, hugs me, and walks out."  
+            "She runs back up to me, hugs me, and walks out."
+            show sayori at thide zorder 1
             hide sayori
             mc "Well... I guess I should get ready too. Later... Sayori."
             "I say that last part mostly to myself, as I know Sayori's too far to hear me."
@@ -1251,6 +1275,7 @@ label sayoriroute:
             s "Do you think we can do something different next week?"
             mc "O-Oh..."
             mc "Sure thing, Sayori! I’ll see you Monday."
+            show sayori at thide zorder 1
             hide sayori
             "It's clear Sayori didn't enjoy herself today." 
             "What was I thinking, choosing a game she clearly didn't enjoy?" 
@@ -1298,6 +1323,7 @@ label sayoriroute:
             "She throws the covers over me and makes sure I stay warm."
             s 1bi "There we go! Now, I’m going to get you something warm to put in you, so you can feel better. Stay here, alright?"
             "Did she just say \'something warm to put in you\'?"
+            show sayori at thide zorder 1
             hide sayori
             "I don't have time to question her as she's already left."
             "I sit here for about a minute until I see her come back in, medicine in hand."
@@ -1323,7 +1349,7 @@ label sayoriroute:
             "I smile at the fact that Sayori is trying so hard to hide her true intentions."
             "I squeeze her hand and she starts to blush."
             s "[player]..."
-            s 2bu "It's okay, Sayori." 
+            mc "It's okay, Sayori." 
             "She smiles at me for a bit, but a huge sneeze ruins the moment."
             "She pulls her hand back immediately."
             s 2bw "Oh my gosh, you need tissues!"
@@ -1356,7 +1382,7 @@ label sayoriroute:
             "I suddenly jump back into reality."
             mc "Huh? Oh, Yes, what’s up, Sayori?"
             s "You've been staring at me..."
-            s 1bv "Is something wrong?"
+            s 1bn "Is something wrong?"
             mc "Ah, sorry..." 
             mc "I just spaced out..." 
             mc "Did I make you uncomfortable?"
@@ -1391,6 +1417,7 @@ label sayoriroute:
             mc "I’ll get better as long as YOU don’t get sick. That work?"
             s "Yeah! It's a promise~!" 
             s 1bs "Alright, then see you tomorrow!"
+            show sayori at thide zorder 1
             hide sayori
             "With one last smile, she lets go of my hand and starts walking down the stairs."
             "She walks to the door, but not before letting a sneeze out."
@@ -1427,7 +1454,7 @@ label sayoriroute:
     "This feels… completely different." 
     "That's what love is, isn't it?"
     "A doorbell suddenly interrupts my thinking."
-    "A walk over to the door and open it."
+    "I walk over to the door and open it."
     "As expected, Sayori is standing there."
     "She looks as cheerful as ever." 
     show sayori 1br at t11 zorder 2
@@ -1446,6 +1473,7 @@ label sayoriroute:
     show sayori 1bs at face zorder 2
     scene black
     "Sayori runs up and grabs me unexpectedly."
+    show sayori at thide zorder 1
     hide sayori
     s "Today's our 6 month anniversarrrry!"
     "Sayori hugs me even harder than before, almost lifting me up."
@@ -1507,7 +1535,7 @@ label sayoriroute:
     s 2bg "Oh, sorry [player]..."
     s 2bk "I just wanted to cuddle a bit..."
     "She lets go and puts her arms to her sides."
-    mc "Oh no, It's not that I don't have a problem with it..."
+    mc "Oh no, It's not that I have a problem with it..."
     mc "It just caught me off guard."
     mc "We can cuddle all you want."
     show sayori 2bd at t11
@@ -1537,7 +1565,7 @@ label sayoriroute:
         "She lets out a huge sigh."
         s "[player]..."
         s "The rainclouds haven't gone away."
-        s 2bu "I still feel in pain every time I wake up."
+        s 2bu "I still feel pain every time I wake up."
         s "It hurts so much, forcing myself to get up everyday..."
         "My heart plummets when I hear this."
         "I haven't exactly forgotten that she deals with depression..."
@@ -1596,6 +1624,7 @@ label sayoriroute:
         s "I've always wanted to do something for a while, as well."
         mc "Oh? What's that?"
         scene black
+        show sayori at thide zorder 1
         hide sayori
         "She suddenly springs up and kisses me on my lips." 
         "I get caught by surprise, Sayori usually isn't this forward."
@@ -1652,6 +1681,7 @@ label sayoriroute:
         s 1bd "You'll be there when I wake up, right?"
         mc "Make breakfast for us and it's a deal!"
         s "Deal!"
+        show sayori at thide zorder 1
         hide sayori
         "With one last hug, she leaves." 
 return

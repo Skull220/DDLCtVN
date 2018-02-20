@@ -57,6 +57,8 @@ label natsukiroute:
     "Natsuki’s glare is lost on Sayori’s cheerful grin." 
     
     "Monika walks into the room."
+    show sayori at thide zorder 1
+    show natsuki at thide zorder 1
     hide sayori
     hide natsuki
     show yuri 2e zorder 3 at t22
@@ -152,7 +154,7 @@ label natsukiroute:
     n "I’m good at this type of thing."
     "I nod, and she goes in."
     "I set my bookbag down, lay against the fence and start to doze off."
-    show natsuki at thide
+    show natsuki at thide zorder 1
     hide natsuki
     "Just about 30 minutes later they come out, ready to help."
     "They pick up their trays and we walk together to the festival."
@@ -221,6 +223,9 @@ label natsukiroute:
     show yuri at t44
     mc "Speaking of guests, has anyone signed up to join the club yet?"
     show monika 3l at f11 zorder 1
+    show yuri at thide zorder 1
+    show natsuki at thide zorder 1
+    show sayori at thide zorder 1
     hide yuri
     hide natsuki
     hide sayori
@@ -297,6 +302,7 @@ label natsukiroute:
     "Several of them slowly file into the classroom for a better view."
     "A couple of the braver ones sneak further in and enjoy one of Natsuki's cupcakes as they snicker at us."
     "Natsuki steps in."
+    show sayori at thide zorder 1
     hide sayori
     show monika 2d at h21
     show natsuki at f22 zorder 5
@@ -356,6 +362,9 @@ label natsukiroute:
     show yuri at t44
     m "Stay out of this, Yuri!"
     $ m_name = "Monika"
+    show monika at thide zorder 1
+    show sayori at thide zorder 1
+    show natsuki at thide zorder 1
     hide monika
     hide sayori
     hide natsuki
@@ -363,6 +372,7 @@ label natsukiroute:
     "Yuri squeals and quietly backs away from the other girls."
     show yuri 1p at t11
     "As she backs up she accidentally bumps into one of the other students and finally takes notice of the growing crowd, furthering her embarassment."
+    show yuri at thide zorder 1
     hide yuri
     show natsuki 2x at t32
     show sayori 4p at t33
@@ -407,6 +417,8 @@ label natsukiroute:
     show monika 1f
     "Monika's eyes move up to the back of the room, lost deep in thought."
     "She takes a moment and lets out a sigh before continuing."
+    show natsuki at thide zorder 1
+    show yuri at thide zorder 1
     hide natsuki
     hide yuri
     show monika 1p at f21
@@ -420,6 +432,7 @@ label natsukiroute:
     m "As the one in charge of the events I should've had you both email me your poems last night, just in case."
     m "Or something to that effect."
     m 1r "I hate to admit it, but as club leader I failed you both."
+    show sayori at thide zorder 1
     hide sayori
     show monika 1q at f31
     show natsuki 5g at t32
@@ -428,6 +441,8 @@ label natsukiroute:
     m 2i "And I’m sorry for yelling at the both of you too, Yuri, Natsuki."
     m 4g "I really shouldn’t have, I stepped way out of line."
     show monika 1o at f11
+    show natsuki at thide zorder 1
+    show yuri at thide zorder 1
     hide natsuki
     hide yuri
     "Monika turns to address the whole group again."
@@ -597,6 +612,9 @@ label natsukiroute:
     show sayori 4q at t43
     show natsuki at t42
     pause 1
+    show monika at thide zorder 1
+    show yuri at thide zorder 1
+    show sayori at thide zorder 1
     hide monika
     hide yuri
     hide sayori
@@ -617,6 +635,7 @@ label natsukiroute:
     "She blushes and my heart skips a beat."
     
     scene black
+    show natsuki at thide zorder 1
     hide natsuki
     with dissolve_scene_full
     
@@ -658,8 +677,9 @@ label natsukiroute:
     n 1t "Gosh, there’s no need to lie to me, you know."
     mc "Wow, thank you for your trust, Natsuki. You’re the best girlfriend ever. Now come sit down already."
     "I try to make sure my sarcasm is as obvious as possible. With a short giggle, she sits down, and shortly after class begins."
+    show natsuki at thide zorder 1
     hide natsuki
-    "About a quarter into the lecture, I feel drowzy."
+    "About a quarter into the lecture, I feel drozy."
     "Using what's left from my strength, I gently tap Natsuki's shoulder."
     "Curious as to what I want, even when she knows we shouldn’t be doing this, she looks at me."
     "I then started whispering."
@@ -727,6 +747,7 @@ label natsukiroute:
     y "Natsuki, [player], hush! Pay Attention!"
     $ y_name = "Yuri"
     "She turns back to what she was doing."
+    show natsuki at thide zorder 1
     hide natsuki
     "Natsuki and I take one look at each other, laugh quietly, and she goes back to pay attention."
     "Another few minutes pass by when Natsuki whispers to me."
@@ -807,9 +828,8 @@ label natsukiroute:
     "Man, I hope Natsuki gets a little bit more honest, or else..."
     "..."
     "Come to think of it, I don't think I mind either way."
-    
     stop music fadeout 2.0
-    pause 2
+    pause 3
     scene black
     with dissolve_scene_full
     
@@ -910,6 +930,7 @@ label natsukiroute:
     n 4bw "Don’t forget to read it this time, okay?"
     n "I know you will, but don’t!" 
     "There, things are back to normal."
+    show natsuki at thide zorder 1
     hide natsuki
     "We say our goodbyes and Natsuki leaves."
     "I notice that even now I still can’t tell her I love her."
@@ -1137,6 +1158,7 @@ label natsukiroute:
     mc "Trust me, it’ll be fun. I’ll be right back, alright?"
     "She looks concerned, but otherwise goes back to her cookies."
     scene bg bedroom
+    show natsuki 2bc at t11 zorder 2
     "I go upstairs and grab the wires, console, controller, and a couple of games."
     "I don’t know which one I should show Natsuki, though."
     "If I pick correctly, it might make her more interested in the hobby..."
@@ -1247,7 +1269,7 @@ label natsukiroute:
             "She returns to her spot on my lap, and I put my arms back around her."
             "For the next hour or so, we stay like this."
             "My performance drops, and she’s quick to point this out, but not in her normal mocking tone; instead, almost sad to see me fail."
-            "Finally, it beings to get dark out, and she gets ready to leave."
+            "Finally, it begins to get dark out, and she gets ready to leave."
             n 1bk "[player]...Thank you so much."
             n "For having me over, for being my boyfriend, for everything."
             n "It really is some of the best time of my life."
@@ -1259,7 +1281,7 @@ label natsukiroute:
             n 2bl "I’ll see you tomorrow at school, alright?"
             "She gives me one last hug and walks out."
         "A Player VS Player game.":
-            "I grab {i}Rumble III{/i} box and pop the disk in the tray."
+            "I grab {i}Rumble III{/i}'s box and pop the disk in the tray."
             show natsuki 1ba at t11
             "Natsuki grabs the cookies from the kitchen and sets them on the coffee table."
             "I dim the lights, and we both sit on the couch."
@@ -1274,10 +1296,11 @@ label natsukiroute:
             n 1bc "Bye, [player]."
             n "No offense, but let’s do something different next week, alright?"
             mc "Fine by me. I’ll see you Monday."
+            show natsuki at thide zorder 1
             hide natsuki
             "She leaves."
         "A Co-Op game.":
-            "I grab {i}Rumble III{/i} box and pop the disk in the tray."
+            "I grab {i}Wormhole 2{/i}'s box and pop the disk in the tray."
             show natsuki 1ba at t11
             "Natsuki grabs the cookies from the kitchen and sets them on the coffee table."
             "I dim the lights, and we both sit on the couch."
@@ -1292,10 +1315,11 @@ label natsukiroute:
             n 1bc "Bye, [player]."
             n "No offense, but let’s do something different next week, alright?"
             mc "Fine by me. I’ll see you Monday."
+            show natsuki at thide zorder 1
             hide natsuki
             "She leaves."            
         "A Story-based game.":
-            "I grab {i}Rumble III{/i} box and pop the disk in the tray."
+            "I grab {i}Gone Nuclear: Vegas Blues{/i}' box and pop the disk in the tray."
             show natsuki 1ba at t11
             "Natsuki grabs the cookies from the kitchen and sets them on the coffee table."
             "I dim the lights, and we both sit on the couch."
@@ -1310,6 +1334,7 @@ label natsukiroute:
             n 1bc "Bye, [player]."
             n "No offense, but let’s do something different next week, alright?"
             mc "Fine by me. I’ll see you Monday."
+            show natsuki at thide zorder 1
             hide natsuki
             "She leaves."            
             
@@ -1344,10 +1369,12 @@ label natsukiroute:
             n "Now go lay down somewhere."
             n 2bk "Hurry up."
             scene bg bedroom
+            show natsuki 1bi at t11 zorder 2
             "I naturally go to the only comfortable bed, the one in my bedroom, and lay in it."
             "Natsuki practically throws my cover at me."
-            n "Here. Now, I’m going to get you something warm, so you can feel better."
+            n 1bh "Here. Now, I’m going to get you something warm, so you can feel better."
             n "Stay here."
+            show natsuki at thide zorder 1
             hide natsuki
             "Before I can mention that I can’t really go anywhere, she leaves."
             "A few minutes later, she arrives back with some hot soup."
@@ -1460,6 +1487,7 @@ label natsukiroute:
         n "I know this isn’t how we planned it, but I have no idea what else to do..."
         mc "Natsuki..."
         "At once, I go over to her and hug her tightly."
+        show natsuki at thide zorder 1
         hide natsuki
         "She almost drops the box in shock."
         "I..."
@@ -1561,6 +1589,7 @@ label natsukiroute:
         n "I love you too, [player]."
         "Natsuki being so candid makes me a bit shocked."
         "Without a word, I place my hand on the back of her head."
+        show natsuki at thide zorder 1
         hide natsuki
         scene black
         "Once she realizes what’s going on, she wraps he arms around me as our lips meet, kissing for the first time since we first played video games together."

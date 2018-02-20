@@ -295,10 +295,7 @@ label ch4_exclusive_sayori:
     mc "Sayori… It’s no problem." 
     mc "I’ll be heading out, alright?"
     s 1bv "Oh… alright. Bye [player]."
-    hide sayori
-    scene bg house
-    "I go downstairs, still thinking about Sayori."
-    "As I get outside she rushes out to stop me."
+    "I go downstairs, still thinking about Sayori, and as I get outside she rushes out to stop me."
     s "[player]!"
     s "I..."
     s "I'm not going tomorrow."
@@ -928,6 +925,7 @@ label ch4_exclusive_natsuki:
             call natsukiroute
         "Reject her.":
             scene black
+            show monika at thide zorder 1
             hide monika
             "What?"
             "This is- the fuck-"
@@ -1474,6 +1472,7 @@ label ch4_exclusive_yuri:
             mc "I'll see you tomorrow, alright?"
             y "Of course."
             y "Bye!"
+            show yuri at thide zorder 1
             hide yuri
             "She waves to me, smiling, and walks away."
             "Wow, me and Yuri are dating now, huh?"
@@ -1483,6 +1482,7 @@ label ch4_exclusive_yuri:
             call yuriroute
         "Reject her":
             scene black
+            show yuri at thide zorder 1
             hide yuri
             "What?"
             "This is- the fuck-"
@@ -1525,6 +1525,7 @@ label ch4_exclusive_yuri:
             mc "I'll see you tomorrow, alright?"
             y "Of course."
             y "Bye!"
+            show yuri at thide zorder 1
             hide yuri
             "She waves to me, smiling, and walks away."
             "Wow, me and Yuri are dating now, huh?"
@@ -1634,6 +1635,7 @@ label ch4_exclusive_monika:
             mc "I guess that makes the festival our first date, huh?"
             m "Yeah! Ahaha... I'll... see you there, [player]."
             "She walks off, probably the happiest I’ve ever seen her."
+            show monika at thide zorder 1
             hide monika
             "Likewise, I’m probably the happiest I’ve ever been." 
             "Something inside me always feared what happened if I asked her, but she asked me instead." 
@@ -1643,6 +1645,7 @@ label ch4_exclusive_monika:
             call monikaroute
         "Deny her":
             scene black
+            show monika at thide zorder 1
             hide monika
             "What?"
             "This is- the fuck-"
@@ -1675,6 +1678,7 @@ label ch4_exclusive_monika:
             mc "I guess that makes the festival our first date, huh?"
             m "Yeah! Ahaha... I'll... see you there, [player]."
             "She walks off, probably the happiest I’ve ever seen her."
+            show monika at thide zorder 1
             hide monika
             "Likewise, I’m probably the happiest I’ve ever been." 
             "Something inside me always feared what happened if I asked her, but she asked me instead." 

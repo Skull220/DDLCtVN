@@ -54,6 +54,7 @@ label yuriroute:
     "Natsuki walks up, smug."
     n "Yea, you're always late to it."
     show monika at t31
+    show sayori at thide zorder 1
     hide sayori
     show natsuki at t32
     show yuri 2l zorder 4 at f33
@@ -184,6 +185,9 @@ label yuriroute:
     show natsuki at t42
     show yuri at t44
     mc "Ah, speaking of anyone else, is there someone who signed up to join the club, yet?"
+    show yuri at thide zorder 1
+    show natsuki at thide zorder 1
+    show sayori at thide zorder 1
     hide yuri
     hide natsuki
     hide sayori
@@ -291,6 +295,9 @@ label yuriroute:
     show yuri at t44
     m "Quiet, Yuri!"
     $ m_name = "Monika"
+    show monika at thide zorder 1
+    show sayori at thide zorder 1
+    show natsuki at thide zorder 1
     hide monika
     hide sayori
     hide natsuki
@@ -298,6 +305,7 @@ label yuriroute:
     "Yuri squeals softly and backs away."
     show yuri 1p at t11
     "She, however, notices the crowd and is even more scared."
+    show yuri at thide zorder 1
     hide yuri
     show natsuki 2x at t32
     show sayori 4p at t33
@@ -455,6 +463,9 @@ label yuriroute:
     "Yuri looks at me."
     "I smile."
     "She returns it, and we all leave the club."
+    show natsuki at thide zorder 1
+    show sayori at thide zorder 1
+    show monika at thide zorder 1
     hide natsuki
     hide sayori
     hide monika
@@ -584,6 +595,7 @@ label yuriroute:
             mc "Ahaha..."
             y 1m "Well, hopefully we can both help each other with time."
             y 2f "Now, did that help you find some ideas on what to write?"
+            show yuri at thide zorder 1
             hide yuri
             "I nod, and look down to begin writing, but I still can't help but consider what I had said."
             "What if I helped Yuri gain confidence?"
@@ -606,6 +618,7 @@ label yuriroute:
     show yuri 4b at t11 zorder 2
     y 4b "Uhh... Do you want to... walk to club together?"
     mc "Sure!"
+    show yuri at thide zorder 1
     hide yuri
     "And with that we make our way to the literature club, walking and talking together."
     "When we walk in, the usual scene greets us..."
@@ -735,6 +748,7 @@ label yuriroute:
             y 2bj "It means a lot."
 
     "We say our goodbyes and Yuri leaves."
+    show yuri at thide zorder 1
     hide yuri
     "I notice that even now I still can't tell her I love her."
     "I might not be as shy as Yuri, yet I still lack the confidence even after all this time."
@@ -958,6 +972,7 @@ label yuriroute:
             y "I don't wish to be mean, but let's do something different next week, alright?"
             mc "Fine by me. I'll see you Monday."
             "Yuri walks out."
+            show yuri at thide zorder 1
             hide yuri
             "What was I thinking, choosing a game she clearly didn't enjoy?"
             "I'll definitely have to pick a different one next time."
@@ -976,6 +991,7 @@ label yuriroute:
             y "I don't wish to be mean, but let's do something different next week, alright?"
             mc "Fine by me. I'll see you Monday."
             "Yuri walks out."
+            show yuri at thide zorder 1
             hide yuri
             "What was I thinking, choosing a game she clearly didn't enjoy?"
             "I'll definitely have to pick a different one next time."
@@ -993,6 +1009,7 @@ label yuriroute:
             y "I don't wish to be mean, but let's do something different next week, alright?"
             mc "Fine by me. I'll see you Monday."
             "Yuri walks out."
+            show yuri at thide zorder 1
             hide yuri
             "What was I thinking, choosing a game she clearly didn't enjoy?"
             "I'll definitely have to pick a different one next time."
@@ -1084,6 +1101,7 @@ label yuriroute:
             y 1bg "Ah, I guess..."
             "She has trouble accepting that she's partially responsible for this."
             "She notices the time."
+            show yuri at thide zorder 1
             hide yuri
             "She waves and says goodbye one last time before walking out."
     scene black
@@ -1128,6 +1146,7 @@ label yuriroute:
             y 2ba "Here."
             y 2bf "Now, the best thing to do is to give you some type of medicine."
             y 2be "I'll be right back."
+            show yuri at thide zorder 1
             hide yuri
             "Before I can tell here where the medicine actually is, she leaves."
             "While she's downstairs, I hear the sound of a knife being removed from its rack."
@@ -1222,6 +1241,7 @@ label yuriroute:
             mc "I'll be fine. Goodbye, Yuri."
             "She looks at me once more."
             "She tries to hide it, but I can see the worry in her eyes."
+            show yuri at thide zorder 1
             hide yuri
             "When she walks off, I feel kinda bad."
             "I guess we'll both have to live with it, though."
@@ -1464,6 +1484,7 @@ label yuriroute:
         mc "I love you so much I'd get bandages and put them over each and every one of these wounds."
         y "[player]... I...."
         "I don't let her finish."
+        show yuri at thide zorder 1
         hide yuri
         scene black
         "I instead turn toward her, and pull her head toward mine ‘till our lips connect. "
@@ -1500,6 +1521,7 @@ label yuriroute:
         "I see no reason to object."
         "I lean my head on her own, close my eyes, and sleep."
         "We both doze off like this."
+        show yuri at thide zorder 1
         hide yuri
         scene black
         "It's only when I finally awake that i notice Yuri is missing."

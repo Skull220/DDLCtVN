@@ -120,6 +120,7 @@ label monika_exclusive_1:
     n 4d "I’m sure everyone, especially [player], is SUPER IMPRESSED!"
     show natsuki 4d at t21 zorder 3
     show yuri 3g at t22 zorder 2
+    show monika at thide zorder 1
     hide monika
     y 3g "Yes, Natsuki, you’re right, I’m not eight years old anymore."
     y 3j "Soon enough, you’ll learn that’s a big milestone to hit." 
@@ -137,7 +138,10 @@ label monika_exclusive_1:
     s "You’re both friends, stop arguing like you hate each other!"
     mc "Yea. When Sayori’s the most mature person in the room, something has to be wrong!"
     "Sayori’s face flushes." 
-    "Yuri and Natsuki go silent, and both go back to what they were reading." 
+    "Yuri and Natsuki go silent, and both go back to what they were reading."
+    show sayori at thide zorder 1
+    show natsuki at thide zorder 1
+    show yuri at thide zorder 1
     hide sayori
     hide natsuki
     hide yuri

@@ -35,6 +35,7 @@ label monikaroute:
     show monika 4a
     "We all exchange blank stares as we feign ignorance before turning back to Monika."
     m 4b "Something important, perhaps?"
+    show sayori at thide zorder 1
     hide sayori
     show monika 2a at t31 
     show yuri at t33
@@ -215,6 +216,9 @@ label monikaroute:
     show yuri at t44
     mc "Speaking of guests, has anyone signed up to join the club yet?"
     show monika 3l at f11 zorder 1
+    show yuri at thide zorder 1
+    show natsuki at thide zorder 1
+    show sayori at thide zorder 1
     hide yuri
     hide natsuki
     hide sayori
@@ -291,6 +295,7 @@ label monikaroute:
     "Several of them slowly file into the classroom for a better view."
     "A couple of the braver ones sneak further in and enjoy one of Natsuki's cupcakes as they snicker at us."
     "Natsuki steps in."
+    show sayori at thide zorder 1
     hide sayori
     show monika 2d at h21
     show natsuki at f22 zorder 5
@@ -350,6 +355,9 @@ label monikaroute:
     show yuri at t44
     m "Stay out of this, Yuri!"
     $ m_name = "Monika"
+    show monika at thide zorder 1
+    show sayori at thide zorder 1
+    show natsuki at thide zorder 1
     hide monika
     hide sayori
     hide natsuki
@@ -357,6 +365,7 @@ label monikaroute:
     "Yuri squeals and quietly backs away from the other girls."
     show yuri 1p at t11
     "As she backs up she accidentally bumps into one of the other students and finally takes notice of the growing crowd, furthering her embarrassment."
+    show yuri at thide zorder 1
     hide yuri
     show natsuki 2x at t32
     show sayori 4p at t33
@@ -403,6 +412,8 @@ label monikaroute:
     show monika 1f
     "Monika's eyes move up to the back of the room, lost deep in thought."
     "She takes a moment and lets out a sigh before continuing."
+    show natsuki at thide zorder 1
+    show yuri at thide zorder 1
     hide natsuki
     hide yuri
     show monika 1p at f21
@@ -416,6 +427,7 @@ label monikaroute:
     m "As the one in charge of the events I should've had you both email me your poems last night, just in case."
     m "Or something to that effect."
     m 1r "I hate to admit it, but as club leader I failed you both."
+    show sayori at thide zorder 1
     hide sayori
     show monika 1q at f31
     show natsuki 5g at t32
@@ -423,6 +435,8 @@ label monikaroute:
     "She turns to the other two girls and continues monologuing."
     m 2i "And I’m sorry for yelling at the both of you too, Yuri, Natsuki."
     m 4g "I really shouldn’t have, I stepped way out of line."
+    show natsuki at thide zorder 1
+    show yuri at thide zorder 1
     show monika 1o at f11
     hide natsuki
     hide yuri
@@ -593,6 +607,9 @@ label monikaroute:
     show sayori 4q at t43
     show natsuki at t42
     pause 1
+    show sayori at thide zorder 1
+    show yuri at thide zorder 1
+    show natsuki at thide zorder 1
     hide sayori
     hide yuri
     hide natsuki
@@ -612,6 +629,7 @@ label monikaroute:
     "She blushes and my heart skips a beat."
     
     scene black
+    show monika at thide zorder 1
     hide monika
     with dissolve_scene_full
     
@@ -731,6 +749,7 @@ label monikaroute:
             mc "I … want to get this over with."
             y "I don’t see why not, [player]." 
             y "Come on up."
+            show monika at thide zorder 1
             hide monika
             "I plug my flash drive into the teacher’s computer, and open my presentation." 
             "It shows up on the projector."
@@ -775,6 +794,7 @@ label monikaroute:
             "I’m lost in thought when the bell finally rings."
             m 1e "Bye [player]!" 
             m 3b "See you in the literature club, alright?"
+            show monika at thide zorder 1
             hide monika
             $ y_name = "Yuri"
             "And with that, we both leave." 
@@ -791,6 +811,7 @@ label monikaroute:
             y "Very well. Next up is… Alex."
             "Even if she deserved it, it’s hard not to feel bad for Monika." 
             "I turn back to my computer, and she to hers, both trying to avoid eye contact."
+            show monika at thide zorder 1
             hide monika
             $ y_name = "Yuri"
             "The class ends after the last presentation, and as we both head out a simple \"bye\" is exchanged between us."
@@ -888,6 +909,7 @@ label monikaroute:
                 m 1bc "I’ll see you tomorrow." 
                 m 2bb "Take care, alright?" 
                 "We say our goodbyes and Monika leaves."
+                show monika at thide zorder 1
                 hide monika 
                 "I notice that even now I still can’t tell her I love her."
                 "I guess that’s alright, she already knows, but I still lack the confidence." 
@@ -903,6 +925,7 @@ label monikaroute:
                 m 1bc "I’ll see you tomorrow."
                 m 2bb "Take care, alright?" 
                 "We say our goodbyes and Monika leaves."
+                show monika at thide zorder 1
                 hide monika 
                 "I mentally hit myself for skipping on the movie."
                 "I guess that’s alright, she already knows, but I still lack the confidence." 
@@ -924,7 +947,7 @@ label monikaroute:
     mc "How’ve you been?"
     m 1bk "Pretty good, actually."
     m 1bg "Although I think the people in school might know." 
-    m 3bm "I’ve never receive this many text messages in my life."
+    m 3bm "I’ve never received this many text messages in my life."
     "She points to her phone."
     mc "Ah well." 
     mc "At least we have a whole day to think about how to solve that issue."
@@ -981,6 +1004,7 @@ label monikaroute:
     s "I guess as long as my friends are spending time together, it’s fine." 
     s 2bl "I’ll be at home if you change your mind."
     "She walks off."
+    show sayori at thide zorder 1
     hide sayori
     "While I’m sad for her, Monika seems indifferent at best."
     show monika 1ba at t11 zorder 2
@@ -1013,6 +1037,7 @@ label monikaroute:
                     with wipeleft_scene
                     "I drop my baseball bat and walk over to Sayori’s house." 
                     "I knock on the door and in about a minute, she answers."
+                    show sayori 1bq at t11 zorder 2
                     s 1bq "Oh, hi [player]!"
                     s "You guys changed your mind?"
                     mc "Monika might want to apologize to you, and I want to tell you something."
@@ -1027,7 +1052,7 @@ label monikaroute:
                     mc "If that’s what she’s planning, I want no part of it."
                     "Sayori looks up, and her expression changes." 
                     "I look up as well to see Monika standing there."
-                    show sayori 2n at t22 zorder 2
+                    show sayori 2bn at t22 zorder 2
                     show monika 2bp at l21 zorder 3
                     "She’s at first looking at us, but when our eyes meet she suddenly finds interest in the sidewalk." 
                     m 1bq "Hey… Sayori."
@@ -1052,6 +1077,8 @@ label monikaroute:
                     "While the tension still remains, it’s quickly overshadowed by our enjoyment of the game."
                     "And hey, Monika and Sayori are playing on the same team, at least for right now."
                     "That’s good enough for me."
+                    show monika at thide zorder 1
+                    show sayori at thide zorder 1
                     hide monika
                     hide sayori
                 "Continue Playing.":
@@ -1081,6 +1108,7 @@ label monikaroute:
                     m "I'm looking forward to our weekly games, ehehe!" 
                     m "I'll catch you later~!"
                     mc "Y-Yeah, see ya."
+                    show monika at thide zorder 1
                     hide monika
                     "I wave goodbye to her."
                     "Two \"dates\" so far and I still can’t say the words."
@@ -1226,11 +1254,11 @@ label monikaroute:
                 mc "… never mind."
                 "She doesn't drop the subject."
                 m 1ba "I heard something..." 
-                show monika 4ba at face with dissolve
+                show monika 5a at face with dissolve
                 "She gets a bit closer to me."
                 m "And I think it had something to do with this~"
                 "Before I know it, Monika’s kissing me full on the lips, no holds barred." 
-                "I’m for a half shocked, but eventually adapt to the kiss." 
+                "I’m, for a half second, shocked, but eventually adapt to the kiss." 
                 "What must have been lustful for her eventually turns passionate."
                 "She’s stopped messing with me in other places and is now just focusing on this." 
                 "Consequentially, the kiss becomes the only thing I can focus on."
@@ -1265,6 +1293,7 @@ label monikaroute:
                 mc "All of these Sundays are."
                 mc "I’m glad to call you my girlfriend, as well."
                 "She kisses me on the cheek and walks out the door."
+                show monika at thide zorder 1
                 hide monika
                 "God, that was amazing."
             "A Co-Op game.":
@@ -1368,11 +1397,12 @@ label monikaroute:
                 m 1bp "Here, I should get you some."
                 m 3bp "Where do you keep them?"
                 mc "Right there, over on my desk."
+                show monika at thide zorder 1
                 hide monika
                 "I pray to every god I can think of that she doesn’t put two and two together with the lotion right next to it."
                 "And seeing as her face changes when she grabs it, I’m thinking at none of them answered." 
                 "When she returns it to me, I blow my nose and throw the tissue in a nearby trash can."
-                show monika 4ba at t11 zorder 2
+                show monika 5a at t11 zorder 2
                 m "So, [player]."
                 m 1ba "Would you like to tell me why this was in the location it was~?"
                 "Even with the joking tone in her voice, I still hesitate to answer." 
@@ -1432,7 +1462,8 @@ label monikaroute:
                 m 2bd "Fine." 
                 m "But feel better, alright?"
                 mc "I will. Don’t worry about me."
-                "She looks at me once more, distraught." 
+                "She looks at me once more, distraught."
+                show monika at thide zorder 1
                 hide monika
                 "When she walks off, I feel kinda bad, even if it is for her own good." 
                 "I guess we’ll both have to live with it, though."
@@ -1485,7 +1516,7 @@ label monikaroute:
     "God, what's with me today?"
     "Ah, whatever."
     scene bg bedroom
-    show monika 3ba at t11 zorder 2
+    show monika 1bo at t11 zorder 2 
     "We arrive at my bedroom."
     "Monika starts things up by grabbing a remote."
     "She's flipping it over to some action show."
@@ -1534,9 +1565,10 @@ label monikaroute:
     "Her voice and expression both seem a bit more… sultry." 
     "I don’t really understand why."
     mc "Yep! Let me go and get it."
+    show monika at thide zorder 1
     hide monika
     "I get out from our blanket wrap, and for some reason she looks very confused." 
-    "I walk though the hall, and down the stairs."
+    "I walk through the hall, and down the stairs."
     "From there, it's a short walk to get to my kitchen."
     scene kitchen
     with wipeleft_scene
@@ -1569,7 +1601,7 @@ label monikaroute:
     "I get a text from Sayori."
     "She's asking if Monika's over, and is telling me to say hello for her."
     "Before I can, Monika sees the word \"Sayori\" at the top of my phone."
-    m 3bh "[player], are you talking to {i}her?{/i}"
+    m 3bi "[player], are you talking to {i}her?{/i}"
     mc "...Yea? She is my friend..."
     m "I can’t believe this. Are you… cheating on me?"
     mc "What?"
@@ -1657,6 +1689,7 @@ label monikaroute:
         "She gives me a hug."
         "I notice an... oddity, in her breathing."
         "Ah, it's probably nothing."
+        show monika at thide zorder 1
         hide monika
         "She leaves, walking out."
         "I turn to the TV and flip to something else."
