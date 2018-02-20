@@ -1432,7 +1432,7 @@ label sayoriroute:
             mc "Don't worry about me."
             mc "I'll be just fine." 
             "She starts to walk off."
-            "As she walking, she looks back at me."
+            "As she's walking, she looks back at me."
             "I can tell she's extremely worried for me."
             "I start to feel bad for her."
             "It's for her own good, though!"
