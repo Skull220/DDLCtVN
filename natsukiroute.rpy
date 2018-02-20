@@ -164,7 +164,7 @@ label natsukiroute:
     with wipeleft_scene
     play music t3
     
-    "We arrive at the festival 20 minutes late and immediately get to work on helping set up the decorations that Yuri and I made for the Literature Club's event."
+    "We arrive at the festival 20 minutes late and immediately set Natsuki's cupcakes on a nearby table."
     "Thankfully not much happened during our absence, but some of the stage was already set up."
     "How Monika, Yuri, and Natsuki got a piano into the room is a mystery for the ages."
     "..."
