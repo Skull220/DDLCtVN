@@ -1077,8 +1077,6 @@ label monikaroute:
                     "While the tension still remains, it’s quickly overshadowed by our enjoyment of the game."
                     "And hey, Monika and Sayori are playing on the same team, at least for right now."
                     "That’s good enough for me."
-                    show monika 1bq at thide zorder 1
-                    show sayori 1bh at thide zorder 1
                     hide monika
                     hide sayori
                 "Continue Playing.":
