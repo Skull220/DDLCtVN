@@ -271,7 +271,7 @@ label yuriroute:
     show monika at t31
     show sayori at f33
     show natsuki at t32
-    s 1v "Well, here, I-i’ll ask now!"
+    s 1v "Well, here, I-I’ll ask now!"
     s "Natsuki, what’s your opinion?"
     show monika at t31
     show sayori at t33
@@ -935,7 +935,7 @@ label yuriroute:
     y 1bv "Aren't we going to read today?"
     "She asks, pointing to her book."
     mc "Well, reading is an interest of yours that you showed me, right?"
-    mc "There's an interest of yours I want to show you."
+    mc "There's an interest of mine I want to show you."
     mc "We're going to play some video games!"
     y 2be "Video games?"
     y "I've never played those before..."
