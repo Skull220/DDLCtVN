@@ -1142,7 +1142,7 @@ label monikaroute:
     mc "It's good to point this kind of thing out."
     mc "I'll fix that when I go upstairs."
     mc "Speaking of which, would you like to come inside?"
-    mc "She nods."
+    "She nods."
     "I go inside, and she follows me in." 
     mc "Well, alright." 
     mc "I’ll get today’s activity set up."
