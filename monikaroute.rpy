@@ -16,8 +16,8 @@ label monikaroute:
     show natsuki 2y at t21 zorder 3
     show yuri 2l at t22 zorder 2
     y 2l "Did you say something, Natsuki?"
-    n 2k "Have you ever noticed something up between Monika and [player]?"
-    y 2h "By \"something up\", you mean \"they like each other\", correct?"
+    n 2k "Have you ever noticed something's up between Monika and [player]?"
+    y 2h "By \"something's up\", you mean \"they like each other\", correct?"
     n 1j "Yep!"
     y 3b "Then yes. It’s a bit hard not noticing it."
     "With that, she goes back to reading."
