@@ -859,7 +859,7 @@ label natsukiroute:
     mc "I...might not have gotten it done just yet..."
     n "I knew it!"
     n "Well, if you’re not gonna read it on your own, I guess I have to read it with you..."
-    "She sits on the end of the couch, and I get the 4th book out from my backpack, sitting next to her."
+    "She sits on the end of the bed, and I get the 4th book out from my backpack, sitting next to her."
     "I scoot pretty close, and before I know it it’s just like the literature club."
     "Laughing at the odd joke, smiling when I laugh at a joke, explaining one to me when I don’t, things like that."
     "I only notice how close we are to each other when I finally close the book."
