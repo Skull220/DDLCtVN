@@ -866,8 +866,10 @@ label ch2_end:
         "I would walk home with [ch2_winner].":
             if ch2_winner == "Natsuki":
                 call ch2_end_natsuki
-            else:
+            elif ch2_winner == "Yuri":
                 call ch2_end_yuri
+            else:
+                call ch2_end_monika
         "I would still walk home with Sayori.":
             call ch2_end_sayori
 
@@ -916,6 +918,13 @@ label ch2_end_yuri:
     mc "I mean..."
     mc "Given how hard it is for her to socialize, I would feel awful turning her down, so..."
     s 1x "Isn't she so beautiful and smart?"
+    jump ch2_end_shared
+label ch2_end_monika:
+    mc "Walking home with Monika, huh..."
+    "Why does the thought of that make my heart pound...?"
+    mc "I mean..."
+    mc "If she asked, I probably wouldn't reject her. That would be mean..."
+    s 1x "Isn't she so nice and thoughtful?"
     jump ch2_end_shared
 
 label ch2_end_shared:
