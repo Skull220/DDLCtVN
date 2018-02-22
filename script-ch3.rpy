@@ -803,7 +803,7 @@ label ch3_end_monika:
     y 2l "You’re right."
     y "It really was silly of us to think that you couldn't decide this."
     y 3o "I'm sorry for being so stupid."
-    "Yuri's attitute, however, is lost on Natsuki."
+    "Yuri's attitude, however, is lost on Natsuki."
     n 4x "Hey, you {i}could{/i} have been stupid enough to do that." 
     n 4w "I was just trying to watch out for you, but clearly you ARE too dumb to see it!"
     y 1g "Natsuki, I don’t think you’re giving [player] enough credit."
