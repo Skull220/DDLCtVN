@@ -773,7 +773,7 @@ label monikaroute:
             mc "I needed time to finish it."
             y "The fourth slide was hard to research?"
             mc "It’s a bit of an unorthodox job, so there’s not too much information." 
-            "I still have it, it’s just at home…"
+            mc "I still have it, it’s just at home…"
             "She seems to look at me, trying to read whether or not I’m lying." 
             y "Well, [player], maybe you should have checked for that before you volunteered to present." 
             y "You understand I am docking you of half the project grade?"
