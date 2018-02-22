@@ -1600,7 +1600,7 @@ label ch4_exclusive_monika:
     "Monika's face changes."
     m 1bd "Oh no, it's not that, not at all!"
     m "Sayori's one of my best friends!"
-    m "But i wish she didn't always just cut in, you know?" 
+    m "But I wish she didn't always just cut in, you know?" 
     m "It's a bit annoying."
     mc "She can be a bit annoying sometimes, but... she's not really cutting into anything." 
     mc "She's just asking how we're doing."
