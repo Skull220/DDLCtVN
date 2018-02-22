@@ -749,7 +749,7 @@ label natsukiroute:
     "She turns back to what she was doing."
     show natsuki at thide zorder 1
     hide natsuki
-    "Natsuki and I take one look at each other, laugh quietly, and she goes back to pay attention."
+    "Natsuki and I take one look at each other, laugh quietly, and she goes back to paying attention."
     "Another few minutes pass by when Natsuki whispers to me."
     show natsuki 12b at t11 zorder 2
     n 12b "[player]."
@@ -934,7 +934,7 @@ label natsukiroute:
     hide natsuki
     "We say our goodbyes and Natsuki leaves."
     "I notice that even now I still can’t tell her I love her."
-    "I guess that’s alright, she doesn’t want to hear it anyway, but I still lack to confidence."
+    "I guess that’s alright, she doesn’t want to hear it anyway, but I still lack the confidence."
     "That sucks."
     "At least she doesn’t mind."
 
@@ -1338,7 +1338,7 @@ label natsukiroute:
             hide natsuki
             "She leaves."            
             
-    "As she walks out, I consider that the events of this night. Is this what love is like?"
+    "As she walks out, I consider the events of this night. Is this what love is like?"
     scene black
     with dissolve_scene_full
     stop music fadeout 1.0
@@ -1555,7 +1555,7 @@ label natsukiroute:
         "What if this ruins everything?"
         "Slowly and carefully, I pick up her top arm and put it on her side."
         "I then try to push my other arm out from under her, slowly once more so that she doesn’t awaken."
-        "She’s completely separate from me once more, and I breath a sigh of relief."
+        "She’s completely separate from me once more, and I breathe a sigh of relief."
         "That is, until she brings her arms right back into position, effortlessly."
         "God."
         "Damn."
