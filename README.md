@@ -30,9 +30,11 @@ II. Click "Releases", and find the latest release. Hotfix instructions will appe
 
 III. Unzip the file.
 
-IV. Drag and Drop the contents of the file to your /game/ folder in your DDLC install. Delete Scripts.rpa.
+IV. Delete Scripts.rpa.
 
-V. Run the game. If all goes well, the application name at the top should say "Doki Doki, the Normal VN!"
+V. Drag and Drop the contents of the file to your /game/ folder in your DDLC install. 
+
+VI. Run the game. If all goes well, the application name at the top should say "Doki Doki, the Normal VN!"
 
 # CREDITS!
 
