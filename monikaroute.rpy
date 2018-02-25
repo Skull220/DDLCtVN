@@ -991,6 +991,7 @@ label monikaroute:
     "True to her athleticism, even if my backyard is small, she completely dominates me." 
     "I’ve just gotten to third base for the third time when I notice someone approach us." 
     "As she gets closer, it appears to be Sayori."
+    call groupStart()
     show sayori 4ba at l21 zorder 2
     show monika 1ba t22 zorder 3
     s 4ba "Hey guys! Are you playing baseball?"
@@ -1014,6 +1015,7 @@ label monikaroute:
     "She walks off."
     show sayori at thide zorder 1
     hide sayori
+    call groupClear()
     "While I’m sad for her, Monika seems indifferent at best."
     show monika 1ba at t11 zorder 2
     m 1ba "You ready, player?"
@@ -1060,6 +1062,7 @@ label monikaroute:
                     mc "If that’s what she’s planning, I want no part of it."
                     "Sayori looks up, and her expression changes." 
                     "I look up as well to see Monika standing there."
+                    call groupStart()
                     show sayori 2bn at t22 zorder 2
                     show monika 2bp at l21 zorder 3
                     "She’s at first looking at us, but when our eyes meet she suddenly finds interest in the sidewalk." 
@@ -1087,6 +1090,7 @@ label monikaroute:
                     "That’s good enough for me."
                     hide monika
                     hide sayori
+                    call groupClear()
                 "Continue Playing.":
                     mc "Yea."
                     "I go back to playing." 
