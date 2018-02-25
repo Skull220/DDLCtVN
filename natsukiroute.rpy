@@ -1236,6 +1236,8 @@ label natsukiroute:
             "Her head barely goes up to my nose, so she’s not blocking my vision any."
             "When we both settle in, and I say my prayers that my blood flow doesn’t betray me in a particular way."
             "After a few minutes, she finally speaks up."
+            stop music fadeout 1.0
+            play music t9
             n 2bq "[player]. I hate this."
             "She gets off my lap."
             mc "Did I do something wrong?"
