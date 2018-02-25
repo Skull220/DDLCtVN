@@ -13,7 +13,6 @@ label monikaroute:
     mc "… How did you know that Monika and I were dating? Did Sayori tell you?"
     n 2y "Come on, it’s so obvious that I’m sure that Yuri, even with her nose buried in her book, still notices it."
     "Hearing her name, Yuri looks up."
-    call groupStart()
     show natsuki 2y at t21 zorder 3
     show yuri 2l at t22 zorder 2
     y 2l "Did you say something, Natsuki?"
@@ -97,7 +96,6 @@ label monikaroute:
     "It's a day that ALL of us would be all too happy to forget..."
     "...At least that's what the looks on Sayori, Natsuki, and Yuri's faces tell me."
     "But if Monika's insistent on bringing it back up, I guess we have no choice but to remember..."
-    call groupClear()
     scene bg house 
     with dissolve_scene_half
     "It’s Monday, and time for the school festival." 
@@ -178,8 +176,7 @@ label monikaroute:
     "Sayori immediately stuffs it into her mouth while I take a moment to inspect Natsuki's latest design."
     "Instead of the traditional swirl or kittens on top, she's shaped the icing into closed books," 
     "Each one uniquely decorated to mimic the cover of famous novels from around the world."
-    "Quite fitting of the club's theme."
-    call groupStart()
+    "Quite fitting f the club's theme."
     show sayori 3r zorder 2 at f21
     show natsuki 5j zorder 3 at t22
     s "Wow, Natsuki, these are really good!"
@@ -364,14 +361,12 @@ label monikaroute:
     hide monika
     hide sayori
     hide natsuki
-    call groupClear()
     show yuri 1o at t11
     "Yuri squeals and quietly backs away from the other girls."
     show yuri 1p at t11
     "As she backs up she accidentally bumps into one of the other students and finally takes notice of the growing crowd, furthering her embarrassment."
     show yuri at thide zorder 1
     hide yuri
-    call groupStart()
     show natsuki 2x at t32
     show sayori 4p at t33
     show monika 5b at t31
@@ -397,7 +392,6 @@ label monikaroute:
     show natsuki 12b
     "At this point the crowd has mostly dispersed already, although a few students stuck around to thank Natsuki for the cupcakes."
     "Even from here it’s noticeable that our sign-up sheet was just as empty as when we started..."
-    call groupClear()
     stop music fadeout 1.5
     scene bg club_day
     with dissolve_scene_full
@@ -406,7 +400,6 @@ label monikaroute:
     
     show monika 3i at f11
     m "So, does everyone understand {i}why{/i} this club’s still at square one?"
-    call groupStart()
     show monika 1h at t41 zorder 4
     show sayori 1k at t43 zorder 3
     show natsuki 1u at t42 zorder 2
@@ -620,7 +613,6 @@ label monikaroute:
     hide sayori
     hide yuri
     hide natsuki
-    call groupClear()
     show monika 2a at t11
     "Monika looks over at me and we both smile."
     "We all leave the club together, before Monika and I split off from the others."
@@ -991,7 +983,6 @@ label monikaroute:
     "True to her athleticism, even if my backyard is small, she completely dominates me." 
     "I’ve just gotten to third base for the third time when I notice someone approach us." 
     "As she gets closer, it appears to be Sayori."
-    call groupStart()
     show sayori 4ba at l21 zorder 2
     show monika 1ba t22 zorder 3
     s 4ba "Hey guys! Are you playing baseball?"
@@ -1015,7 +1006,6 @@ label monikaroute:
     "She walks off."
     show sayori at thide zorder 1
     hide sayori
-    call groupClear()
     "While I’m sad for her, Monika seems indifferent at best."
     show monika 1ba at t11 zorder 2
     m 1ba "You ready, player?"
@@ -1062,7 +1052,6 @@ label monikaroute:
                     mc "If that’s what she’s planning, I want no part of it."
                     "Sayori looks up, and her expression changes." 
                     "I look up as well to see Monika standing there."
-                    call groupStart()
                     show sayori 2bn at t22 zorder 2
                     show monika 2bp at l21 zorder 3
                     "She’s at first looking at us, but when our eyes meet she suddenly finds interest in the sidewalk." 
@@ -1090,7 +1079,6 @@ label monikaroute:
                     "That’s good enough for me."
                     hide monika
                     hide sayori
-                    call groupClear()
                 "Continue Playing.":
                     mc "Yea."
                     "I go back to playing." 
