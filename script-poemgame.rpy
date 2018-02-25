@@ -1,6 +1,38 @@
-﻿init python:
-    import random
+﻿image m_sticker smile:
+    "gui/poemgame/m_sticker_2.png"
+    xoffset monikaOffset xzoom monikaZoom
+    #sticker_hop
+    pause 0.5
+    xoffset 0 xzoom 1
+    "m_sticker"
+    
+image s_sticker smile:
+    "gui/poemgame/s_sticker_2.png"
+    xoffset sayoriOffset xzoom sayoriZoom
+    pause 0.5
+    #sticker_hop
+    xoffset 0 xzoom 1
+    "s_sticker"
+    
+image y_sticker smile:
+    "gui/poemgame/y_sticker_2.png"
+    xoffset yuriOffset xzoom yuriZoom
+    #sticker_hop
+    pause 0.5
+    xoffset 0 xzoom 1
+    "y_sticker"
+    
+image n_sticker smile:
+    "gui/poemgame/n_sticker_2.png"
+    xoffset natsukiOffset xzoom natsukiZoom
+    pause 0.5
+    xoffset 0 xzoom 1
+    "n_sticker"
 
+init python:
+    import random
+    display_words = [] #This is new, make sure to add this!
+    
     # This class holds a word, and point values for each of the four heroines
     class PoemWord:
         def __init__(self, word, sPoint, nPoint, yPoint, mPoint, glitch=False):
@@ -28,6 +60,66 @@
             x = line.split(',')
             DDLCVN_DDLCVN_full_wordlist.append(PoemWord(x[0], float(x[1]), float(x[2]), float(x[3]), float(x[4])))
     
+    
+        def draw_words(new=True):
+            ystart = 160
+            pstring = str(progress)
+            ui.text(pstring + "/" + str(numWords), style="poemgame_text", xpos=810, ypos=80, color='#000')
+            z = 0
+            if new:
+                store.display_words = []
+            for j in range(2):
+                if j == 0: x = 440
+                else: x = 680
+                ui.vbox()
+                for i in range(5):
+                    if new:
+                        word = random.choice(wordlist)
+                        wordlist.remove(word)
+                        store.display_words.append(word)
+                    else:
+                        word = store.display_words[z]
+                    ui.textbutton(word.word, clicked=ui.returns([word,True]), hovered=ui.returns([word,False]), text_style="poemgame_text", xpos=x, ypos=i * 56 + ystart)
+                    z += 1
+                ui.close()
+            
+    #This function shows the dokis
+    def show_doki(t,action = "hop"):
+        if t.sPoint >= 3:
+            renpy.show("s_sticker " + action)
+        if t.nPoint >= 3:
+            renpy.show("n_sticker " + action)
+        if t.yPoint >= 3:
+            renpy.show("y_sticker " + action)
+        if t.mPoint >= 3:
+            renpy.show("m_sticker " + action)        
+    #This function does the poem loop
+    def poem_loop():
+        draw_words()
+        while True:
+            selected = ui.interact()
+            word = selected[0]
+            clicked = selected[1]
+            if clicked:
+                action = "hop"
+                select_doki(word)
+            else:
+                action = "smile"
+            show_doki(word, action)
+            if progress > numWords:
+                break
+            else:
+                draw_words(clicked)    
+    #This function selects the doki and the correct word and saves the score change
+    def select_doki(t):
+        renpy.play(gui.activate_sound)
+        store.sPointTotal += t.sPoint
+        store.nPointTotal += t.nPoint
+        store.yPointTotal += t.yPoint
+        
+        store.mPointTotal += t.mPoint
+        store.progress += 1
+        
     sayoriTime = renpy.random.random() * 4 + 4
     natsukiTime = renpy.random.random() * 4 + 4
     yuriTime = renpy.random.random() * 4 + 4
@@ -207,89 +299,8 @@ label poem(transition=True):
         natsukiZoom = 1
         yuriZoom = 1
         monikaOffset = 1
-
-
-
-
-        # Main loop for drawing and selecting words
-        while True:
-            ystart = 160
-            if persistent.playthrough == 2 and chapter == 2:
-                pstring = ""
-                for i in range(progress):
-                    pstring += "1"
-            else:
-                pstring = str(progress)
-            ui.text(pstring + "/" + str(numWords), style="poemgame_text", xpos=810, ypos=80, color='#000')
-            for j in range(2):
-                if j == 0: x = 440
-                else: x = 680
-                ui.vbox()
-                for i in range(5):
-                    if persistent.playthrough == 3:
-                        s = list("Monika")
-                        for k in range(6):
-                            if random.randint(0, 4) == 0:
-                                s[k] = ' '
-                            elif random.randint(0, 4) == 0:
-                                s[k] = random.choice(nonunicode)
-                        word = PoemWord("".join(s), 0, 0, 0, False)
-                    elif persistent.playthrough == 2 and not poemgame_glitch and chapter >= 1 and progress < numWords and random.randint(0, 400) == 0:
-                        word = PoemWord(glitchtext(80), 0, 0, 0, True)
-                    else:
-                        word = random.choice(wordlist)
-                        wordlist.remove(word)
-                    ui.textbutton(word.word, clicked=ui.returns(word), text_style="poemgame_text", xpos=x, ypos=i * 56 + ystart)
-                ui.close()
-
-            t = ui.interact()
-            if not poemgame_glitch:
-                if t.glitch:
-                    poemgame_glitch = True
-                    renpy.music.play(audio.t4g)
-                    renpy.scene()
-                    renpy.show("white")
-                    renpy.show("y_sticker glitch", at_list=[sticker_glitch])
-                elif persistent.playthrough != 3:
-                    renpy.play(gui.activate_sound)
-                    if persistent.playthrough == 0:
-                        if t.sPoint >= 3:
-                            renpy.show("s_sticker hop")
-                        if t.nPoint >= 3:
-                            renpy.show("n_sticker hop")
-                        if t.yPoint >= 3:
-                            renpy.show("y_sticker hop")
-                        if t.mPoint >= 3:
-                            renpy.show("m_sticker hop")
-                    else:
-                        if persistent.playthrough == 2 and chapter == 2 and random.randint(0,10) == 0: renpy.show("m_sticker hop")
-                        elif t.nPoint > t.yPoint: renpy.show("n_sticker hop")
-                        elif persistent.playthrough == 2 and not persistent.seen_sticker and random.randint(0,100) == 0:
-                            renpy.show("y_sticker hopg")
-                            persistent.seen_sticker = True
-                        elif persistent.playthrough == 2 and chapter == 2: renpy.show("y_sticker_cut hop")
-                        else: renpy.show("y_sticker hop")
-            else:
-                r = random.randint(0, 10)
-                if r == 0 and not played_baa:
-                    renpy.play("gui/sfx/baa.ogg")
-                    played_baa = True
-                elif r <= 5: renpy.play(gui.activate_sound_glitch)
-            sPointTotal += t.sPoint
-            nPointTotal += t.nPoint
-            yPointTotal += t.yPoint
-            mPointTotal += t.mPoint
-            progress += 1
-            if progress > numWords:
-                if sPointTotal > yPointTotal and sPointTotal > nPointTotal and sPointTotal > mPointTotal:
-                    poemWin = "s"
-                elif yPointTotal > sPointTotal and yPointTotal > nPointTotal and yPointTotal > mPointTotal:
-                    poemWin = "y"
-                elif nPointTotal > sPointTotal and nPointTotal > yPointTotal and nPointTotal > mPointTotal:
-                    poemWin = "n"
-                else:
-                    poemWin = "m"
-                break
+        
+        poem_loop()
 
         if persistent.playthrough == 0:
             # For chapter 1, add 5 points to whomever we sided with
