@@ -1033,8 +1033,10 @@ label monikaroute:
                     mc "And I’m going to talk to her about this."
                     mc "I’d recommend you do the same."
                     "I still struggle, especially now, to say the L word." 
+                    stop music fadeout 2.0
                     scene bg house
                     with wipeleft_scene
+                    play music t9
                     "I drop my baseball bat and walk over to Sayori’s house." 
                     "I knock on the door and in about a minute, she answers."
                     show sayori 1bq at t11 zorder 2
@@ -1599,6 +1601,8 @@ label monikaroute:
     "I get a text from Sayori."
     "She's asking if Monika's over, and is telling me to say hello for her."
     "Before I can, Monika sees the word \"Sayori\" at the top of my phone."
+    stop music fadeout 2.0
+    play music t10
     m 3bi "[player], are you talking to {i}her?{/i}"
     mc "...Yea? She is my friend..."
     m "I can’t believe this. Are you… cheating on me?"
