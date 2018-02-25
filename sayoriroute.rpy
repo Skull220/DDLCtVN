@@ -1175,6 +1175,8 @@ label sayoriroute:
             "Sayori looks down, disappointed with herself."
             s 4bw "Am I holding you back, [player]?"
             s "I'm so sorry..."
+            stop music fadeout 1.0
+            play music t9
             "She puts her hands in her face and starts to cry."
             mc "Sayori..?"
             s 4bu "I'm so bad at this..."
@@ -1563,6 +1565,8 @@ label sayoriroute:
         show sayori 2bv at t11
         "Sayori thinks for a moment."
         "She lets out a huge sigh."
+        stop music fadeout 1.0
+        play music t10
         s "[player]..."
         s "The rainclouds haven't gone away."
         s 2bu "I still feel pain every time I wake up."
