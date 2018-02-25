@@ -995,6 +995,8 @@ label natsukiroute:
             mc "I want the real reason."
             mc "If something’s up, I need to know."
             "She starts to get angry again, clenching her fist and almost raising it, but instead unclenches it and looks down, as if ashamed."
+            stop music fadeout 1.0
+            play music t10
             n "And to think I was about to hurt the person I love."
             n 2bu "I’m becoming just like him..."
             mc "’Him’? Who’s ‘he’?"
@@ -1484,7 +1486,7 @@ label natsukiroute:
     
     scene bedroom
     with dissolve_scene_half
-    play music t2
+    play music t10
     "It’s Sunday, as usual."
     if NatsukiVar >= 3:
         "Natsuki shows up..." 
@@ -1609,6 +1611,8 @@ label natsukiroute:
         "That doesn’t sound like a bad idea."
         scene bg bedroom
         show natsuki 1ba at t11 zorder 1
+        stop music t10 
+        play music t6
         n 1ba "Idiot."
         mc "What?"
         n "I can tell."
