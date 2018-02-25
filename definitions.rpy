@@ -1,6 +1,6 @@
 define persistent.demo = False
 define persistent.steam = False
-define config.developer = True
+define config.developer = False
 
 python early:
     import singleton
