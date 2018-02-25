@@ -1349,6 +1349,8 @@ label yuriroute:
     "I notice her open and close her mouth a couple times."
     "What's she holding back?"
     "My question is answered when she finally does speak up."
+    stop music fadeout 1.0
+    play music t10
     y 3bw "Do you ever feel like that's you, [player]?"
     y "That you would never be... important?"
     y 3bv "Noticed?"
@@ -1506,8 +1508,10 @@ label yuriroute:
         "When the kiss breaks, it feels like it's been only 2 seconds and we both want more."
         "We both stare at each other for all of 30 seconds, catching our breath, before going right back to making out again."
         "On about our fifth break, Yuri looks at me."
+        stop music fadeout 2.0
         scene bg bedroom
         show yuri 2bs zorder 2 at t11
+        play music t6
         y "[player]... You give me confidence, you know that?"
         "She goes back in to kiss me, sticking her hand... underneath my pants."
         "{i}Gulp.{/i}"
