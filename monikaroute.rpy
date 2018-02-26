@@ -1707,7 +1707,7 @@ label monikaroute:
         with dissolve_scene_full
         stop music fadeout 2.0
     else:
-        hide Monika
+        hide monika
         scene black
         "No, you know what, stop the mod."
         "You got NONE of the damn choices correct."
