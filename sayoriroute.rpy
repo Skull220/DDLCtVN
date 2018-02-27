@@ -1727,7 +1727,7 @@ label sayoriroute:
     "Frankly, i'm surprised that you were smart enough to install the mod."
     "You came in here expecting your doki to go all like:"
     "\"Oh [player]! I love you! I love you, I love you, I love you!\""
-    "But you had to go and get everything utterly fucking wrong like a retard!
+    "But you had to go and get everything utterly fucking wrong like a retard!"
     "I bet you have more fucking chromosomes than brain cells!"
     "For real, what the fuck is wrong with you?"
     "Did you just do this out of interest?"
