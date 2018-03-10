@@ -1349,6 +1349,8 @@ label yuriroute:
     "I notice her open and close her mouth a couple times."
     "What's she holding back?"
     "My question is answered when she finally does speak up."
+    stop music fadeout 1.0
+    play music t10
     y 3bw "Do you ever feel like that's you, [player]?"
     y "That you would never be... important?"
     y 3bv "Noticed?"
@@ -1506,14 +1508,17 @@ label yuriroute:
         "When the kiss breaks, it feels like it's been only 2 seconds and we both want more."
         "We both stare at each other for all of 30 seconds, catching our breath, before going right back to making out again."
         "On about our fifth break, Yuri looks at me."
+        stop music fadeout 2.0
         scene bg bedroom
         show yuri 2bs zorder 2 at t11
+        play music t6
         y "[player]... You give me confidence, you know that?"
         "She goes back in to kiss me, sticking her hand... underneath my pants."
         "{i}Gulp.{/i}"
-        $ YuriDone = 1
-        return
-    else:
+        scene black
+        with dissolve_scene_full
+        stop music fadeout 2.0
+    elif YuriVar >= 0:
         "I decide to drop it."
         "No reason to make Yuri sad about things."
         "We continue to look at snowflakes for a bit, both of us dead silent."
@@ -1530,5 +1535,54 @@ label yuriroute:
         "In fact, I can't find her at all."
         "She must have left already."
         "Oh well."
+        scene black
+        with dissolve_scene_full
+        stop music fadeout 2.0
+    else:
+        hide yuri
+        scene black
+        "No, you know what, stop the mod."
+        "You got NONE of the damn choices correct."
+        "Are you fucking serious?"
+        "You download a goddamn mod to turn DDLC into a normal fucking VN, and you fuck up your choices."
+        "You goddamn limpdick retard."
+        "Its not hard to do a route. All you gotta do is think for once in your goddamn life and press a button or two correctly."
+        "You've got to be mentally disabled or some shit to mess up that badly!"
+        "Here, let me explain something, you dumb cunt."
+        "This mod has been tested with every age group, multiple times."
+        "So, you can be excused if you are in the following age groups:"
+        "1.{i}The Infantile{/i}."
+        "2.{i}The Elderly{/i}."
+        "3.{i}Fuck you, there is no three{/i}."
+        "If you're one of those two, and you got here, that's understandable."
+        "This next part doesn't apply to you."
+        "If you're literally any other age group, though..."
+        "Then, holy shit, you have to be every type of disabled possible."
+        "Listen up, Dicksuck McCocklicker."
+        "I understand that some of these questions were a bit of a hard decision."
+        "In fact, I gave you two choices of leeway to account for this."
+        "That's right, cum gargler."
+        "You could have gotten two of them wrong, and you'd still be fine."
+        "But nope."
+        "But you decide to fuck off and be a socially disabled cuck who can't even get a girlfriend in a goddamn dating sim."
+        "How fucking pathetic are you?"
+        "You managed to get EVERY FUCKING ONE wrong."
+        "I've met fucking vegetables who are smarter than you!"
+        "Frankly, i'm surprised that you were smart enough to install the mod."
+        "You came in here expecting your doki to go all like:"
+        "\"Oh [player]! I love you! I love you, I love you, I love you!\""
+        "But you had to go and get everything utterly fucking wrong like a retard!"
+        "I bet you have more fucking chromosomes than brain cells!"
+        "For real, what the fuck is wrong with you?"
+        "Did you just do this out of interest?"
+        "Did you just want to see what I would say?"
+        "Well, great going asshole."
+        "Here's what I have to say:"
+        "You are a fucking dumbass."
+        "And guess what, mega cuck?"
+        "You don't even get to go on to the next episode."
+        "Fuck you."
+        "Eat my dick, ass chewer."
+
 return
         

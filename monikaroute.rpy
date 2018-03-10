@@ -176,7 +176,7 @@ label monikaroute:
     "Sayori immediately stuffs it into her mouth while I take a moment to inspect Natsuki's latest design."
     "Instead of the traditional swirl or kittens on top, she's shaped the icing into closed books," 
     "Each one uniquely decorated to mimic the cover of famous novels from around the world."
-    "Quite fitting of the club's theme."
+    "Quite fitting f the club's theme."
     show sayori 3r zorder 2 at f21
     show natsuki 5j zorder 3 at t22
     s "Wow, Natsuki, these are really good!"
@@ -392,12 +392,12 @@ label monikaroute:
     show natsuki 12b
     "At this point the crowd has mostly dispersed already, although a few students stuck around to thank Natsuki for the cupcakes."
     "Even from here it’s noticeable that our sign-up sheet was just as empty as when we started..."
-
     stop music fadeout 1.5
     scene bg club_day
     with dissolve_scene_full
     play music t8
 
+    
     show monika 3i at f11
     m "So, does everyone understand {i}why{/i} this club’s still at square one?"
     show monika 1h at t41 zorder 4
@@ -1033,8 +1033,10 @@ label monikaroute:
                     mc "And I’m going to talk to her about this."
                     mc "I’d recommend you do the same."
                     "I still struggle, especially now, to say the L word." 
+                    stop music fadeout 2.0
                     scene bg house
                     with wipeleft_scene
+                    play music t9
                     "I drop my baseball bat and walk over to Sayori’s house." 
                     "I knock on the door and in about a minute, she answers."
                     show sayori 1bq at t11 zorder 2
@@ -1599,6 +1601,8 @@ label monikaroute:
     "I get a text from Sayori."
     "She's asking if Monika's over, and is telling me to say hello for her."
     "Before I can, Monika sees the word \"Sayori\" at the top of my phone."
+    stop music fadeout 2.0
+    play music t10
     m 3bi "[player], are you talking to {i}her?{/i}"
     mc "...Yea? She is my friend..."
     m "I can’t believe this. Are you… cheating on me?"
@@ -1673,7 +1677,10 @@ label monikaroute:
         m "Shh."
         m 1ba "The only thing I want to hear from you from now in is the sound of you screaming my name."
         "{i}Gulp.{/i}"
-    else:
+        scene black
+        with dissolve_scene_full
+        stop music fadeout 2.0
+    elif MonikaVar >= 0:
         "I take my mind off it."
         "This is just Monika being paranoid, or something."
         "We turn our attention back to the show."
@@ -1696,5 +1703,53 @@ label monikaroute:
         "Sad?"
         "I text back."
         "\"Well, Sayori, that's kind of a funny story...\""
+        scene black
+        with dissolve_scene_full
+        stop music fadeout 2.0
+    else:
+        hide monika
+        scene black
+        "No, you know what, stop the mod."
+        "You got NONE of the damn choices correct."
+        "Are you fucking serious?"
+        "You download a goddamn mod to turn DDLC into a normal fucking VN, and you fuck up your choices."
+        "You goddamn limpdick retard."
+        "Its not hard to do a route. All you gotta do is think for once in your goddamn life and press a button or two correctly."
+        "You've got to be mentally disabled or some shit to mess up that badly!"
+        "Here, let me explain something, you dumb cunt."
+        "This mod has been tested with every age group, multiple times."
+        "So, you can be excused if you are in the following age groups:"
+        "1.{i}The Infantile{/i}."
+        "2.{i}The Elderly{/i}."
+        "3.{i}Fuck you, there is no three{/i}."
+        "If you're one of those two, and you got here, that's understandable."
+        "This next part doesn't apply to you."
+        "If you're literally any other age group, though..."
+        "Then, holy shit, you have to be every type of disabled possible."
+        "Listen up, Dicksuck McCocklicker."
+        "I understand that some of these questions were a bit of a hard decision."
+        "In fact, I gave you two choices of leeway to account for this."
+        "That's right, cum gargler."
+        "You could have gotten two of them wrong, and you'd still be fine."
+        "But nope."
+        "But you decide to fuck off and be a socially disabled cuck who can't even get a girlfriend in a goddamn dating sim."
+        "How fucking pathetic are you?"
+        "You managed to get EVERY FUCKING ONE wrong."
+        "I've met fucking vegetables who are smarter than you!"
+        "Frankly, i'm surprised that you were smart enough to install the mod."
+        "You came in here expecting your doki to go all like:"
+        "\"Oh [player]! I love you! I love you, I love you, I love you!\""
+        "But you had to go and get everything utterly fucking wrong like a retard!"
+        "I bet you have more fucking chromosomes than brain cells!"
+        "For real, what the fuck is wrong with you?"
+        "Did you just do this out of interest?"
+        "Did you just want to see what I would say?"
+        "Well, great going asshole."
+        "Here's what I have to say:"
+        "You are a fucking dumbass."
+        "And guess what, mega cuck?"
+        "You don't even get to go on to the next episode."
+        "Fuck you."
+        "Eat my dick, ass chewer."
 
 return
