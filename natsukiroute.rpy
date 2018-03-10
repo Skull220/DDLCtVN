@@ -6,7 +6,6 @@ label natsukiroute:
     "I walk into the literature club and the usual scene greets me." 
     "Yuri’s sitting at her desk, reading a book, and Natsuki and Sayori are talking about something. Monika’s late again."
     "I walk over to Natsuki and Sayori, asking what they're on about."
-    call groupStart()
     show sayori 2c at t21 zorder 2
     show natsuki 4b at t22 zorder 3
     s "Natsuki thinks cupcakes are better than cookies!"
@@ -62,8 +61,6 @@ label natsukiroute:
     show natsuki at thide zorder 1
     hide sayori
     hide natsuki
-    call groupClear()
-    call groupStart()
     show yuri 2e zorder 3 at t22
     show monika 2k zorder 2 at l21
     m "Sorry that I'm late, everyone!"
@@ -128,7 +125,6 @@ label natsukiroute:
     show sayori at t43
     show natsuki at t42
     show yuri at t44
-    
     stop music fadeout 4.0
     "The festival..."
     "It's a day that ALL of us would be all too happy to forget..."
@@ -136,7 +132,7 @@ label natsukiroute:
     "But if Monika's insistent on bringing it back up, I guess we have no choice but to remember..."
     
     
-    call groupClear()
+    
     scene bg house 
     with dissolve_scene_half
     pause 1.5
@@ -160,7 +156,6 @@ label natsukiroute:
     "I set my bookbag down, lay against the fence and start to doze off."
     show natsuki at thide zorder 1
     hide natsuki
-    
     "Just about 30 minutes later they come out, ready to help."
     "They pick up their trays and we walk together to the festival."
     stop music fadeout 2.0
@@ -186,7 +181,6 @@ label natsukiroute:
     "Instead of the traditional swirl or kittens on top, she's shaped the icing into closed books," 
     "Each one uniquely decorated to mimic the cover of famous novels from around the world."
     "Quite fitting of the club's theme."
-    call groupStart()
     show sayori 3r zorder 2 at f21
     show natsuki 5j zorder 3 at t22
     s "Wow, Natsuki, these are really good!"
@@ -374,14 +368,12 @@ label natsukiroute:
     hide monika
     hide sayori
     hide natsuki
-    call groupClear()
     show yuri 1o at t11
     "Yuri squeals and quietly backs away from the other girls."
     show yuri 1p at t11
     "As she backs up she accidentally bumps into one of the other students and finally takes notice of the growing crowd, furthering her embarassment."
     show yuri at thide zorder 1
     hide yuri
-    call groupStart()
     show natsuki 2x at t32
     show sayori 4p at t33
     show monika 5b at t31
@@ -405,7 +397,7 @@ label natsukiroute:
     show natsuki 12b
     "At this point the crowd has mostly dispersed already, although a few students stuck around to thank Natsuki for the cupcakes."
     "Even from here it’s noticeable that our signup sheet was just as empty as when we started..."
-    call groupClear()
+
     pause 1.5
     scene bg club_day
     with dissolve_scene_full
@@ -413,7 +405,6 @@ label natsukiroute:
 
     show monika 3i at f11
     m "So, does everyone understand {i}why{/i} this club’s still at square one?"
-    call groupStart()
     show monika 1h at t41
     show sayori 1k at t43
     show natsuki 1u at t42
@@ -627,7 +618,6 @@ label natsukiroute:
     hide monika
     hide yuri
     hide sayori
-    call groupClear()
     show natsuki 2a at t11
     "Natsuki looks over at me and we both smile."
     "We all leave the club together, before Natsuki and I split off from the others."
@@ -995,8 +985,6 @@ label natsukiroute:
             mc "I want the real reason."
             mc "If something’s up, I need to know."
             "She starts to get angry again, clenching her fist and almost raising it, but instead unclenches it and looks down, as if ashamed."
-            stop music fadeout 1.0
-            play music t10
             n "And to think I was about to hurt the person I love."
             n 2bu "I’m becoming just like him..."
             mc "’Him’? Who’s ‘he’?"
@@ -1236,8 +1224,6 @@ label natsukiroute:
             "Her head barely goes up to my nose, so she’s not blocking my vision any."
             "When we both settle in, and I say my prayers that my blood flow doesn’t betray me in a particular way."
             "After a few minutes, she finally speaks up."
-            stop music fadeout 1.0
-            play music t9
             n 2bq "[player]. I hate this."
             "She gets off my lap."
             mc "Did I do something wrong?"
@@ -1488,7 +1474,7 @@ label natsukiroute:
     
     scene bedroom
     with dissolve_scene_half
-    play music t10
+    play music t2
     "It’s Sunday, as usual."
     if NatsukiVar >= 3:
         "Natsuki shows up..." 
@@ -1613,8 +1599,6 @@ label natsukiroute:
         "That doesn’t sound like a bad idea."
         scene bg bedroom
         show natsuki 1ba at t11 zorder 1
-        stop music
-        play music t6
         n 1ba "Idiot."
         mc "What?"
         n "I can tell."
@@ -1626,62 +1610,11 @@ label natsukiroute:
         "As she rolls, and lays on top of me, she whispers in my ear."
         n "I can help fix that~"
         "{i}Gulp.{/i}"
-        scene black
-        with dissolve_scene_full
-        stop music fadeout 2.0
-    elif NatsukiVar >= 0:
+    else:
         "Until five minutes ago, I was really happy that I got to see Natsuki today as well."
         "But she sent me a message where she told me that she can't come today."
         "What a shame, I guess I'll play some games today."
-        "I'll see her tomorrow anyways." 
-        scene black
-        with dissolve_scene_full
-        stop music fadeout 2.0
-    else:
-        hide natsuki
-        scene black
-        "No, you know what, stop the mod."
-        "You got NONE of the damn choices correct."
-        "Are you fucking serious?"
-        "You download a goddamn mod to turn DDLC into a normal fucking VN, and you fuck up your choices."
-        "You goddamn limpdick retard."
-        "Its not hard to do a route. All you gotta do is think for once in your goddamn life and press a button or two correctly."
-        "You've got to be mentally disabled or some shit to mess up that badly!"
-        "Here, let me explain something, you dumb cunt."
-        "This mod has been tested with every age group, multiple times."
-        "So, you can be excused if you are in the following age groups:"
-        "1.{i}The Infantile{/i}."
-        "2.{i}The Elderly{/i}."
-        "3.{i}Fuck you, there is no three{/i}."
-        "If you're one of those two, and you got here, that's understandable."
-        "This next part doesn't apply to you."
-        "If you're literally any other age group, though..."
-        "Then, holy shit, you have to be every type of disabled possible."
-        "Listen up, Dicksuck McCocklicker."
-        "I understand that some of these questions were a bit of a hard decision."
-        "In fact, I gave you two choices of leeway to account for this."
-        "That's right, cum gargler."
-        "You could have gotten two of them wrong, and you'd still be fine."
-        "But nope."
-        "But you decide to fuck off and be a socially disabled cuck who can't even get a girlfriend in a goddamn dating sim."
-        "How fucking pathetic are you?"
-        "You managed to get EVERY FUCKING ONE wrong."
-        "I've met fucking vegetables who are smarter than you!"
-        "Frankly, i'm surprised that you were smart enough to install the mod."
-        "You came in here expecting your doki to go all like:"
-        "\"Oh [player]! I love you! I love you, I love you, I love you!\""
-        "But you had to go and get everything utterly fucking wrong like a retard!"
-        "I bet you have more fucking chromosomes than brain cells!"
-        "For real, what the fuck is wrong with you?"
-        "Did you just do this out of interest?"
-        "Did you just want to see what I would say?"
-        "Well, great going asshole."
-        "Here's what I have to say:"
-        "You are a fucking dumbass."
-        "And guess what, mega cuck?"
-        "You don't even get to go on to the next episode."
-        "Fuck you."
-        "Eat my dick, ass chewer."
+        "I'll see her tomorrow anyways."
 return
 
     

@@ -1,7 +1,5 @@
 ![DDLCtVN](https://raw.githubusercontent.com/Skull217/DDLCtVN/master/mod_assets/customlogo.png)
 # DDLC,The Normal VN!
-
-WARNING: DO NOT USE THE GREEN "CLONE OR DOWNLOAD" BUTTON TO DOWNLOAD THE MOD. THIS VERSION IS EXPERIMENTAL, AND WILL OFTEN HAVE ERRORS.
 >What is this hip, cool new mod?
 
 Esentially, as the name implies. Each character gets 7 more scenes with you, as well as Monika getting her own route.
@@ -32,11 +30,9 @@ II. Click "Releases", and find the latest release. Hotfix instructions will appe
 
 III. Unzip the file.
 
-IV. Delete Scripts.rpa.
+IV. Drag and Drop the contents of the file to your /game/ folder in your DDLC install. Delete Scripts.rpa.
 
-V. Drag and Drop the contents of the file to your /game/ folder in your DDLC install. 
-
-VI. Run the game. If all goes well, the application name at the top should say "Doki Doki, the Normal VN!"
+V. Run the game. If all goes well, the application name at the top should say "Doki Doki, the Normal VN!"
 
 # CREDITS!
 
@@ -83,10 +79,6 @@ Kyrpt0
 Sergmanny
 
 FireLightning13
-
->Custom Poemcode
-
-Jadebenn
 
 >New Monika Expressions
 
