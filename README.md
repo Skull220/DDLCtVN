@@ -1,5 +1,5 @@
 ![DDLCtVN](https://raw.githubusercontent.com/Skull217/DDLCtVN/master/mod_assets/customlogo.png)
-# DDLC,The Normal VN!
+# Doki Doki,The Normal VN!
 
 WARNING: DO NOT USE THE GREEN "CLONE OR DOWNLOAD" BUTTON TO DOWNLOAD THE MOD. THIS VERSION IS EXPERIMENTAL, AND WILL OFTEN HAVE ERRORS.
 >What is this hip, cool new mod?
