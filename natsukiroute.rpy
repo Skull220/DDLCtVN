@@ -1393,6 +1393,7 @@ label natsukiroute:
             "Before I can mention that I can’t really go anywhere, she leaves."
             "A few minutes later, she arrives back with some hot soup."
             mc "Soup?"
+            show natsuki 1be at t11 zorder 2
             n 1be "It helps with colds!" 
             n 1bc "And it’s better than anything else I could’ve given you."
             n 1bb "Are you going to be mad at me for it or are you going to appreciate it?"
@@ -1493,11 +1494,11 @@ label natsukiroute:
     if NatsukiVar >= 3:
         "Natsuki shows up..." 
         "This time holding a box in her hand."
-        n 12bc "He... he found out."
-        n 12be "About us."
-        n 12bd "Screamed at me, shoved an empty box in my face and told me to get out of his house."
+        n 1bc "He... he found out."
+        n 1be "About us."
+        n 1bi "Screamed at me, shoved an empty box in my face and told me to get out of his house."
         n "That I had 24 hours to leave or else he would..."
-        n 12bb "I...I was really scared, [player]."
+        n 12n "I...I was really scared, [player]."
         n "I know this isn’t how we planned it, but I have no idea what else to do..."
         mc "Natsuki..."
         "At once, I go over to her and hug her tightly."
