@@ -334,14 +334,8 @@ label ch2_main:
 
     
     #Call exclusive scene
-    if poemWin == "s":
-        call sayori_exclusive_2
-    elif poemWin == "n":
-        call natsuki_exclusive_2
-    elif poemWin == "y":
-        call yuri_exclusive_2
-    else:
-        call monika_exclusive_2
+    $ nextscene = poemwinner[0] + "_exclusive_" + str(eval(poemwinner[0][0] + "_appeal"))
+    call expression nextscene
         
     #After exclusive scene, we go back to poem responses
 
