@@ -129,14 +129,8 @@ label ch1_main:
     "Meanwhile, Natsuki is rummaging around in the closet."
     
     #Call exclusive scene
-    if poemWin == "s":
-        call sayori_exclusive_1
-    elif poemWin == "n":
-        call natsuki_exclusive_1
-    elif poemWin == "y":
-        call yuri_exclusive_1
-    else:
-        call monika_exclusive_1
+    $ nextscene = poemwinner[0] + "_exclusive_" + str(eval(poemwinner[0][0] + "_appeal"))
+    call expression nextscene
 
     #After exclusive scene, we go back to poem responses
     show monika 1a at t21 zorder 2
