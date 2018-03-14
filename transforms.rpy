@@ -432,24 +432,6 @@ transform rewind:
         easeout_bounce 0.33 yalign 0.45
         repeat
 
-transform heartbeat:
-    heartbeat2(1)
-
-transform heartbeat2(m):
-    truecenter
-    parallel:
-        0.144
-        zoom 1.00 + 0.07 * m
-        easein 0.250 zoom 1.00 + 0.04 * m
-        easeout 0.269 zoom 1.00 + 0.07 * m
-        zoom 1.00
-        1.479
-        repeat
-    parallel:
-        easeout_bounce 0.3 xalign 0.5 + 0.02 * m
-        easeout_bounce 0.3 xalign 0.5 - 0.02 * m
-        repeat
-
 transform yuripupils_move:
     function yuripupils_function
 
