@@ -1520,7 +1520,7 @@ label monikaroute:
     "We arrive at my bedroom."
     "Monika starts things up by grabbing a remote."
     "She's flipping it over to some action show."
-    "Johnathon's strange escapades..."
+    "Jonathan's strange escapades..."
     #You were expecting some random action anime, but it was I, Dio!
     "It's on commercial break right now." 
     "We stand there, awkwardly."
