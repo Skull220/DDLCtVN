@@ -445,3 +445,7 @@ transform malpha(a=1.00):
     i11
     alpha a
 
+#Fly in rapidly from the right
+transform rightin(x=640, z=0.80):
+    xcenter 1500 yoffset 0 yanchor 1.0 ypos 1.03 zoom z*1.00 alpha 1.00 subpixel True
+    easein .25 xcenter x
