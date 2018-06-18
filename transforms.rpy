@@ -449,3 +449,26 @@ transform malpha(a=1.00):
 transform rightin(x=640, z=0.80):
     xcenter 1500 yoffset 0 yanchor 1.0 ypos 1.03 zoom z*1.00 alpha 1.00 subpixel True
     easein .25 xcenter x
+
+
+#Same positioning, but fly in from the right
+transform r41:
+    rightin(200)
+transform r42:
+    rightin(493)
+transform r43:
+    rightin(786)
+transform r44:
+    rightin(1080)
+transform r31:
+    rightin(240)
+transform r32:
+    rightin(640)
+transform r33:
+    rightin(1040)
+transform r21:
+    rightin(400)
+transform r22:
+    rightin(880)
+transform r11:
+    rightin(640)
