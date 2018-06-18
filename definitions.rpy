@@ -1356,6 +1356,9 @@ image monika g2:
             pause 0.2
     repeat
 
+image tbc = "mod_assets/tbc.png"
+
+
 # Character variables
 define narrator = Character(ctc="ctc", ctc_position="fixed")
 define mc = DynamicCharacter('player', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
@@ -1366,6 +1369,8 @@ define y = DynamicCharacter('y_name', image='yuri', what_prefix='"', what_suffix
 define ny = Character('Nat & Yuri', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
 
 define _dismiss_pause = config.developer
+
+define tbc = DynamicCharacter('tbc', image='tbc', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed")
 
 default persistent.playername = ""
 default player = persistent.playername
