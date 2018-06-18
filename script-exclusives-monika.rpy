@@ -198,7 +198,7 @@ label monika_exclusive_2:
     mc "Well, she’s really pretty."
     mc "A lot more popular than me, too, but she’s fun to hang around."
     "I hope I’m not being too obvious." 
-    "My current tactic is to describe Monika to Monika without making it obvious to her."
+    "My current tactic is to describe Monika to Monika without making it apparent to her."
     m 6g "She’s popular?"
     m 6n "Is she someone I know?"
     "It seems to be working."
