@@ -534,7 +534,7 @@ label sayoriroute:
     mc "Skipping Class? Sayori, I am ashamed." 
     "I say, sarcastically." 
     "Lunch period isn’t taken seriously by the teachers anyway." 
-    "as long as you get back on campus before the next class, they couldn’t care less."
+    "As long as you get back on campus before the next class, they couldn’t care less."
     s 5c "I'm NOT skipping!" 
     s 5d "Lunch doesn’t count..."
     mc "You're not actually thinking of going out, are you?" 
