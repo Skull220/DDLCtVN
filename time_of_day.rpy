@@ -150,6 +150,13 @@ image bg house_sunset = sunset2(Image("bg/house.png"))
 image bg house_evening = evening2(Image("bg/house.png"))
 image bg house_night = night2(Image("bg/house.png"))
 
+image bg livingroom_dawn = dawn2(Image("bg/livingroom.png"))
+image bg livingroom_morning = morning2(Image("bg/livingroom.png"))
+image bg livingroom_sunset = sunset2(Image("bg/livingroom.png"))
+image bg livingroom_evening = evening2(Image("bg/livingroom.png"))
+image bg livingroom_night = night2(Image("bg/livingroom.png"))
+
+
 image bg kitchen_dawn = dawn(Image("bg/kitchen.png"))
 image bg kitchen_morning = morning(Image("bg/kitchen.png"))
 image bg kitchen_sunset = sunset(Image("bg/kitchen.png"))
