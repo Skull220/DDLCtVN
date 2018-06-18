@@ -1127,7 +1127,7 @@ label monikaroute:
     "And it’s kind of become a factor of motivation for the rest of the week..." 
     "But it’s a different kind of excitement now." 
     "As I ponder this, Monika knocks on my door." 
-    show monika 5a at t11 zorder 2
+    show monika 4a at t11 zorder 2
     m 1ba "Hey, [player]!"
     "She’s in casual clothing as usual." 
     "She’s not holding anything of note, which I guess means I’m coming up with today’s activity."
@@ -1402,7 +1402,7 @@ label monikaroute:
                 "I pray to every god I can think of that she doesn’t put two and two together with the lotion right next to it."
                 "And seeing as her face changes when she grabs it, I’m thinking at none of them answered." 
                 "When she returns it to me, I blow my nose and throw the tissue in a nearby trash can."
-                show monika 5a at t11 zorder 2
+                show monika 3a at t11 zorder 2
                 m "So, [player]."
                 m 1ba "Would you like to tell me why this was in the location it was~?"
                 "Even with the joking tone in her voice, I still hesitate to answer." 
