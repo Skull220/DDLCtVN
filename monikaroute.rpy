@@ -156,7 +156,7 @@ label monikaroute:
     
     stop music fadeout 2.0
 
-    scene bg club_day
+    scene bg club_morning
     with wipeleft_scene
     play music t3
     
@@ -177,177 +177,177 @@ label monikaroute:
     "Instead of the traditional swirl or kittens on top, she's shaped the icing into closed books," 
     "Each one uniquely decorated to mimic the cover of famous novels from around the world."
     "Quite fitting f the club's theme."
-    show sayori 3r zorder 2 at f21
-    show natsuki 5j zorder 3 at t22
+    show sayori m3r zorder 2 at f21
+    show natsuki m5j zorder 3 at t22
     s "Wow, Natsuki, these are really good!"
-    show natsuki 5k
+    show natsuki m5k
     s "They might even be your best batch yet!"
-    show sayori 3q at t21
-    show natsuki 5t at f22
+    show sayori m3q at t21
+    show natsuki m5t at f22
     n "{i}Aww{/i}, thanks!"
-    show natsuki 5s at t22 
+    show natsuki m5s at t22 
     mc "Seriously."
     mc "I'm impressed with how the icing's done."
     mc "Something this intricate must've taken a lot of time, effort, or both."
-    show natsuki 2q at f22
+    show natsuki m2q at f22
     n "Well, duh!"
     n "I've gotten a lot of practice with this kind of thing by now."
-    n 4l "It's really not that hard once you've done it a few times."
-    show natsuki 5s
+    n m4l "It's really not that hard once you've done it a few times."
+    show natsuki m5s
     "Natsuki suddenly turns a bright shade of red and speaks under her breath."
-    show natsuki 5q at d22
-    n "{i}I just hope that everyone else is as impressed by them as much as you guys are.{/i}"
-    show natsuki 5s
+    show natsuki m5q at d22
+    n "I just hope that everyone else is as impressed by them as much as you guys are."
+    show natsuki m5s
     "Yuri and Monika both walk over and each take a cupcake as well."
-    show yuri 2m zorder 4 at t44
-    show monika 2j zorder 3 at t43
-    show sayori 3q zorder 5 at t41
-    show natsuki 4h zorder 2 at t42
+    show yuri m2m zorder 4 at t44
+    show monika m2j zorder 3 at t43
+    show sayori m3q zorder 5 at t41
+    show natsuki m4h zorder 2 at t42
     "We all take a few moments to enjoy their rich flavor and show Natsuki our gratitude."
     show monika at t43
     show sayori at t41
     show natsuki at f42 zorder 6
     show yuri at t44
-    n 2y "Geez, I’m glad that you guys like 'em so much..."
-    n 2z "...Just make sure that you save enough for our guests too, alright?"
+    n m2y "Geez, I’m glad that you guys like 'em so much..."
+    n m2z "...Just make sure that you save enough for our guests too, alright?"
     show monika at t43
     show sayori at t41
     show natsuki at t42
     show yuri at t44
     mc "Speaking of guests, has anyone signed up to join the club yet?"
-    show monika 3l at f11 zorder 1
+    show monika m3l at f11 zorder 1
     show yuri at thide zorder 1
     show natsuki at thide zorder 1
     show sayori at thide zorder 1
     hide yuri
     hide natsuki
     hide sayori
-    m 1n "No, not so far."
-    m 2b "But then again, the festival hasn’t really picked up yet either."
-    m 3g "All in due time, I suppose."
-    m 2e "..."
-    m 2d "We haven’t started to read any of our poetry yet either."
-    m 4d "Speaking of which, do you have your poem on you, [player]?"
-    show monika 4c
+    m m1n "No, not so far."
+    m m2b "But then again, the festival hasn’t really picked up yet either."
+    m m3g "All in due time, I suppose."
+    m m2e "..."
+    m m2d "We haven’t started to read any of our poetry yet either."
+    m m4d "Speaking of which, do you have your poem on you, [player]?"
+    show monika m4c
     "I finish the last bite of my cupcake and reply."
     mc "Oh yeah, it’s right here in my bookba-"
     "I cut myself off."
     "I suddenly come to realize the now apparent emptiness where my bookbag should be."
-    show monika 1f
+    show monika m1f
     mc "Err... I mean... {i}I did...{/i}"
     show monika 1e
     mc "I must've set it down somewhere when I was waiting for Sayori."
-    m 4d "Well... that isn’t very good."
-    m 2d "We don't have time for you to run back and grab it..."
-    show monika 2c
+    m m4d "Well... that isn’t very good."
+    m m2d "We don't have time for you to run back and grab it..."
+    show monika m2c
     "Monika turns from me to address the rest of the club."
-    m 2d "Does anyone have a poem that they can lend to [player]?"
-    m 4d "He seems to have forgotten his."
-    show monika 2m
+    m m2d "Does anyone have a poem that they can lend to [player]?"
+    m m4d "He seems to have forgotten his."
+    show monika m2m
     "She casts me a quick aside glance as she continues."
-    m 2n "You know, the main event of the day and everything...?"
-    show monika 2m
+    m m2n "You know, the main event of the day and everything...?"
+    show monika m2m
     "Monika's having fun guilt tripping me, I think."
     "Its not like I did it on purpose..."
     "Suddenly Sayori steps into the conversation in my defense."
-    show monika 1d at t21
+    show monika m1d at t21
     show sayori at f22
-    s 4p "Hey, there's no need to pick on [player] like that!"
+    s m4p "Hey, there's no need to pick on [player] like that!"
     show monika 1g
-    s 5c "For the record, I forgot my poem too, so he's not the only one!"
+    s m5c "For the record, I forgot my poem too, so he's not the only one!"
     show monika at f21
     show sayori at t22
-    m 2i "Sayori, that's not something that you should feel proud of."
+    m m2i "Sayori, that's not something that you should feel proud of."
     show monika at t21
     show sayori at f22
-    s 5b "{i}B-But!!{/i} I just... forgot. Ehehe~"
+    s m5b "{i}B-But!!{/i} I just... forgot. Ehehe~"
     show monika at f21
     show sayori at t22
     play music t7
-    m 4i "You can’t just go forgetting things like that Sayori!"
+    m m4i "You can’t just go forgetting things like that Sayori!"
     m "Not only are you both late because {i}YOU{/i} overslept, but now {i}TWO{/i} of us don’t even have anything to read to our guests!"
     m "You're supposed to help me run the Literature Club, but the truth of the matter is that in the end you not only skirt your responsibilities, I even get stuck pulling your slack on top of that!"
     m "When you do things like that do you ever think about how much work you're leaving for everyone else?"
     m "How are we supposed to attract new club members now?"
-    show monika 2h at t21
+    show monika m2h at t21
     show sayori at f22
-    s 5d "W-well its not like my reading was going to attract anyone new to the club anyway, so really, I don’t count!"
+    s m5d "W-well its not like my reading was going to attract anyone new to the club anyway, so really, I don’t count!"
     show monika 2p at f21
     show sayori 4n at t22
     m "Sayori, did you leave your poem behind just so that you wouldn’t have to read it in front of everyone today?"
     show monika at t21
     show sayori at f22
-    s 1v "What?"
-    s 1w "Of course not, why would I do that?!"
+    s m1v "What?"
+    s m1w "Of course not, why would I do that?!"
     s "I didn't even sleep in today, I actually got up early for once!"
     s "I was late this morning because I couldn't find where I left my poem!"
     s "I even told [player] that when I was apologizing to him!"
-    s 1v "I wouldn’t lie about something that..."
+    s m1v "I wouldn’t lie about something that..."
     show sayori at t22
     "Oh... so that's what she mentioned she was looking for earlier..."
     "She was speaking so fast I didn't even catch that."
     show monika at f21
-    m 2l "...Don't play dumb with me."
+    m m2l "...Don't play dumb with me."
     m "You're just trying to save face in front of the club right now, aren't you?"
-    show sayori 4w at h22
-    m 5b "I'm honestly ashamed of your behavior, {i}ex-{/i}vice president!"
+    show sayori m4w at h22
+    m m5b "I'm honestly ashamed of your behavior, {i}ex-{/i}vice president!"
     "At this point a crowd of students has been gathering at the door, taking an interest in the unfolding drama."
     "Several of them slowly file into the classroom for a better view."
     "A couple of the braver ones sneak further in and enjoy one of Natsuki's cupcakes as they snicker at us."
     "Natsuki steps in."
     show sayori at thide zorder 1
     hide sayori
-    show monika 2d at h21
+    show monika m2d at h21
     show natsuki at f22 zorder 5
-    n 2w "Hey, you leave Sayori alone!"
+    n m2w "Hey, you leave Sayori alone!"
     n "I didn’t want to read any of these dumb poems either."
-    n 2x "In fact, none of us did!"
+    n m2x "In fact, none of us did!"
     n "You're the only one who wanted to go through with this dumb idea in the first place, Monika!"
-    show monika 1h at f21 zorder 6
-    show natsuki 1u at t22
+    show monika m1h at f21 zorder 6
+    show natsuki m1u at t22
     "Monika glares at Natsuki for a moment before speaking again."
-    m 2i "I’m sorry; Natsuki, and here I thought that you were confident enough to read in front of everyone, but I guess that's not really the case after all."
-    show monika 2h
+    m m2i "I’m sorry; Natsuki, and here I thought that you were confident enough to read in front of everyone, but I guess that's not really the case after all."
+    show monika m2h
     "Wow, I've never seen this side of Monika before."
     "Honestly, I'm pretty shocked."
     "She seems rather... irritable, to say the least."
     "Perhaps it's because she's under pressure?"
     "Being in public like that..."
     "And Natsuki isn’t having any of that."
-    show monika 2h at t21
+    show monika m2h at t21
     show natsuki at hf22 zorder 7
-    n 5e "Oh? {i}OH?!{/i}"
+    n m5e "Oh? {i}OH?!{/i}"
     n "I’m sorry; Monika, and here I thought that you were the kind of leader that listened to her club members when they voiced a concern, but I guess not!"
-    n 5f "Some club president YOU are!"
+    n m5f "Some club president YOU are!"
     show monika at f21 zorder 8
     show natsuki at t22
-    m 2i "Natsuki, in case you weren’t listening, no one's asking for your opinion."
+    m m2i "Natsuki, in case you weren’t listening, no one's asking for your opinion."
     show natsuki 4r
-    m 5b "{cps=*.5}So if you don't want to do anything for the festival, then why don't you just go read manga by yourself in the corner like you usually do?!{/cps}"
+    m m5b "{cps=*.5}So if you don't want to do anything for the festival, then why don't you just go read manga by yourself in the corner like you usually do?!{/cps}"
     "Okay, things are getting {i}way{/i} too out of hand here!"
     "I'm trying to think of a way to stop the argument but I don't even know where to step in."
     "Thankfully, Sayori tags back in for Natsuki."
-    show monika 2h at t31
-    show sayori 1v at f33
+    show monika m2h at t31
+    show sayori m1v at f33
     show natsuki at t32
     s "Well then, I-I’ll ask her now!"
     s "Natsuki, what’s your opinion?"
     show monika at t31
     show sayori at t33
     show natsuki at f32 zorder 9
-    n 4y "Why, I’m glad that you asked, Sayori!"
+    n m4y "Why, I’m glad that you asked, Sayori!"
     n "At least {i}SOMEBODY{/i} cares about the rest of the club's opinions..."
-    n 2x "...And in my opinion, Monika’s being an awful jerk!"
+    n m2x "...And in my opinion, Monika’s being an awful jerk!"
     show monika at f31 zorder 10
     show sayori at t33
     show natsuki at t32
-    m 2i "And in {i}MY{/i} opinion neither of you really care all that much about the Literature Club after all!"
+    m m2i "And in {i}MY{/i} opinion neither of you really care all that much about the Literature Club after all!"
     m "Maybe that can change someday in the future, but I doubt it."
     show monika at t41 zorder 1
     show sayori at t43 zorder 3
     show natsuki at t42 zorder 2
     show yuri at f44 zorder 4
-    y 2n "G-guys..."
+    y m2n "G-guys..."
     $ m_name = "Everyone"
     show monika 5b at f41
     show sayori 4j at f43
@@ -361,23 +361,23 @@ label monikaroute:
     hide monika
     hide sayori
     hide natsuki
-    show yuri 1o at t11
+    show yuri m1o at t11
     "Yuri squeals and quietly backs away from the other girls."
-    show yuri 1p at t11
+    show yuri m1p at t11
     "As she backs up she accidentally bumps into one of the other students and finally takes notice of the growing crowd, furthering her embarrassment."
     show yuri at thide zorder 1
     hide yuri
-    show natsuki 2x at t32
-    show sayori 4p at t33
-    show monika 5b at t31
+    show natsuki m2x at t32
+    show sayori m4p at t33
+    show monika m5b at t31
     "I turn to the other club members and gather my confidence."
     "There's only one thing to do..."
     "I've gotta play Sayori here."
     "...Welp, here goes nothing..."
     stop music fadeout 5.0
-    show natsuki 1o at h32
-    show sayori 4m at h33
-    show monika 1d at h31
+    show natsuki m1o at h32
+    show sayori m4m at h33
+    show monika m1d at h31
     mc "{i}HEY!{/i}"
     "The sudden shout jolts them out of their squabble."
     mc "There's no need to argue like this!"
@@ -385,11 +385,11 @@ label monikaroute:
     mc "Well, Friends don't argue with each other!"
     mc "So, stop!"
     "Wow, I-I think I actually did it."
-    show natsuki 5q
-    show sayori 5b
-    show monika 1q
+    show natsuki m5q
+    show sayori m5b
+    show monika m1q
     "Natsuki opens her mouth to retort, but she takes one look at me and quickly closes it."
-    show natsuki 12b
+    show natsuki m12b
     "At this point the crowd has mostly dispersed already, although a few students stuck around to thank Natsuki for the cupcakes."
     "Even from here it’s noticeable that our sign-up sheet was just as empty as when we started..."
     stop music fadeout 1.5
