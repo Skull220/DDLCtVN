@@ -667,7 +667,7 @@ label natsukiroute:
     "I arrive at second hour, science, and walk in the doorway when I see a familiar face."
     show natsuki 1g at t11 zorder 2
     n "[player]? You’re in this class?"
-    mc "Yea, always have been." 
+    mc "Yeah, always have been." 
     mc "And you? This is a second-year class."
     n 2y "No, I came because I love to walk right into other people’s classes."
     n 2w "Of course I am!"
@@ -726,7 +726,7 @@ label natsukiroute:
     mc "Oh man, you ARE missing out!"
     mc "Here, next Sunday I’ll show you some, alright?"
     n 2l "Wow, [player], you really like video games, huh?"
-    mc "Yea."
+    mc "Yeah."
     mc "Why, something wrong with that?"
     n 2w "No. I’m not saying that, idiot."
     n "You know I wouldn’t make fun of you for things you like."
@@ -769,7 +769,7 @@ label natsukiroute:
     mc "What?"
     "She looks down, embarrassed about something."
     n 12e "Did you write a poem last night?"
-    mc "Yea. You?"
+    mc "Yeah. You?"
     n 12d "I kinda... didn’t. At all. Can I... use yours?"
     mc "Mine?"
     mc "Natsuki, you and I have wildly different handwriting."
@@ -1067,7 +1067,7 @@ label natsukiroute:
             "But when she didn't skip another one right at the next year, her father got mad at her again."
             "I’m completely shocked by everything."
             mc "Natsuki, you need to get out of there."
-            n "Yea?"
+            n "Yeah?"
             n 2bc "I’m not an adult."
             n 2bb "I don’t have a job."
             n "I don’t have any money, and I have no idea how to sustain a house."
@@ -1258,7 +1258,7 @@ label natsukiroute:
             mc "That seems like a bad idea, doesn’t it?"
             "She looks down, ashamed with herself."
             show natsuki 1bu at t11 zorder 2
-            n "Yea, but that’s not an excuse."
+            n "Yeah, but that’s not an excuse."
             n "When I first came in here, I completely dismissed this, didn’t even consider it a good idea."
             n 12bd "I’m lucky you even showed it to me."
             mc "Listen."
@@ -1453,7 +1453,7 @@ label natsukiroute:
             "We sit like this for a bit until her hand meets mine and they interlock once more."
             n 3bs "[player]...I hope you know, I don’t mind if I get sick."
             n "It actually is fun spending time with you."
-            mc "Yea, I like this, too."
+            mc "Yeah, I like this, too."
             mc "But don’t get sick."
             mc "You’d make me feel really bad about it."
             n "Haha, I won’t then."
@@ -1475,7 +1475,7 @@ label natsukiroute:
             "She excused herself, as she quickly threw a glance towards her mobile phone screen."
             "Natsuki froze."
             mc "Natsuki...?"
-            n 1bu "Yea, sorry."
+            n 1bu "Yeah, sorry."
             n "Well, I'll go then."
             n 1bo "But you better take care of yourself!"
             mc "Don't worry, I know how to handle a cold."
@@ -1530,7 +1530,7 @@ label natsukiroute:
         "I pick up her box, and start to go upstairs, motioning her to follow me."
         "She does, and I set her stuff on the bed."
         n 2bn "[player]...you only have one bed, huh?"
-        mc "Oh yea..."
+        mc "Oh yeah..."
         mc "We’ll worry about that later."
         mc "For now, let’s find out where to put your stuff."
         "The majority of it, funnily enough, ended up being for baking."
@@ -1549,7 +1549,7 @@ label natsukiroute:
         mc "Fine, fine."
         mc "Here, you want to watch some anime?"
         mc "I’ll let you pick which one."
-        n 1br "Yea, you better!"
+        n 1br "Yeah, you better!"
         n "I w-wouldn’t let you pick, anyway."
         n 2bu "It’s not like I want to know what you want to watch, or something like that."
         n 2bx "Your taste is probably terrible!"
@@ -1584,7 +1584,7 @@ label natsukiroute:
         n 1bx "Well, I’m up."
         "She rubs the sleep out of her eyes, and yawns, stretching."
         n 1bs "I’m madder then I would have been, ya know."
-        mc "Yea, you say that now, but if I had left you like that or even fell asleep myself, might be different."
+        mc "Yeah, you say that now, but if I had left you like that or even fell asleep myself, might be different."
         n 1bn "[player]..."
         "I turn to her."
         n 1bi "These Sundays with you are some of the best hours of my life."
@@ -1627,6 +1627,12 @@ label natsukiroute:
         "As she rolls, and lays on top of me, she whispers in my ear."
         n "I can help fix that~"
         "{i}Gulp.{/i}"
+        play music tbc
+        window hide
+        pause 2.902
+        show tbc at r11 zorder 2
+        show image "mod_assets/pink.png"
+        pause 10.0
         scene black
         with dissolve_scene_full
         stop music fadeout 2.0
