@@ -821,7 +821,7 @@ label monikaroute:
     scene black
     with dissolve_scene_full
 
-    scene bg bedroom_night
+    scene bg livingroom_night
     with wipeleft_scene
     play music t5_monika
     "It’s a Sunday like any other." 
@@ -1119,7 +1119,7 @@ label monikaroute:
     stop music fadeout 2.0
 
     
-    scene bg bedroom_evening
+    scene bg livingroom
     play music t5_monika
     "It’s just like any other Sunday, me waiting patiently for Monika to show up." 
     "We’ve done this quite a few times now, and it’s starting to set in as commonplace." 
@@ -1175,6 +1175,7 @@ label monikaroute:
             "An Ultra-violent shooter.":
                 "I grab {i}Damned{/i}’s box and pop the disk in the tray." 
                 "I dim the lights, and we both sit on the couch."
+                scene bg livingroom_evening
                 "While she does pay attention, she doesn’t seem to enjoy it."
                 "She still remains interested, watching what I do and commenting on different parts of the game." 
                 "But she doesn’t seem too involved in it." 
@@ -1192,6 +1193,7 @@ label monikaroute:
                 "I grab {i}Rumble III{/i}." 
                 "A perfect game to appeal to Monika’s competitive sensibilities." 
                 "I pop the disk in, dim the lights, and sit on the couch."
+                scene bg livingroom_evening
                 "I hand her my second controller."
                 "I start by going easy on her." 
                 "That seems to have been a mistake, as she picks up quickly and starts to get ahead."
@@ -1299,6 +1301,7 @@ label monikaroute:
             "A Co-Op game.":
                 "I grab {i}Wormhole 2{/i}’s box and pop the disk in the tray." 
                 "I dim the lights, and we both sit on the couch."
+                scene bg livingroom_evening
                 "While she does pay attention, she doesn’t seem to enjoy it."
                 "She still remains interested, watching what I do and commenting on different parts of the game." 
                 "But she doesn’t seem too involved in it." 
@@ -1313,6 +1316,7 @@ label monikaroute:
             "A story-driven game.":
                 "I grab {i}Gone Nuclear: Vegas Blues{/i}’s box and pop the disk in the tray." 
                 "I dim the lights, and we both sit on the couch."
+                scene bg livingroom_evening
                 "While she does pay attention, she doesn’t seem to enjoy it."
                 "She still remains interested, watching what I do and commenting on different parts of the game." 
                 "But she doesn’t seem too involved in it." 
@@ -1328,7 +1332,7 @@ label monikaroute:
     with dissolve_scene_full
     stop music fadeout 2.0
 
-    scene bg kitchen_sunset
+    scene bg livingroom_sunset
     with wipeleft_scene
     play music t3
     
@@ -1472,7 +1476,7 @@ label monikaroute:
     with dissolve_scene_full
     stop music fadeout 2.0
 
-    scene bg kitchen_night
+    scene bg livingroom_night
     with wipeleft_scene
     play music t5_monika
     "It’s Sunday once more, and time again for Monika to show up." 
