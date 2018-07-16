@@ -660,7 +660,7 @@ label monikaroute:
     show monika m1a at t11 zorder 2
     mc "Doesn’t someone normally sit here?" 
     "I ask, sitting down."
-    m m1b "Yea, but she’s out today." 
+    m m1b "Yeah, but she’s out today." 
     m m2l "It’d probably be completely boring without SOMEONE sitting here."
     mc "I’m not saying I mind, but would no one else in this class talk to you?" 
     mc "You are a really attractive girl in a computer science class."
@@ -673,7 +673,7 @@ label monikaroute:
     "I decide to leave out the fact that her prettiness is one of the four reasons I joined the literature club..." 
     "...and thus one of the only reasons I even talk to her in the first place."
     m m5a "Anyway, have you finished your project yet?"
-    "Oh yea, that." 
+    "Oh yeah, that." 
     "We’re supposed to be working on a presentation of what we’re gonna do as a career, and how it relates to tech." 
     "I have about three slides out of the eleven required so far."
     mc "I’m more than a fourth of the way done." 
@@ -742,7 +742,7 @@ label monikaroute:
             mc "Fine, I’ll do it."
             m m2j "Thanks, [player]!" 
             m m5a "I owe you one."
-            mc "Yea, and with all the influence you have, I expect that \"one\" to be pretty big."
+            mc "Yeah, and with all the influence you have, I expect that \"one\" to be pretty big."
             "She’s about to reply when the teacher pipes up."
             y "Ms. Monika, are we ready to start?" 
             mc "Actually Ma’am, may I go before her?" 
@@ -868,7 +868,7 @@ label monikaroute:
 
             "Watch the movie.":
                 $ MonikaVar += 1
-                mc "Yea, I g-guess. Anything you want, remember?"
+                mc "Yeah, I g-guess. Anything you want, remember?"
                 "I try to hide the fact that I’m scared by turning off the lights and closing the blinds." 
                 "Monika opens her mouth to say something..." 
                 "But quickly closes it." 
@@ -986,11 +986,11 @@ label monikaroute:
     show sayori 4ba at l21 zorder 2
     show monika 1ba t22 zorder 3
     s 4ba "Hey guys! Are you playing baseball?"
-    m 1ba "Yea!"
+    m 1ba "Yeah!"
     m "And we’re doing perfectly fine, just the two of us!"
     "While Monika’s tone is cheery, her words seem to be subtly asking Sayori to leave." 
     "I decide to step in."
-    mc "Yea. You wanna play with us?" 
+    mc "Yeah. You wanna play with us?" 
     mc "I’m sure Monika needs the extra help."
     m 2bh "We don’t need to unbalance the teams, [player]."
     m "Sayori…"
@@ -1082,7 +1082,7 @@ label monikaroute:
                     hide monika
                     hide sayori
                 "Continue Playing.":
-                    mc "Yea."
+                    mc "Yeah."
                     "I go back to playing." 
                     "As I’m running to the home plate, my mind keeps getting brought back to Sayori." 
                     "She’s going to be alright, right?"
@@ -1217,7 +1217,7 @@ label monikaroute:
                 "I laugh."
                 mc "Nice work." 
                 mc "You’ve gotten used to this rather quickly."
-                m "Yea, well, I’m good at that." 
+                m "Yeah, well, I’m good at that." 
                 m "I can adapt to a situation really easily."
                 "A mischievous grin appears on her face."
                 m e2bm "Can {i}you{/i} do that, though?"
@@ -1374,7 +1374,7 @@ label monikaroute:
                 "A few minutes later, she arrives back with some coffee."
                 m s3be "I think this is how you like it, right?"
                 m s2bj "You left all of this on the counter, so I assume you were gonna make it before you answered the door."
-                mc "Oh yea, I was going to."
+                mc "Oh yeah, I was going to."
                 mc "Thanks."
                 "I grab it and sit up to take a sip." 
                 "I hold on to the mug with one hand, and don’t even notice when Monika pulls up a chair and grabs the other."
@@ -1439,7 +1439,7 @@ label monikaroute:
                 m s2bg "[player]…" 
                 m s2be "I’m glad I was able to help you out." 
                 m "It’s great to spend time with you, even if I could get sick, you know?"
-                mc "Yea, I liked this, too."
+                mc "Yeah, I liked this, too."
                 mc "But don’t get sick."
                 mc "You’d make me feel really bad about it."
                 m s1ba "Haha, I won’t then."
@@ -1604,7 +1604,7 @@ label monikaroute:
     stop music fadeout 2.0
     play music t10
     m n3bi "[player], are you talking to {i}her?{/i}"
-    mc "...Yea? She is my friend..."
+    mc "...Yeah? She is my friend..."
     m "I can’t believe this. Are you… cheating on me?"
     mc "What?"
     "Where the hell did she get {i}that{/i} from?"
