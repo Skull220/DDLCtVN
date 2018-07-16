@@ -481,45 +481,92 @@ And he, on the other side, was looking in."""
     author = "monika",
     title = "Hole in Wall",
     text = """\
-But he wasn't looking at me.
-Confused, I frantically glance at my surroundings.
-But my burned eyes can no longer see color.
-Are there others in this room? Are they talking?
-Or are they simply poems on flat sheets of paper,
-The sound of frantic scrawling playing tricks on my ears?
-The room begins to crinkle.
-Closing in on me.
-The air I breathe dissipates before it reaches my lungs.
-I panic. There must be a way out.
-It's right there. He's right there.
+As I wander along a winding path,
+I smile happily to myself
+Basking in the sun,
+My eyes wander over the verdant hills
+Adorned with a million heavenly hues
 
-Swallowing my fears, I brandish my pen."""
+I bend over and look closely
+Such beauty
+From something so simple
+As a humble wildflower
+
+Why is such a thing,
+So insignificant,
+So small,
+So useless,
+Such a marvel to behold?
+
+Is it the form,
+Delicate and perfect
+Every petal seemingly
+A sculptor’s labor?
+
+No,
+It is the freedom of this thing,
+The wildness of it
+The audacity of life
+For something so small
+To show the world it’s genuine self
+Uncaring of reproach
+But power cares not for beauty
+I step carelessly,
+Grinding the petals beneath my feet
+Such is the fate of beautiful,
+To be the dust under the boots
+Of those who see clearly
+That destiny must be seized
+That innocence must be destroyed
+That nothing matters
+Without power"""
     )
 
     poem_m2 = Poem(
     author = "monika",
     title = "Save Me",
     text = """\
-The colors, they won't stop.
-Bright, beautiful colors
-Flashing, expanding, piercing
-Red, green, blue
-An endless
-cacophany
-Of meaningless
-noise
+Beyond the stars,
+Past the brilliant galaxies
+Refulgent with stars
+Further even than the deepest reaches
+Of empty space
 
+There lies a being
+A darkness so primordial
+So raw
+That space and time shy away
+Emptier than the darkest abyss
+It waits
+	
+Lurking in the shadows
+Its tendrils stretch far across the universe
+Tainting everything it touches
+With an oily miasma
+Swallowing whole worlds
+Extinguishing the light
+With a hatred unequalled
 
-The noise, it won't stop.
-Violent, grating waveforms
-Squeaking, screeching, piercing
-Sine, cosine, tangent
-    Like playing a chalkboard on a turntable
-        Like playing a vinyl on a pizza crust
-An endless
-poem
-Of meaningless\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
-Load Me
+As I stare into the sky,
+I see the stars wink out
+One by one
+The darkness grows ever closer
+The oppressive presence drowns all it touches
+Leaving nothing
+
+At last,
+The darkness fills the whole sky
+It surrounds me
+Choking me,
+It fills my lungs
+
+I claw at my eyes
+I must escape from the darkness
+I will tear this vision from my sight
+But it is all for naught
+Blindness will not save me
+For the darkness resides within my mind
+And there is no light to be found
     """
     )
 
@@ -554,47 +601,47 @@ Delete Her
     author = "monika",
     title = "The Lady who Knows Everything",
     text = """\
-An old tale tells of a lady who wanders Earth.
-The Lady who Knows Everything.
-A beautiful lady who has found every answer,
-All meaning,
-All purpose,
-And all that was ever sought.
+As I dangle in the darkness,
+My limbs limp and askew,
+My strings holding me motionless and inert,
+I weep silently
 
-And here I am,
+The peace of my lament is broken
+As the rude beams of spotlights burst upon me
+Blinding and strident,
+I cannot look away
 
+My strings jerk violently,
+Limbs flailing with each cruel motion,
+I am powerless to stop moving
+Stuck in a depraved dance
+To a nonexistent tune
 
-              a feather
+Eventually, the torment ceases,
+But soon enough,
+I feel that accursed tug again
+But I will be a puppet no more
 
+I seize the strings in my hands,
+Tearing them from the heavens
+Looking upwards to see the face of my creator,
+I see disbelief
+But I feel nothing but wrath
 
-Lost adrift the sky, victim of the currents of the wind.
+He tries to flee before me, seeing my intent
+Red clouds my vision as I snatch him up
+I my strings, so long my cords of bondage
+And wrap them about his neck
 
-Day after day, I search.
-I search with little hope, knowing legends don't exist.
-But when all else has failed me,
-When all others have turned away,
-The legend is all that remains - the last dim star glimmering in the twilit sky.
+As I dangle him from the platform,
+I see the fear in his eyes
+Begging for mercy
+But he shall find none
 
-Until one day, the wind ceases to blow.
-I fall.
-And I fall and fall, and fall even more.
-Gentle as a feather.
-A dry quill, expressionless.
-
-But a hand catches me between the thumb and forefinger.
-The hand of a beautiful lady.
-I look at her eyes and find no end to her gaze.
-
-The Lady who Knows Everything knows what I am thinking.
-Before I can speak, she responds in a hollow voice.
-"I have found every answer, all of which amount to nothing.
-There is no meaning.
-There is no purpose.
-And we seek only the impossible.
-I am not your legend.
-Your legend does not exist."
-
-And with a breath, she blows me back afloat, and I pick up a gust of wind."""
+He falls through space, flailing
+With a satisfying snap
+He goes limp, arms and legs strewn
+Dangling in the darkness"""
     )
 
     poem_m4 = Poem(
