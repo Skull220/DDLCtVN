@@ -60,6 +60,12 @@ image bg club_sunset = sunset2(Image("bg/club.png"))
 image bg club_evening = evening2(Image("bg/club.png"))
 image bg club_night = night2(Image("bg/club.png"))
 
+image bg livingroom_dawn = dawn2(Image("mod_assets/livingroom.png"))
+image bg livingroom_morning = morning2(Image("mod_assets/livingroom.png"))
+image bg livingroom_sunset = sunset2(Image("mod_assets/livingroom.png"))
+image bg livingroom_evening = evening2(Image("mod_assets/livingroom.png"))
+image bg livingroom_night = night2(Image("mod_assets/livingroom.png"))
+
 image bg club_dawn2:
     choice:
         dawn2(Image("bg club_day"))
