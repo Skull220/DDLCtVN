@@ -1677,6 +1677,12 @@ label monikaroute:
         m "Shh."
         m n1ba "The only thing I want to hear from you from now in is the sound of you screaming my name."
         "{i}Gulp.{/i}"
+        play music tbc
+        window hide
+        pause 2.902
+        show tbc at r11 zorder 2
+        show image "mod_assets/pink.png"
+        pause 10.0
         scene black
         with dissolve_scene_full
         stop music fadeout 2.0
