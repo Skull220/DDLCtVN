@@ -531,7 +531,7 @@ label monikaroute:
     show natsuki at t42
     show yuri 3i at t44
     "Sayori seriously ponders that line for a moment, something I rarely see out of her."
-    s 1v "Well... I don’t wanna take on any more members if our founding members aren’t completely on-board."
+    s 1v "Well... I don’t want to take on any more members if our founding members aren’t completely on-board."
     s "So, I guess that I agree with you guys."
     show monika at f41
     show sayori 1t at t43
@@ -790,7 +790,7 @@ label monikaroute:
             m m1b "Thank you so much."
             "Something about her calling me the \"best boyfriend ever\" seems like enough." 
             "Especially because of how long a list I’m probably competing with." 
-            "I of course don’t mention this." 
+            "I, of course, don’t mention this." 
             "I’m lost in thought when the bell finally rings."
             m m1e "Bye [player]!" 
             m m3b "See you in the literature club, alright?"
@@ -873,7 +873,7 @@ label monikaroute:
                 "Monika opens her mouth to say something..." 
                 "But quickly closes it." 
                 "We missed about 5 minutes of the movie, but nothing important." 
-                "Its only when the movie really pick up that things really start to change." 
+                "It's only when the movie really pick up that things really start to change." 
                 "It's a frame story. Some criminals go into an abandoned house, finding some dvds."
                 "They play each one, containing its own miniature horror story. Each scarier than the last."
                 "The fifth one in particular gets to me."
@@ -1351,7 +1351,7 @@ label monikaroute:
     m s3bl "Who’s gonna take care of you?"
     mc "I’ll be fine. I’m more concerned about you getting sick. I can take care of myself."
     m s3bi "Yeah, but taking care of yourself is no use." 
-    m "Why else we would we have doctors?"
+    m "Why else would we have doctors?"
     m s2bh "Now come on, let me help you."
     "I think about this for a moment." 
     "On the one hand, I did warn her, and she is insisting." 
