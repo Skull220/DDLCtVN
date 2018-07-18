@@ -1404,7 +1404,7 @@ label monikaroute:
                 show monika s3bp at thide zorder 1
                 hide monika
                 "I pray to every god I can think of that she doesn’t put two and two together with the lotion right next to it."
-                "And seeing as her face changes when she grabs it, I’m thinking at none of them answered." 
+                "And seeing as her face changes when she grabs it, I’m thinking that none of them answered." 
                 "When she returns it to me, I blow my nose and throw the tissue in a nearby trash can."
                 show monika s3ba at t11 zorder 2
                 m "So, [player]."
@@ -1430,7 +1430,7 @@ label monikaroute:
                 "I’ve already seen it, but I don’t mind watching it again;"
                 "It’s a pretty good show."
                 m "[player]!"
-                mc "Huh? Oh, Yes, what’s up, Monika?"
+                mc "Huh? Oh, yes, what’s up, Monika?"
                 m "You were kinda… staring at me."
                 m "Is something wrong?"
                 mc "No!" 
@@ -1453,7 +1453,7 @@ label monikaroute:
                 m "Bye, [player]."
                 m s3be "Feel better!"
                 mc "I’ll feel better as long as YOU don’t get sick."
-                m "That work?"
+                mc "That work?"
                 m s1ba "Yeah, I won’t be sick, promise." 
                 m s1bb "See you tomorrow!" 
                 "And with that, she walks downstairs." 
@@ -1679,7 +1679,7 @@ label monikaroute:
         mc "I-we-but-"
         "She puts a finger on my lips."
         m "Shh."
-        m n1ba "The only thing I want to hear from you from now in is the sound of you screaming my name."
+        m n1ba "The only thing I want to hear from you is the sound of you screaming my name."
         "{i}Gulp.{/i}"
         play music tbc
         window hide
