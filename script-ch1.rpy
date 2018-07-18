@@ -387,7 +387,7 @@ label ch1_end:
     mc "You know, between Yuri and Natsuki."
     mc "Does that kind of thing happen often?"
     s 4j "No, no, no!"
-    s "That's really the first time I've seen them fight like that..."
+    s "It's rare that I've seen them fight like that..."
     s "I promise they're both wonderful people."
     show sayori at s11
     s 1g "You don't... You don't hate them, do you??"
