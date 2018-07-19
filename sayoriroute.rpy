@@ -131,7 +131,7 @@ label sayoriroute:
     "...At least that's what the looks on Sayori, Natsuki, and Yuri's faces tell me."
     "But if Monika's insistent on bringing it back up, I guess we have no choice but to remember..."
    
-    scene bg house 
+    scene bg house_morning
     with dissolve_scene_half
     "It’s Monday, and time for the school festival." 
     "I’ve always enjoyed these, as they were essentially a day off from school, but I never got involved in anything like this." 
@@ -150,12 +150,12 @@ label sayoriroute:
     "Wake up!"
     "Ugh, guess I can't do much else."    
     "{cps=*.33}I gently open the door...{/cps}"
-    scene bg sayori_bedroom
+    scene bg sayori_bedroom_morning
     "To see her asleep." 
     "I walk over and tap her on the shoulder." 
     "I see her turn over."
     play music t3
-    show sayori 1bk at t11 zorder 2
+    show sayori m1bk at t11 zorder 2
     s "[player]...?" 
     s "What's wrong?"
     "She lets out a huge yawn."
@@ -164,44 +164,44 @@ label sayoriroute:
     "She looks so cute!" 
     mc "Hey, Sayori. It’s time to get up, okay?" 
     mc "We’re gonna be late to the festival."
-    s 1bv "Whaa- The festival!" 
-    s 1bw "Ah, [player] will be mad if I don’t get up!"
+    s m1bv "Whaa- The festival!" 
+    s m1bw "Ah, [player] will be mad if I don’t get up!"
     "She throws the covers off her, gets up, and opens her eyes to the best of her ability."
-    s 1by "Oh, [player]!" 
-    s 2bv "You’re here already…"
+    s m1by "Oh, [player]!" 
+    s m2bv "You’re here already…"
     s "Sorry, I must have overslept…"
     mc "It’s okay, you still have time." 
     mc "I’ll be waiting outside, okay?"
-    s 3bm "Outside? [player], oh no, you’ll be cold!" 
-    s 3bl "Go downstairs." 
+    s m3bm "Outside? [player], oh no, you’ll be cold!" 
+    s m3bl "Go downstairs." 
     s "I'll be right out, okay?"
     "I'm confused by Sayori’s request, but I oblige."
     "It's not that big of a deal to wait for her inside the house." 
     "After a few minutes I see Sayori come down the stairs." 
     "She walks over to the kitchen to pour herself a bowl of cereal."
-    s 5a "T-Thanks for waking me up, [player]." 
-    s 5b "You really are always looking out for me, ehehe."
+    s m5a "T-Thanks for waking me up, [player]." 
+    s m5b "You really are always looking out for me, ehehe."
     "I still lack the energy to be reprimanding."
     mc "No problem, Sayori." 
     mc "Now, let’s get going, shall we?"
-    s 5c "As soon as I'm done with breakfast!"        
-    s 5a "You know how I get if I skip it."
+    s m5c "As soon as I'm done with breakfast!"        
+    s m5a "You know how I get if I skip it."
     mc "Fine..."
 
-    scene bg class_day
+    scene bg class_morning
     with wipeleft_scene
     "We arrive at the festival, and get to our setup."
     "We're about 15 minutes late, but we don't miss much."
     "Of course, the first thing Sayori does is take a huge bite out of one of Natsuki's cupcakes, and I grab one as well."
     "Instead of the traditional swirl, the icing is shaped sort of like a closed book, fitting of the theme."
-    show sayori 2q zorder 2 at t21
-    show natsuki 5t zorder 3 at t22
+    show sayori m2q zorder 2 at t21
+    show natsuki m5t zorder 3 at t22
     s "Wow, Natsuki, these are really good!"
     n "Thanks!"
     n "I just hope everyone else will enjoy them!"
     mc "It's impressive how the icing's done. Something like this must have taken a lot of time, effort, or both."
-    n 2q "Well, duh! I've got a lot of practice with this kind of thing."
-    n 2m "It's really not that hard once you get to know it."
+    n m2q "Well, duh! I've got a lot of practice with this kind of thing."
+    n m2m "It's really not that hard once you get to know it."
     "Yuri and Monika come over, getting a taste, and they seem to enjoy it."
     show yuri 2m zorder 4 at t44
     show monika 2j zorder 3 at t43
@@ -212,7 +212,7 @@ label sayoriroute:
     show sayori at t41
     show natsuki at f42
     show yuri at t44
-    n 3z "I’m glad you guys enjoyed them."
+    n m3z "I’m glad you guys enjoyed them."
     n "Just make sure there’s enough for everyone else, alright?"
     show monika at t43
     show sayori at t41
@@ -226,36 +226,36 @@ label sayoriroute:
     hide natsuki
     hide sayori
     show monika 5a at f11 zorder 1
-    m 5a "Nope, not so far."
+    m m5a "Nope, not so far."
     m "But the festival hasn’t really picked up yet."
-    m 3e "In due time, I guess."
-    m 4d "Oh, that’s right, and we haven’t read the poetry yet."
-    m 5a "Speaking of which, have you got your poem with you, [player]?"
+    m m3e "In due time, I guess."
+    m m4d "Oh, that’s right, and we haven’t read the poetry yet."
+    m m5a "Speaking of which, have you got your poem with you, [player]?"
     mc "Oh yea, it’s right in my bookba-"
     "I cut myself off."
     "I realize by the now apparent emptiness behind me that I didn’t bring my bookbag with me."
     "Great."
     mc "I mean... I did..."
-    m 3d "Well... that isn’t very good."
+    m m3d "Well... that isn’t very good."
     m "Anyone have a poem they can lend [player]?"
     m "He seems to have forgotten his..."
-    m 2m "You know, the main event of the day and everything..."
+    m m2m "You know, the main event of the day and everything..."
     "Monika guilt trips me."
     "Hey, I didn't do it on purpose!"
     "Sayori steps in... in my defense?"
     show monika at t21
     show sayori at f22
-    s 4p "Hey, don’t be so mean to him!"
-    s 5c "For the record, I forgot my poem too, so it really isn’t just him!"
+    s m4p "Hey, don’t be so mean to him!"
+    s m5c "For the record, I forgot my poem too, so it really isn’t just him!"
     show monika at t21
     show sayori at f22
-    m 5b "Sayori! That's not something you should feel proud of!"
+    m m5b "Sayori! That's not something you should feel proud of!"
     show monika at t21
     show sayori at f22
-    s 5b "B--But!! I just... I forgot, eheheh..."
+    s m5b "B--But!! I just... I forgot, eheheh..."
     show monika at f21
     show sayori at t22
-    m 5b "Well, you can’t do that!"
+    m m5b "Well, you can’t do that!"
     m "Now TWO of us won’t be able to read anything!"
     m "How will we attract newcomers now?"
     play music t7
@@ -267,8 +267,8 @@ label sayoriroute:
     m "Sayori, did you leave it behind just so you didn’t have to read?"
     show monika at t21
     show sayori at f22
-    s 1w "What?"
-    s 1v "No, why would I do that?"
+    s m1w "What?"
+    s m1v "No, why would I do that?"
     s "I wouldn’t lie!"
     show monika at f21
     show sayori at t22
@@ -281,9 +281,9 @@ label sayoriroute:
     show monika at t31
     show sayori at t33
     show natsuki at f32
-    n 2w "Hey, leave Sayori alone!"
+    n m2w "Hey, leave Sayori alone!"
     n "I didn’t want to read these dumb poems either."
-    n 2x "In fact, none of us did!"
+    n m2x "In fact, none of us did!"
     n "It was only you who wanted this dumb idea!"
     show monika at f31
     show sayori at t33
@@ -295,8 +295,8 @@ label sayoriroute:
     show monika at t31
     show sayori at t33
     show natsuki at f32
-    n 5e "I’m sorry, Monika, I thought you listened to your club members when they voiced a concern, but I guess not!"
-    n 5f "Some damn president YOU are!"
+    n m5e "I’m sorry, Monika, I thought you listened to your club members when they voiced a concern, but I guess not!"
+    n m5f "Some damn president YOU are!"
     show monika at f31
     show sayori at t33
     show natsuki at t32
@@ -305,13 +305,13 @@ label sayoriroute:
     show monika at t31
     show sayori at f33
     show natsuki at t32
-    s 1v "Well, here, I-i’ll ask now!"
+    s m1v "Well, here, I-i’ll ask now!"
     s "Natsuki, what’s your opinion?"
     show monika at t31
     show sayori at t33
     show natsuki at f32
-    n 2y "I’m glad you asked, Sayori!"
-    n 2x "In my opinion, Monika’s being an awful president!"
+    n m2y "I’m glad you asked, Sayori!"
+    n m2x "In my opinion, Monika’s being an awful president!"
     show monika at f31
     show sayori at t33
     show natsuki at t32
@@ -321,7 +321,7 @@ label sayoriroute:
     show sayori at t43
     show natsuki at t42
     show yuri at f44
-    y 2n "G-guys..."
+    y m2n "G-guys..."
     $ m_name = "Everyone"
     show monika at f41
     show sayori at f43
@@ -350,16 +350,17 @@ label sayoriroute:
     mc "You’re making a mockery of your own club!"
     mc "Stop your bickering!"
     "At once, they all quiet down."
-    show natsuki 42b at t32
-    show sayori 5b at t33
-    show monika 1o at t31
+    show natsuki m42b at t32
+    show sayori m5b at t33
+    show monika m1o at t31
     "Natsuki opens her mouth to defend herself, but she takes one look at me and closes it."
     "At this point, the crowd mostly dissipates."
     "It’s noticeable that still not one signature is on our signup sheet."
 
     stop music fadeout 2.0
     pause 1.5
-    scene bg club_day with dissolve_scene_full
+    scene bg club_day 
+    with dissolve_scene_full
     play music t8
 
     show monika 3o at f11
@@ -423,7 +424,7 @@ label sayoriroute:
     show natsuki at f42
     show yuri at t44
     "Natsuki looks up."
-    n 1j "Yea."
+    n 1j "Yeah."
     n 1t "The club might not have more members, but at least we have us!"
     show monika at t41
     show sayori at t43
@@ -556,7 +557,7 @@ label sayoriroute:
             mc "If we get in trouble, it's all your fault."
             s 4r "YAY!" 
             s "You're the best, [player]!"
-            mc "Yea, yea." 
+            mc "Yeah, yeah." 
             mc "So, what do we do now?" 
             mc "Just leave?"
             s 2o "I don't know." 
@@ -627,7 +628,7 @@ label sayoriroute:
             "Even still, we’re about 5 minutes late."
             scene bg corridor
             #change above later if possible. If not, change below
-            "We're almost inside the building when Natsuki sees us, and laughs at Sayori."
+            "We're inside the building when Natsuki sees us, and laughs at Sayori."
             show sayori 2j at t21 zorder 2
             show natsuki 1l at t22 zorder 3
             n "What happened to you?"
@@ -646,7 +647,7 @@ label sayoriroute:
             "Her face turns a pink only rivaled by Natsuki’s hair."
             s 2w "I-I..." 
             s 2p "That's not what I meant!"
-            n 1z "Yea, sure it isn't." 
+            n 1z "Yeah, sure it isn't." 
             n 1y "I'd tell you two to get a room if there was one without a teacher in it." 
             n "Bye lovey doveys~"
             show natsuki at thide zorder 1
@@ -856,8 +857,8 @@ label sayoriroute:
     mc "Sayori, something’s wrong, so as long as that’s true, it’s important." 
     mc "It makes me feel much worse to let you go than it does to find out what’s wrong..." 
     mc "so if something’s wrong, you tell me."
-    s 4bk "Dang it, [player], you keep doing this to me..." 
-    s 2be "The truth is that I really don’t like taking time away from you and the others in the literature clu—"
+    s m4bk "Dang it, [player], you keep doing this to me..." 
+    s m2be "The truth is that I really don’t like taking time away from you and the others in the literature clu—"
     mc "Come on, Sayori, that’s not it." 
     mc "What is it really?" 
     mc "I know this didn’t start 5 days ago."
@@ -867,7 +868,7 @@ label sayoriroute:
     stop music
     play music t10
     s "..."
-    s 1bv "I keep having those thoughts, [player]." 
+    s m1bv "I keep having those thoughts, [player]." 
     s "The kind I keep telling myself I really shouldn’t be having, but I have them no matter what I do." 
     s 1by "The thoughts that I hate myself or that I’m not allowed to be happy or that the universe hates me." 
     s 1bu "I never tell anyone because I don’t want to make them sad, but... I guess that already happened, right?"
@@ -877,9 +878,9 @@ label sayoriroute:
     "It’s like there’s a whole other side to my sweet childhood friend that I didn’t notice." 
     mc "Sayori… why did you not say anything sooner?" 
     mc "Why’d you try and hide your emotions like that?"
-    s 4bp "See! I just made you angry."
+    s m4bp "See! I just made you angry."
     s "I always mess this up." 
-    s 3bw "I shouldn’t have said anything."
+    s m3bw "I shouldn’t have said anything."
     mc "Sayori…"
     "She looks at the floor, seemingly ashamed of herself."
     mc "I’m not mad at you."
@@ -889,9 +890,9 @@ label sayoriroute:
     "I repeat myself."
     mc "Sayori, seriously."
     mc "If something’s up, I want to know about it."
-    s 1bv "I just...I don’t want to make everyone else sad."
+    s m1bv "I just...I don’t want to make everyone else sad."
     s "I’m not worth it."
-    s 1bu "If I can make other people happy..."
+    s m1bu "If I can make other people happy..."
     s "At least I won’t feel so guilty."
     mc "Sayori, I can’t be happy if you’re not."
     mc "You’re not protecting me by keeping your sadness a secret." 
@@ -905,29 +906,29 @@ label sayoriroute:
     "When I snap into reality, I try to help the only way I know how."
     mc "What do you dislike about yourself, Sayori?"
     "I decide to tackle it one problem at a time, hoping it will help."
-    s 1bk "Well, where to begin?"
+    s m1bk "Well, where to begin?"
     s "I’m an idiot, [player]."
-    s 1bj "You’ve said so, and you aren’t the first or last to say it."
+    s m1bj "You’ve said so, and you aren’t the first or last to say it."
     s "No one likes to be around an idiot."
     mc "Sayori, I’ve been your friend for as long as I remember, and I can tell you that’s not the case."
     mc "Besides, I don’t mind you being a bit on the slow side."
     mc "It’s really… cute."
-    s 3bh "Really?"
+    s m3bh "Really?"
     mc "Why would I lie about that?"
-    s 2bf "Ah- I guess."
+    s m2bf "Ah- I guess."
     s 1bf "But I realize you’ve never truly complimented me ‘til now." 
     s "It’s just kind of weird to hear."
     mc "Sayori, there’s so much to compliment you for."
     mc "You’re fun to be around, you’re really nice, you s—"
     s "[player]…" 
-    s 1bg "It’s not me you have these feelings for."
+    s m1bg "It’s not me you have these feelings for."
     s "It’s a different version of me."
     s "I don’t know if it’s even me that you love."
     mc "Sayori, of course it is!"
     mc "You’re still you, in the end, even if what I’ve seen isn’t the full picture." 
     mc "Besides, this is the same version of you."
     mc "Just with a hidden aspect."
-    s 1be "I… I really don’t know how to talk about this."
+    s m1be "I… I really don’t know how to talk about this."
     s "I don’t want to, either."
     s "I’m going home, [player]."
     "I don’t know how to respond to that." 
@@ -941,8 +942,8 @@ label sayoriroute:
             mc "Fine, Sayori." 
             mc "As much as I don’t want to do it, you can go."
             mc "I WILL see you Monday, got it?"
-            s 4bd "Thanks, [player]." 
-            s 4bc "I knew you would agree in the end."
+            s m4bd "Thanks, [player]." 
+            s m4bc "I knew you would agree in the end."
             s "I’ll think about everything that’s happened here later." 
             "Perhaps the most terrifying thing was that she didn’t say ‘yes’ upon leaving..."
             show sayori at thide zorder 1
@@ -963,10 +964,10 @@ label sayoriroute:
             "Defeated, she walks away from the door and sits on the bed." 
             "I sit in the chair next to her."
             mc "Sayori, when DID this begin?"
-            s 2be "I dunno..."
-            s 1bf "I guess it’s been here since I remember." 
+            s m2be "I dunno..."
+            s m1bf "I guess it’s been here since I remember." 
             s "I always remember never wanting to be negative, because all the other kids would complain about things..."
-            s 1bg "and I hated that." 
+            s m1bg "and I hated that." 
             s "I hated being so negative around others."
             mc "We all need to vent sometimes, Sayori." 
             mc "You need to get that idea out of your head." 
@@ -974,7 +975,7 @@ label sayoriroute:
             "Sayori looks at me, expressionless."
             "I'm getting afraid that she's not listening to me." 
             "She stays quiet for a while, but eventually her face changes a little and she breaks the silence."
-            s 1bh "Okay... I guess I'll do that."
+            s m1bh "Okay... I guess I'll do that."
             s "Thank you, [player]."
             mc "Sayori… I know it seems weird." 
             mc "And I know you don’t WANT to talk about it."
@@ -988,19 +989,19 @@ label sayoriroute:
             "Even when Sayori needed it most." 
             "Even when I wanted nothing more but to say it." 
             "What kind of boyfriend am I?"
-            s 1bv "Sorry..." 
+            s m1bv "Sorry..." 
             s "I guess I didn’t really think of it like that, heh." 
-            s 1bw "It seems like no matter what I do, I just end up making the people I care about unhappy anyway."
+            s m1bw "It seems like no matter what I do, I just end up making the people I care about unhappy anyway."
             mc "No, Sayori!"
             mc "It’s not like that, I swear!"
             mc "I’m not unhappy right now, I didn’t mean it that way..." 
             mc "I just--- ah!"
             "As I stumble over my words, she giggles." 
             "For the first time this afternoon, a genuine smile comes over her face."
-            s 1bs "Ha-haha!" 
+            s m1bs "Ha-haha!" 
             s "It’s really silly to see you flustered like that, [player]." 
-            s 1bt "..."
-            s 1bt "It’s okay, I think I know what you mean."
+            s m1bt "..."
+            s m1bt "It’s okay, I think I know what you mean."
             mc "You do?" 
             mc "Then... I… I’m glad, Sayori." 
             mc "I just want to help you."
@@ -1010,21 +1011,21 @@ label sayoriroute:
             with wipeleft_scene
             "She takes a seat on my bed, and I sit at my desk chair."
             "She opens her mouth and begins to speak."
-            show sayori 2bk at t11 zorder 2
-            s 2bk "[player]..."
+            show sayori m2bk at t11 zorder 2
+            s m2bk "[player]..."
             s "You ever feel like every action you take is wrong?"
-            s 1bj "Like just now."
-            s 3bu "If I had refused to come up here, and shown myself the door..."
+            s m1bj "Like just now."
+            s m3bu "If I had refused to come up here, and shown myself the door..."
             s "I would have worried you with whether or not I was okay."
-            s 3bv "And yet, now that I'm up here, talking to you about it..."
+            s m3bv "And yet, now that I'm up here, talking to you about it..."
             s "I'm getting you worried directly."
             s "I've been nothing but a negative on my friends all the time."
-            s 1bh "Making things uncomfortable between you and Yuri..."
+            s m1bh "Making things uncomfortable between you and Yuri..."
             s "Stealing that cookie from Natsuki..."
-            s 1by "Even if it was really good..."
-            s 2bg "Forgetting my poem, and then arguing with Monika about it..."
+            s m1by "Even if it was really good..."
+            s m2bg "Forgetting my poem, and then arguing with Monika about it..."
             s "I'm not a good friend, [player]."
-            s 2bh "All I do is hurt others. Drive them away."
+            s m2bh "All I do is hurt others. Drive them away."
             s "That's all I've ever done."
             "Why is Sayori saying all these things about herself?"
             "I'm almost... unprepared for it."
@@ -1038,13 +1039,12 @@ label sayoriroute:
             mc "If all you're good for is hurting others..."
             mc "Why would she bring herself to apologize?"
             mc "Why would she take that step to fix your friendship?"
-            show sayori 2bv at t11 zorder 2
+            show sayori m2bv at t11 zorder 2
             "Sayori struggles to think of a response."
             "I get up and wrap my arms around her."
             show sayori at thide zorder 1
             hide sayori
             scene black
-            #Replace this maybe
             mc "Don't you ever think those things about yourself Sayori, because they'll never be true."
             "She reciprocates."
             s "I... thank you, [player]. That's really nice, coming from you."
@@ -1163,28 +1163,29 @@ label sayoriroute:
             "A little bit of Co-op never hurt anyone."
             "I pop the disk in and hand her my second controller." 
             "I dim the lights, and we both sit on the couch."
+            scene bg livingroom_evening
             "Having played through most of these puzzles before, I get back into the rhythm in no time." 
             "But Sayori seems to struggle."
             "I should have seen that coming, as she isn’t the brightest..."
             "But she seems just fine listening to me dictate what to do." 
-            s 2bo "[player], you must be really smart, because you’re soo good at this."
+            s e2bo "[player], you must be really smart, because you’re soo good at this."
             mc "Well, I’ve played this before."
             mc "I was just as clueless as you are when I first did this."
-            s 1bu "Are you sure? I don’t know..." 
-            s 1bv "I feel like I’m just bad at this."
+            s e1bu "Are you sure? I don’t know..." 
+            s e1bv "I feel like I’m just bad at this."
             "Sayori looks down, disappointed with herself."
-            s 4bw "Am I holding you back, [player]?"
+            s e4bw "Am I holding you back, [player]?"
             s "I'm so sorry..."
             stop music fadeout 1.0
             play music t9
             "She puts her hands in her face and starts to cry."
             mc "Sayori..?"
-            s 4bu "I'm so bad at this..."
+            s e4bu "I'm so bad at this..."
             s "You must think I'm awful!"
             mc "Sayori, stop it!"
             "I set down my controller and quickly hug her."
             "She seems shocked by this at first, but eventually returns my embrace." 
-            s 1bv "[player]…?"
+            s e1bv "[player]…?"
             mc "Sayori..." 
             mc "Why does it matter if you're bad at this game?" 
             mc "I already know you aren't good at games!"
@@ -1203,7 +1204,7 @@ label sayoriroute:
             mc "Sayori..."
             mc "I'll always be here for you."
             "We hug for a bit until she finally pulls back."
-            s 2bt "Umm, [player]?"
+            s e2bt "Umm, [player]?"
             mc "Yes, Sayo-"
             show sayori 2bt at face zorder 1
             "In an instant, Sayori's lips meet mine."
@@ -1219,7 +1220,7 @@ label sayoriroute:
             show sayori 1bw at t11 zorder 2
             s "Oh my gosh, [player]!"
             s "I don't know what came over me, I'm so sorry!"
-            s 2bp "I won't ever do it again, I promise I wi-"
+            s e2bp "I won't ever do it again, I promise I wi-"
             "I interrupt her apology with a kiss of my own."
             scene black
             "I wrap my arms around her and don't let go."
@@ -1234,18 +1235,18 @@ label sayoriroute:
             "This feels so great..."
             "After what seemed like an eternity, we both release each other to catch our breath."
             scene bg bedroom
-            show sayori 1bw at t11 zorder 2
-            s 2by "[player]… My god, that was so…"
+            show sayori e1bw at t11 zorder 2
+            s e2by "[player]… My god, that was so…"
             mc "Amazing."
             "We stare at each other for a bit more before finally I begin to move."
             "I pick up my controller, and Sayori scoots next to me."
             "I switch back to single player mode and wrap an arm around Sayori."
             "We continue like this until she gets tired." 
-            s 2bx "Well, I don't want to go... but it’s getting late for me, [player]."
+            s e2bx "Well, I don't want to go... but it’s getting late for me, [player]."
             s "We’ve got school tomorrow."
             "As she's walking out, she starts yawning, then turns to me." 
             mc "I don't want you to go either... but I guess you should."
-            s 2bl "[player]… Thank you. So very much."
+            s e2bl "[player]… Thank you. So very much."
             s "I’ve never felt this great in my life." 
             s "I seriously don't know how you've done it!"
             mc "Sayori, if you hadn’t admitted to me that Sunday all those weeks ago, this wouldn’t have happened." 
@@ -1287,7 +1288,7 @@ label sayoriroute:
     stop music fadeout 2.0
     pause 3
     
-    scene bg kitchen
+    scene bg kitchen_sunset
     play music t2
     "It’s Sunday, and for some reason I feel particularly off." 
     "I’m excited for Sayori’s visit, but I feel ill..." 
@@ -1299,13 +1300,13 @@ label sayoriroute:
     "As expected, Sayori is here."
     "She looked happy at first, but after taking a glance at me, she began to look worried."
     mc "Hey, Sayori..."
-    show sayori 2bo at t11 zorder 2
-    s 2bo "[player]? You look awful!"
+    show sayori s2bo at t11 zorder 2
+    s s2bo "[player]? You look awful!"
     mc "Yeah, seems I've caught a cold..."
-    s 4bm "That's terrible!"
-    s 1bj "You need some proper care, [player]! I'll help you get all better!"
+    s s4bm "That's terrible!"
+    s s1bj "You need some proper care, [player]! I'll help you get all better!"
     mc "I’ll be fine. I’m more concerned about you getting sick."
-    s 2bh "Silly [player]! You need someone else to take care of you!"
+    s s2bh "Silly [player]! You need someone else to take care of you!"
     s "What would I do if something happened to you?"
     mc "Sayori..."
     "Sayori worries so much for me..."
@@ -1317,23 +1318,23 @@ label sayoriroute:
             $ SayoriVar += 1
             mc "Alright, fine."
             mc "However, if you get sick, the blame is not on me."
-            s 2bj "Trust me, [player]! I'll nurse you to good health!"
+            s s2bj "Trust me, [player]! I'll nurse you to good health!"
             s "Now, go lay down already so I can help you."
             "I obey her command and I lay down on the bed in my room."
             scene bg bedroom
             show sayori 1bi at t11 zorder 2
             "She throws the covers over me and makes sure I stay warm."
-            s 1bi "There we go! Now, I’m going to get you something warm to put in you, so you can feel better. Stay here, alright?"
+            s s1bi "There we go! Now, I’m going to get you something warm to put in you, so you can feel better. Stay here, alright?"
             "Did she just say \'something warm to put in you\'?"
             show sayori at thide zorder 1
             hide sayori
             "I don't have time to question her as she's already left."
             "I sit here for about a minute until I see her come back in, medicine in hand."
             show sayori 1bc at t11 zorder 2
-            s 1bc "Hey [player], this medicine is yours, right? I found this on the counter." 
+            s s1bc "Hey [player], this medicine is yours, right? I found this on the counter." 
             mc "Sayori, who else would the medicine be for?"
             mc "I'm the only one here."
-            s 4br "Oh right, my bad! Ehehe~"
+            s s4br "Oh right, my bad! Ehehe~"
             "Sayori hands me the little cup filled with medicine."
             "I brace myself..."
             "Grape flavored. Never liked this stuff."
@@ -1341,36 +1342,36 @@ label sayoriroute:
             "Disgusting, but I know this will make me feel better."
             "I quickly notice afterwards that Sayori is holding my once empty hand."
             mc "Sayori?"
-            s 1bn "Oh, I'm sorry [player]!"
-            s 2bc "I’m just trying to… keep your pulse in check."
+            s s1bn "Oh, I'm sorry [player]!"
+            s s2bc "I’m just trying to… keep your pulse in check."
             mc "Sayori..."
             mc "You know that's not how pulses work, right?"
-            s 2bo "Ah..."
-            s 3bt "I'm just trying to warm you up!"
-            s 3bs "I wouldn't want you to get even worse..."
+            s s2bo "Ah..."
+            s s3bt "I'm just trying to warm you up!"
+            s s3bs "I wouldn't want you to get even worse..."
             "I smile at the fact that Sayori is trying so hard to hide her true intentions."
             "I squeeze her hand and she starts to blush."
             s "[player]..."
             mc "It's okay, Sayori." 
             "She smiles at me for a bit, but a huge sneeze ruins the moment."
             "She pulls her hand back immediately."
-            s 2bw "Oh my gosh, you need tissues!"
-            s 1bg "Where do you keep them?"
+            s s2bw "Oh my gosh, you need tissues!"
+            s s1bg "Where do you keep them?"
             mc "Right there, over on my desk."
             "Oh no..."
             "I left the lotion next to the tissues!"
             "I pray to every god I can think of that she doesn't notice why it's there."
             "She goes up to my desk, grabs the tissues, and returns to my bed."
-            s 1ba "Here you go, [player]!"
+            s s1ba "Here you go, [player]!"
             mc "T-Thanks..."
             "It seems like she didn't notice..."
             "I sigh a huge breath of relief."
             "After that, Sayori grabs the TV remote and turns the TV on."
-            s 2bd "Watching some of my favorite shows always cheers me right up when I'm sick!"
+            s s2bd "Watching some of my favorite shows always cheers me right up when I'm sick!"
             mc "Great, now this really is a hospital."
             mc "Bedbound, TV on, nurse tending to my needs."
-            s 1bq "Well you ARE sick, silly~!"
-            s 1br "What show do you wanna watch?"
+            s s1bq "Well you ARE sick, silly~!"
+            s s1br "What show do you wanna watch?"
             mc "It doesn't matter to me." 
             mc "You can pick if you like."
             "With that, she flips over to Italyball." 
@@ -1380,11 +1381,11 @@ label sayoriroute:
             "The way she smiles when a stupid joke comes on."
             "How she seems to get confused when there’s a WWII reference she doesn’t get." 
             "It's kind of adorable." 
-            s 1bu "[player]?"
+            s s1bu "[player]?"
             "I suddenly jump back into reality."
             mc "Huh? Oh, Yes, what’s up, Sayori?"
             s "You've been staring at me..."
-            s 1bn "Is something wrong?"
+            s s1bn "Is something wrong?"
             mc "Ah, sorry..." 
             mc "I just spaced out..." 
             mc "Did I make you uncomfortable?"
@@ -1398,27 +1399,27 @@ label sayoriroute:
             mc "Sayori?"
             "I glance over to see Sayori holding my hand."
             "I look up and see her blushing extremely hard."
-            s 1bl "[player]…" 
-            s 4bd "Thank you for letting me take care of you." 
+            s s1bl "[player]…" 
+            s s4bd "Thank you for letting me take care of you." 
             s "I really wouldn't know what to do if I hadn't been able to help you..."
             s "Even if it takes me getting sick, I'd always want you to feel better."
             mc "Sayori..."
             mc "Of course I'd let you help me."
             mc "I just don't want you getting sick, so please be careful, alright?"
-            s 1br "Don't worry, [player]!"
+            s s1br "Don't worry, [player]!"
             s "I'm sure I have a strong immune system!"
             s "I definitely won't be getting sick!"
             mc "I'll be holding you to that, then."
             "We sit like this and continue watching the show."
             "Time flies, and before I know it, the sun starts setting."
-            s 2bv "The sun is going down already?" 
+            s s2bv "The sun is going down already?" 
             mc "Seems to be so."
             mc "Sayori, you should go home now, it's not safe to be out late at night."
-            s 1bu "Awww, alright..."
-            s 1br "Bye, [player]. Get well soon, alright?"
+            s s1bu "Awww, alright..."
+            s s1br "Bye, [player]. Get well soon, alright?"
             mc "I’ll get better as long as YOU don’t get sick. That work?"
             s "Yeah! It's a promise~!" 
-            s 1bs "Alright, then see you tomorrow!"
+            s s1bs "Alright, then see you tomorrow!"
             show sayori at thide zorder 1
             hide sayori
             "With one last smile, she lets go of my hand and starts walking down the stairs."
@@ -1429,8 +1430,8 @@ label sayoriroute:
             $ SayoriVar += 1
             mc "Sayori, I won't have you getting sick!"
             mc "You should go home."
-            s 1bv "Awwww, alright..."
-            s 1bw "Just, please feel better okay?"
+            s s1bv "Awwww, alright..."
+            s s1bw "Just, please feel better okay?"
             mc "Don't worry about me."
             mc "I'll be just fine." 
             "She starts to walk off."
@@ -1552,7 +1553,7 @@ label sayoriroute:
         mc "Hey, Sayori?"
         s 2bf "Yeah, [player]?"
         mc "Are you doing okay?"
-        s 1bt "Oh yea, I'm doing just fine, don't worry!"
+        s 1bt "Oh yeah, I'm doing just fine, don't worry!"
         mc "Sayori, I don't think I can believe you."
         mc "You haven't been paying attention to the show at all."
         mc "You need to tell me what you've been thinking about."
@@ -1659,6 +1660,12 @@ label sayoriroute:
         scene black
         with dissolve_scene_full
         stop music fadeout 2.0
+        play music tbc
+        window hide
+        pause 2.902
+        show tbc at r11 zorder 2
+        show image "mod_assets/pink.png"
+        pause 10.0
     elif SayoriVar >= 0:
         "We continue to watch the show."
         "It doesn't seem like Sayori is paying attention, but I didn't want us to stop cuddling."
