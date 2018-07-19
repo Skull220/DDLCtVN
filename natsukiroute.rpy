@@ -963,6 +963,8 @@ label natsukiroute:
     "Natsuki usually shows up past noon."
     "Great." 
     "I rush through dental hygiene and struggle to get my hair combed and my face washed."
+    scene bg livingroom
+    with wipeleft_scene
     "Once I finally end up downstairs, it’s 12:04."
     "Oh, thank god, I still have time to eat breakfa-{nw}"
     show natsuki 1bd at t11 zorder 2
@@ -1123,7 +1125,7 @@ label natsukiroute:
             "She does, right?"
     stop music fadeout 2.0
     
-    scene bg residential_day
+    scene bg livingroom
     with dissolve_scene_full
     play music t2
     "It’s just like any other Sunday, me waiting patiently for Natsuki to show up."
@@ -1492,18 +1494,18 @@ label natsukiroute:
     with dissolve_scene_full
     stop music fadeout 1.0
     
-    scene livingroom
+    scene livingroom_night
     with dissolve_scene_half
     play music t10
     "It’s Sunday, as usual."
     if NatsukiVar >= 3:
         "Natsuki shows up..." 
         "This time holding a box in her hand."
-        n 1bc "He... he found out."
-        n 1be "About us."
-        n 1bi "Screamed at me, shoved an empty box in my face and told me to get out of his house."
+        n n1bc "He... he found out."
+        n n1be "About us."
+        n n1bi "Screamed at me, shoved an empty box in my face and told me to get out of his house."
         n "That I had 24 hours to leave or else he would..."
-        n 12n "I...I was really scared, [player]."
+        n n12n "I...I was really scared, [player]."
         n "I know this isn’t how we planned it, but I have no idea what else to do..."
         mc "Natsuki..."
         "At once, I go over to her and hug her tightly."
@@ -1528,13 +1530,13 @@ label natsukiroute:
         "Tears begin to well up in Natsuki’s eyes."
         "I grab the box from her and set it down, and she buries her face in my chest, lightly sobbing."
         "Without really thinking, I wipe tears from her eyes."
-        scene bg bedroom_evening
-        show natsuki 1bm at t11 zorder 2
+        scene bg livingroom_night
+        show natsuki n1bm at t11 zorder 2
         "She looks at me, for a straight half minute."
         "Her eyes are still slightly glistening from the tears."
         "I pick up her box, and start to go upstairs, motioning her to follow me."
         "She does, and I set her stuff on the bed."
-        n e2bn "[player]...you only have one bed, huh?"
+        n n2bn "[player]...you only have one bed, huh?"
         mc "Oh yeah..."
         mc "We’ll worry about that later."
         mc "For now, let’s find out where to put your stuff."
@@ -1545,8 +1547,8 @@ label natsukiroute:
         "We put these in their proper place. "
         "At this point, Natsuki and I both sit on the bed."
         "I decide to ask her what we should do."
-        n e1bw "What, you can’t think of something?"
-        n e1bx "What are you bothering me for?"
+        n n1bw "What, you can’t think of something?"
+        n n1bx "What are you bothering me for?"
         "It’s nice to see she’s returned to her normal state."
         mc "You sound like you can’t think of anything, either."
         n "I...I can, I just don’t want to!"
@@ -1554,10 +1556,10 @@ label natsukiroute:
         mc "Fine, fine."
         mc "Here, you want to watch some anime?"
         mc "I’ll let you pick which one."
-        n e1br "Yeah, you better!"
+        n n1br "Yeah, you better!"
         n "I w-wouldn’t let you pick, anyway."
-        n e2bu "It’s not like I want to know what you want to watch, or something like that."
-        n e2bx "Your taste is probably terrible!"
+        n n2bu "It’s not like I want to know what you want to watch, or something like that."
+        n n2bx "Your taste is probably terrible!"
         "With that, Natsuki grabs the remote from me, and flips to a slice-of-life anime."
         "I notice a theme here."
         "I don’t refuse, instead changing my position to emulate me actually laying in bed, with my head propped up on my arm."
@@ -1582,31 +1584,31 @@ label natsukiroute:
         "It."
         "I take a different approach, attempting to remove myself from the situation."
         "I consider slithering out, from under her arms, when I hear her speak."
-        n e1bw "You don’t have to move so much, idiot."
+        n n1bw "You don’t have to move so much, idiot."
         n "You can just tell me you’re uncomfortable."
         mc "I...I’m not!"
         mc "I just...didn’t want to hear your reaction when you woke up."
-        n e1bx "Well, I’m up."
+        n n1bx "Well, I’m up."
         "She rubs the sleep out of her eyes, and yawns, stretching."
-        n e1bs "I’m madder then I would have been, ya know."
+        n n1bs "I’m madder then I would have been, ya know."
         mc "Yeah, you say that now, but if I had left you like that or even fell asleep myself, might be different."
-        n 1bn "[player]..."
+        n n1bn "[player]..."
         "I turn to her."
-        n e1bi "These Sundays with you are some of the best hours of my life."
+        n n1bi "These Sundays with you are some of the best hours of my life."
         n "It’s so nice to have an escape from home, even when it was only temporarily, and you being with me makes things even better."
-        n e1bc "I don’t normally like to be genuine like this, but if I had woken up like that...it would have been great."
+        n n1bc "I don’t normally like to be genuine like this, but if I had woken up like that...it would have been great."
         mc "Natsuki, these are some of the best moments of my life, too."
         mc "I never want these to end."
         mc "I would love to spend every Sunday ‘till the day I die with you."
-        n e1ba "[player], I want to spend every {i}day{/i} ‘till the day I die with you."
-        n e1bj "I want to spend the rest of my life with you."
+        n n1ba "[player], I want to spend every {i}day{/i} ‘till the day I die with you."
+        n n1bj "I want to spend the rest of my life with you."
         mc "Natsuki...I..."
         mc "God damnit, Natsuki."
         mc "I love you, alright?"
         mc "More than anyone on this entire earth, I love you."
         "She slowly begins weeping."
-        n e1br "That’s..."
-        n e12bf "Y-you’re the first person that’s ever said that to me."
+        n n1br "That’s..."
+        n n12bf "Y-you’re the first person that’s ever said that to me."
         n "I love you too, [player]."
         "Natsuki being so candid makes me a bit shocked."
         "Without a word, I place my hand on the back of her head."
@@ -1621,14 +1623,14 @@ label natsukiroute:
         show natsuki 1ba at t11 zorder 1
         stop music
         play music t6
-        n e1ba "Idiot."
+        n n1ba "Idiot."
         mc "What?"
         n "I can tell."
-        n e1bt "In your eyes."
+        n n1bt "In your eyes."
         n "You still don’t believe me."
         mc "I- What?"
         "She ignores me."
-        n e2by "Don’t worry."
+        n n2by "Don’t worry."
         "As she rolls, and lays on top of me, she whispers in my ear."
         n "I can help fix that~"
         "{i}Gulp.{/i}"
