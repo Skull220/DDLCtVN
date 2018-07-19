@@ -1192,7 +1192,7 @@ label natsukiroute:
             mc "Here, let’s play this."
             "I grab the latest release of my favourite shooting game."
             "A game of ultra-violence and non-stop action is definitely what Natsuki’s been missing out on."
-            "I pop the disk in and she grabs the cookies and sets them on the coffee table.
+            "I pop the disk in and she grabs the cookies and sets them on the coffee table."
             "I dim the lights, and we both sit on the couch."
             scene bg livingroom_evening
             "After a few minutes of playing through the game I look to Natsuki, holding one of the cookies in her hand." 
