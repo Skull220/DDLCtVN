@@ -306,7 +306,7 @@ label splashscreen:
 
     if persistent.playthrough == 2 and renpy.random.randint(0, 3) == 0:
         $ splash_message = renpy.random.choice(splash_messages)
-    show splash_warning "This is a fan work, unassociated with Team Salvato. Please, play Doki Doki Literture Club once before continuing." with Dissolve(0.5, alpha=True)
+    show splash_warning "This is a fan work, unassociated with Team Salvato. Please, play Doki Doki Literature Club once before continuing." with Dissolve(0.5, alpha=True)
     pause 2.0
     hide splash_warning with Dissolve(0.5, alpha=True)
     $ config.allow_skipping = True
