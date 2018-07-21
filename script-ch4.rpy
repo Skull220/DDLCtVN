@@ -295,7 +295,11 @@ label ch4_exclusive_sayori:
     mc "Sayori… It’s no problem." 
     mc "I’ll be heading out, alright?"
     s 1bv "Oh… alright. Bye [player]."
+    hide sayori
+    scene bg house
+    with wipeleft_scene
     "I go downstairs, still thinking about Sayori, and as I get outside she rushes out to stop me."
+    show sayori 1bv at t11 zorder 2
     s "[player]!"
     s "I..."
     s "I'm not going tomorrow."
