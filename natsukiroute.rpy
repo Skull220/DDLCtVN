@@ -998,18 +998,18 @@ label natsukiroute:
             mc "If something’s up, I need to know."
             "She starts to get angry again, clenching her fist and almost raising it, but instead unclenches it and looks down, as if ashamed."
             stop music fadeout 1.0
-            play music t10
+            play music t9
             n "And to think I was about to hurt the person I love."
-            n 2bu "I’m becoming just like him..."
+            n 12bb "I’m becoming just like him..."
             mc "’Him’? Who’s ‘he’?"
-            n 1bq "My...My dad, [player]."
+            n 12be "My...My dad, [player]."
             n "He does that to me all the time."
             mc "Y...your dad hurts you?"
             n "Not really physically..."
             n 1bm "Well, physically too, I guess."
             n "It’s..."
             n "He got mad at me yesterday, so he hid all the food where I can’t reach it."
-            n 2bh "He always takes food away from me when I make him mad, [player]."
+            n 12bd "He always takes food away from me when I make him mad, [player]."
             n "There are entire days where I don’t eat, no matter how much I apologize."
             "I’m in shock."
             "I knew that Natsuki’s father was strict, but that much?"
@@ -1020,16 +1020,16 @@ label natsukiroute:
             "We stand like this for some time."
             pause 2.0
             mc "Natsuki."
-            n 2bu "Y-yes, [player]?"
+            n 12bf "Y-yes, [player]?"
             "She speaks through tears and sniffs."
             mc "Listen...how many meals would you say you skip, a week?"
-            n 2bs "S-seven."
+            n 12bg "S-seven."
             n "M-m-maybe more."
             n "At least o-o-o-ne a day."
             mc "Well, that’ll change."
             mc "Starting tomorrow, I’m bringing you in food, alright?"
             n "[player]..."
-            n 2bq "You’ll r-really do that for me?"
+            n 12bh "You’ll r-really do that for me?"
             mc "Of course, Natsuki."
             mc "You’re my girlfriend, and beyond that, I would do it for you anyway, because I care about you."
             "I expected that to cheer her up, but instead she seems to cry even harder."
@@ -1050,6 +1050,10 @@ label natsukiroute:
             mc "You don’t have to be a master chef to know eggs, after all."
             "She agrees, but seems sad that I let go of her."
             "I go to cook the eggs, and she follows me." 
+            scene bg kitchen 
+            with wipeleft_scene
+            stop music fadeout 1.0
+            play music t5_natsuki
             n 4bw "I can cook my own food, you know!"
             "I don’t object, and we get to cooking."
             "I somehow manage to burn mine, but Natsuki’s turn out fine."
