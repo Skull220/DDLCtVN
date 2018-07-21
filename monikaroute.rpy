@@ -107,7 +107,7 @@ label monikaroute:
     "Anxious, I walk into her house once more." 
     scene black
     "I still don’t feel very comfortable doing it, but I’m not going to be late because of her."  
-    "Besides, it's what a boyfriend would do, right?"
+    "Besides, it's what a good friend would do, right?"
     "I walk upstairs to her room."
     "I set my bookbag down outside the door."
     "I begin to knock on the door, yet I'm still met with no response."
