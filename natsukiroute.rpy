@@ -996,6 +996,7 @@ label natsukiroute:
             mc "Natsuki, please."
             mc "I want the real reason."
             mc "If something’s up, I need to know."
+            show natsuki at 12bb at t11 zorder 2
             "She starts to get angry again, clenching her fist and almost raising it, but instead unclenches it and looks down, as if ashamed."
             stop music fadeout 1.0
             play music t9
@@ -1016,6 +1017,7 @@ label natsukiroute:
             "It explains her small figure, it explains her harsh persona, even her confidence issues, that she hides under a self-centered act..."
             mc "Natsuki...I..."
             "I have no idea what to do, other than walk over to her and hug her."
+            show natsuki 12bf at t11 zorder 2
             "She returns the hug, buries her head into my shoulder, and begins to cry."
             "We stand like this for some time."
             pause 2.0
@@ -1157,8 +1159,9 @@ label natsukiroute:
     mc "Alright, alright."
     mc "Would you like to come inside?"
     "She nods and follows me in."
-    scene bg livingroom
+    scene bg kitchen
     with wipeleft_scene
+    show natsuki 1bt at t11 zorder 2
     "When we walk by the kitchen, she pipes up."
     n 1bt "Hey, [player]."
     n "Should I make some cookies for the two of us?"
@@ -1177,7 +1180,7 @@ label natsukiroute:
     mc "Trust me, it’ll be fun. I’ll be right back, alright?"
     "She looks concerned, but otherwise goes back to her cookies."
     scene bg bedroom
-    show natsuki 2bc at t11 zorder 2
+    hide natsuki
     "I go upstairs and grab the wires, console, controller, and a couple of games."
     "I don’t know which one I should show Natsuki, though."
     "If I pick correctly, it might make her more interested in the hobby..."
@@ -1195,11 +1198,14 @@ label natsukiroute:
             $ NatsukiVar += 1
             mc "Here, let’s play this."
             "I grab the latest release of my favourite shooting game."
+            "I begin to head downstairs."
+            scene bg livingroom
             "A game of ultra-violence and non-stop action is definitely what Natsuki’s been missing out on."
             "I pop the disk in and she grabs the cookies and sets them on the coffee table."
             "I dim the lights, and we both sit on the couch."
             scene bg livingroom_evening
             "After a few minutes of playing through the game I look to Natsuki, holding one of the cookies in her hand." 
+            show natsuki e1bd at t11 zorder 2
             "She’s absolutely mesmerized."
             mc "You seem to be enjoying this."
             n e1bd "It’s awesome, [player]!"
@@ -1404,8 +1410,8 @@ label natsukiroute:
             "Before I can mention that I can’t really go anywhere, she leaves."
             "A few minutes later, she arrives back with some hot soup."
             mc "Soup?"
-            show natsuki s1be at t11 zorder 2
-            n s1be "It helps with colds!" 
+            show natsuki s1bd at t11 zorder 2
+            n s1bd "It helps with colds!" 
             n s1bc "And it’s better than anything else I could’ve given you."
             n s1bb "Are you going to be mad at me for it or are you going to appreciate it?"
             mc "I appreciate it, Natsuki."
