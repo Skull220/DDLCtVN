@@ -1609,6 +1609,8 @@ label monikaroute:
     play music t10
     m n3bi "[player], are you talking to {i}her?{/i}"
     mc "...Yeah? She is my friend..."
+    stop music fadeout 2.0
+    play music t10
     m "I can’t believe this. Are you… cheating on me?"
     mc "What?"
     "Where the hell did she get {i}that{/i} from?"
