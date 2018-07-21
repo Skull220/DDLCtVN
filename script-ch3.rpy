@@ -609,7 +609,11 @@ label ch3_end:
     show natsuki 4x at f31 zorder 3
     n "Jeez..."
     n "Can we just settle this already?"
-    show natsuki at t31 zorder 2
+label newcontent:
+    scene bg club_day
+    show monika 4b at t32 zorder 2
+    play music t3
+    show natsuki 4x at t31 zorder 2
     show monika 1e at f32 zorder 3
     m "Yeah..."
     m "[player], you're okay with this, right?"
@@ -626,6 +630,7 @@ label ch3_end:
     show monika 1a at f32 zorder 3
     m "In that case..."
     show monika at t32 zorder 2
+    
     "Everyone looks straight at me."
     menu:
         "But of course, I'm going to go with--"
