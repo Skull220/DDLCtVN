@@ -1507,7 +1507,8 @@ label sayoriroute:
     mc "I'd love that, myself."
     mc "Let's go inside, now."
     s 2ba "Alright!"
-    #add the living room here you d u m b f u c k
+    scene bg livingroom
+    with wipeleft_scene
     "We both walk in to the living room and sit down on the couch."
     "Sayori seems a bit off..."
     "She's somewhat glaring at me."
