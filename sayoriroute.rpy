@@ -566,7 +566,7 @@ label sayoriroute:
             "I ponder this for a moment."
             mc "So where do you wanna go?"
             s 1x "Ooh!"
-            s "let's go exploring in the woods behind the school!"
+            s "Let's go exploring in the woods behind the school!"
             mc "...You're just full of bad ideas today, aren't you?"
             s 2o "Hey, what else would we do?"
             "I begrudgingly agree." 
