@@ -938,9 +938,10 @@ label monikaroute:
     
     scene bg kitchen
     play music t2
-    show monika 2ba at t11 zorder 2
+   
     "It’s Sunday, and before I even realize, Monika rings the doorbell." 
     "I go downstairs and answer it."
+     show monika 2ba at t11 zorder 2
     m 2ba "Hey, [player]!" 
     m 3bb "What’s up?"
     mc "Not much."
