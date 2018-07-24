@@ -996,7 +996,7 @@ label natsukiroute:
             mc "Natsuki, please."
             mc "I want the real reason."
             mc "If something’s up, I need to know."
-            show natsuki at 12bb at t11 zorder 2
+            show natsuki 12bb at t11 zorder 2
             "She starts to get angry again, clenching her fist and almost raising it, but instead unclenches it and looks down, as if ashamed."
             stop music fadeout 1.0
             play music t9
