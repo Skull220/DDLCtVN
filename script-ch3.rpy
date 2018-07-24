@@ -656,7 +656,7 @@ label newcontent:
     "Only time will tell..."
     "But until then, I won't be able to take my mind off it."
     "I seriously can't wait!"
-    return
+    call ch4_main
 
 label ch3_end_sayori:
     $ ch4_scene = "sayori"
