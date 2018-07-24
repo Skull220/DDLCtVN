@@ -8,9 +8,9 @@ label ch0_main:
     "Would you like to skip directly to the new content?"
     menu:
         "Yes, skip me to where I choose my route.":
-        call newcontent
+            call newcontent
         "No, let me play though act one.":
-        call continue
+            call continue
 
 label continue:
     s "Heeeeeeeyyy!!"
