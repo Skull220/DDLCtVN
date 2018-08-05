@@ -25,6 +25,7 @@ image bg v_kitchen = im.Flip("bg/kitchen.png", vertical=True)
 # New Backgrounds + Time of Day
 
 # Horizontally Flipped New Backgrounds
+image bg h_livingroom_sunset = im.Flip("mod_assets/livingroom.png", horizontal=True)
 
 # Vertically Flipped New Backgrounds
 
