@@ -30,7 +30,7 @@ image bg livingroom_evening = evening2(Image("mod_assets/livingroom.png"))
 image bg livingroom_night = night2(Image("mod_assets/livingroom.png"))
 
 # Horizontally Flipped New Backgrounds
-image bg h_livingroom_sunset = im.Flip("mod_assets/livingroom.png", horizontal=True)
+image bg h_livingroom = im.Flip("mod_assets/livingroom.png", horizontal=True)
 
 # Vertically Flipped New Backgrounds
 
