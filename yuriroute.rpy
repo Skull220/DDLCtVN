@@ -638,7 +638,7 @@ label yuriroute:
     "The anticipation doesn't let me wait, and I'm watching the door expectantly."
     "Lucky for me, Yuri shows up rather quickly."
     "I go to answer the knock at the door."
-    show yuri 2bl zorder 2 at t11
+    show yuri s2bl zorder 2 at t11
     y s2bl "Hello, [player]."
     y s2ba "N-nice to see you, again."
     mc "Nice to see you too, Yuri."
@@ -971,13 +971,15 @@ label yuriroute:
 
             "I grab {i}Damned{/i}'s box and pop the disk in the tray."
             "I dim the lights, and we both sit on the couch."
+            scene livingroom_evening
+            show yuri e1bg at t11 zorder 2
             "While she does pay attention, she doesn't seem to enjoy it."
-            y 1bg "I'm not really liking this too much, [player]."
-            y 3bh "I think I'll just read, instead."
+            y e1bg "I'm not really liking this too much, [player]."
+            y e3bh "I think I'll just read, instead."
             "With that, she comes a bit closer to me, leaning against me."
             "Yet she takes out her book and her phone light, starting to read."
             "We go back to our own activities until eventually things start to get dark out."
-            y 2bf "Bye, [player]."
+            y e2bf "Bye, [player]."
             y "I don't wish to be mean, but let's do something different next week, alright?"
             mc "Fine by me. I'll see you Monday."
             "Yuri walks out."
@@ -990,13 +992,15 @@ label yuriroute:
 
             "I grab {i}Rumble III{/i}'s box and pop the disk in the tray."
             "I dim the lights, and we both sit on the couch."
+            scene livingroom_evening
+            show yuri e1bg at t11 zorder 2
             "While she does pay attention, she doesn't seem to enjoy it."
-            y 1bg "I'm not really liking this too much, [player]."
-            y 3bh "I think I'll just read, instead."
+            y e1bg "I'm not really liking this too much, [player]."
+            y e3bh "I think I'll just read, instead."
             "With that, she comes a bit closer to me, leaning against me."
             "Yet she takes out her book and her phone light, starting to read."
             "We go back to our own activities until eventually things start to get dark out."
-            y 2bf "Bye, [player]."
+            y e2bf "Bye, [player]."
             y "I don't wish to be mean, but let's do something different next week, alright?"
             mc "Fine by me. I'll see you Monday."
             "Yuri walks out."
@@ -1008,13 +1012,15 @@ label yuriroute:
 
             "I grab {i}Wormhole 2{/i}'s box and pop the disk in the tray."
             "I dim the lights, and we both sit on the couch."
+            scene livingroom_evening
+            show yuri e1bg at t11 zorder 2
             "While she does pay attention, she doesn't seem to enjoy it."
-            y 1bg "I'm not really liking this too much, [player]."
-            y 3bh "I think I'll just read, instead."
+            y e1bg "I'm not really liking this too much, [player]."
+            y e3bh "I think I'll just read, instead."
             "With that, she comes a bit closer to me, leaning against me."
             "Yet she takes out her book and her phone light, starting to read."
             "We go back to our own activities until eventually things start to get dark out."
-            y 2bf "Bye, [player]."
+            y e2bf "Bye, [player]."
             y "I don't wish to be mean, but let's do something different next week, alright?"
             mc "Fine by me. I'll see you Monday."
             "Yuri walks out."
@@ -1030,6 +1036,7 @@ label yuriroute:
             "A game with this much story and intricacy might be just what Yuri'll like."
             "I pop the disk in, dim the lights, and sit on the couch."
             scene livingroom_evening
+            show yuri e1bh at t11 zorder 2
             "After a half hour of playing through the game, I look to Yuri."
             "She's absolutely mesmerized."
             mc "You seem to be enjoying this."
@@ -1149,12 +1156,12 @@ label yuriroute:
             mc "Alright, fine. Just try not to get sick, alright?."
             y s1bf "I'm not the one to be worried about here, [player]."
             y "You should lay down in a b-bed somewhere."
-            scene bedroom
+            scene bedroom_sunset
             with wipeleft_scene
             
             "I naturally go to the only comfortable bed, the one in my bedroom, and lay in it."
             "Yuri gently hands me my cover, and I throw it onto me."
-            show yuri 2ba at t11 zorder 2
+            show yuri s2ba at t11 zorder 2
             y s2ba "Here."
             y s2bf "Now, the best thing to do is to give you some type of medicine."
             y s2be "I'll be right back."
@@ -1165,7 +1172,7 @@ label yuriroute:
             "A few minutes later, she arrives back with some kind of pink liquid in a dosage cup."
             mc "... Oh lord, this stuff."
             mc "God, it tastes the absolute worst."
-            show yuri 2bl at t11 zorder 2
+            show yuri s2bl at t11 zorder 2
             y s2bl "Ah, true, the taste does tend to be rather intolerable."
             y "Sorry about that."
             y s2bk "I could try something else, if you don't want that..."
@@ -1269,7 +1276,7 @@ label yuriroute:
     "It's not something you normally hear people celebrating..."
     "But I feel really good about it."
     "Yuri shows up at my door."
-    show yuri 1bg at t11 zorder 2
+    show yuri n1bg at t11 zorder 2
     y n1bg "H-Hello, [player]."
     "I show her in."
     "I notice she's not... really as enthused, as she normally is to see me."
@@ -1529,15 +1536,16 @@ label yuriroute:
         y "[player]... You give me confidence, you know that?"
         "She goes back in to kiss me, sticking her hand... underneath my pants."
         "{i}Gulp.{/i}"
-        scene black
-        with dissolve_scene_full
+        window hide
         stop music fadeout 2.0
         play music tbc
-        window hide
         pause 2.902
+        show yuri 7a at t11 zorder 2        
         show tbc at r11 zorder 2
         show image "mod_assets/pink.png"
         pause 10.0
+        scene black
+        with dissolve_scene_full
     elif YuriVar >= 0:
         "I decide to drop it."
         "No reason to make Yuri sad about things."
