@@ -1,4 +1,3 @@
-
 label monikaroute:
     $ MonikaVar = 0
     scene bg club_day
@@ -1551,7 +1550,7 @@ label monikaroute:
     "Real smooth."
     "I add the packets to our drinks and stir them."
     "I grab one in each hand, and walk back upstairs."
-    scene bg bedroom 
+    scene bg bedroom_night
     "I reach my door."
     mc "Here we are!"
     "I hand her her cup and hold mine, as she reopens the cover fort."
