@@ -1005,9 +1005,10 @@ label monikaroute:
     s "I guess as long as my friends are spending time together, it’s fine." 
     s 2bl "I’ll be at home if you change your mind."
     "She walks off."
+    hide sayori
     "While I’m sad for her, Monika seems indifferent at best."
     show monika 1ba at t11 zorder 2
-    m 1ba "You ready, player?"
+    m 1ba "You ready, [player]?"
     "I’m conflicted." 
     "Should I stick up for Sayori?" 
     "Even if it means upsetting Monika?" 
