@@ -1404,6 +1404,8 @@ label monikaroute:
                 m "Here, take a listen."
                 play music monikasong
                 pause 64.0
+                stop music fadeout 2.0
+                play music t3
                 mc "Wow..."
                 m 2bp "Well, how was it?"
                 mc "That was amazing!"
