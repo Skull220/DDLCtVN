@@ -1314,7 +1314,7 @@ label sayoriroute:
            scene black
            "Without hesitating, I walked over to her house and opened the door."
            "I went directly to her bedroom."
-           scene sayori_bedroom_sunset
+           scene bg sayori_bedroom_sunset
            show sayori s1bc at t11 zorder 2
            play music t8
            "I open the door to see Sayori laying in bed, room messy as ever."
