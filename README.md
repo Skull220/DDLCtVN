@@ -72,6 +72,7 @@ Sergmanny
     
 NNDanny
 
+
 >Writing/Coding Assistance
 
 NNDanny
@@ -94,7 +95,15 @@ Jadebenn
 
 Monika After Story Team
 
->Other New Art
+>Other New Art/Music
+
+BigCilantro
+
+LeoDeCraprio
+
+Lunatic_Rabbit
+
+Hudomi
 
 Lou
 
