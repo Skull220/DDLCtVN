@@ -1,6 +1,6 @@
 define persistent.demo = False
 define persistent.steam = False
-define config.developer = True
+define config.developer = False
 
 python early:
     import singleton
@@ -425,6 +425,8 @@ image sayori 4bw = im.Composite((960, 960), (0, 0), "sayori/2bl.png", (0, 0), "s
 image sayori 4bx = im.Composite((960, 960), (0, 0), "sayori/2bl.png", (0, 0), "sayori/2br.png", (0, 0), "sayori/x.png")
 image sayori 4by = im.Composite((960, 960), (0, 0), "sayori/2bl.png", (0, 0), "sayori/2br.png", (0, 0), "sayori/y.png")
 
+image sayori 7a = "mod_assets/sEnd.png"
+
 image sayori glitch:
     "sayori/glitch1.png"
     pause 0.01666
@@ -755,6 +757,8 @@ image natsuki 5bz = im.Composite((960, 960), (18, 22), "natsuki/z.png", (0, 0), 
 image natsuki 6ba = im.Composite((960, 960), (0, 0), "natsuki/2bl.png", (0, 0), "natsuki/2br.png", (0, 0), "mod_assets/natsleep2.png")
 image natsuki 6bb = im.Composite((960, 960), (0, 0), "natsuki/2bl.png", (0, 0), "natsuki/2br.png", (0, 0), "mod_assets/natsleep.png")
 
+image natsuki 7a = "mod_assets/nEnd.png"
+
 # Natsuki legacy
 image natsuki 1 = im.Composite((960, 960), (0, 0), "natsuki/1l.png", (0, 0), "natsuki/1r.png", (0, 0), "natsuki/1t.png")
 image natsuki 2 = im.Composite((960, 960), (0, 0), "natsuki/1l.png", (0, 0), "natsuki/2r.png", (0, 0), "natsuki/1t.png")
@@ -1041,6 +1045,9 @@ image yuri 4bc = im.Composite((960, 960), (0, 0), "yuri/c2.png", (0, 0), "yuri/3
 image yuri 4bd = im.Composite((960, 960), (0, 0), "yuri/d2.png", (0, 0), "yuri/3b.png")
 image yuri 4be = im.Composite((960, 960), (0, 0), "yuri/e2.png", (0, 0), "yuri/3b.png")
 
+image yuri 7a = "mod_assets/yEnd.png"
+
+
 image y_glitch_head:
     "images/yuri/za.png"
     0.15
@@ -1319,6 +1326,8 @@ image monika 4bp = im.Composite((960, 960), (0, 0), "mod_assets/2bl.png", (0, 0)
 image monika 4bq = im.Composite((960, 960), (0, 0), "mod_assets/2bl.png", (0, 0), "mod_assets/2br.png", (0, 0), "monika/q.png")
 image monika 4br = im.Composite((960, 960), (0, 0), "mod_assets/2bl.png", (0, 0), "mod_assets/2br.png", (0, 0), "monika/r.png")
 
+image monika 7a = "mod_assets/mEnd.png"
+
 
 image monika g1:
     "monika/g1.png"
@@ -1342,7 +1351,7 @@ image monika g1:
     time 1.25
     xoffset 0 yoffset 0 zoom 1.00
     "monika 3"
-
+    
 image monika g2:
     block:
         choice:

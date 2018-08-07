@@ -6,6 +6,7 @@ label natsukiroute:
     "I walk into the literature club and the usual scene greets me." 
     "Yuri’s sitting at her desk, reading a book, and Natsuki and Sayori are talking about something. Monika’s late again."
     "I walk over to Natsuki and Sayori, asking what they're on about."
+    call groupStart()
     show sayori 2c at t21 zorder 2
     show natsuki 4b at t22 zorder 3
     s "Natsuki thinks cupcakes are better than cookies!"
@@ -61,6 +62,8 @@ label natsukiroute:
     show natsuki at thide zorder 1
     hide sayori
     hide natsuki
+    call groupClear()
+    call groupStart()
     show yuri 2e zorder 3 at t22
     show monika 2k zorder 2 at l21
     m "Sorry that I'm late, everyone!"
@@ -133,7 +136,8 @@ label natsukiroute:
     "But if Monika's insistent on bringing it back up, I guess we have no choice but to remember..."
     
     
-    scene bg house_morning
+    call groupClear()
+    scene bg house 
     with dissolve_scene_half
     pause 1.5
 
@@ -142,14 +146,14 @@ label natsukiroute:
     "I’ve always enjoyed these, as they were essentially a day off from school, but I never got involved in anything like this."
     "I can’t believe I have to read out a poem!"
     "I’m still not even that proud of the one I chose!"
-    show natsuki m1a at t11 zorder 2
+    show natsuki 1a at t11 zorder 2
     "Natsuki’s over, helping me carry the cupcakes to school."
     "It’s so many though, that we need help even from Sayori."
     "We’re standing outside her door, and so far, she hasn’t come out."
     "It seems she overslept again."
     "I suggest moving on."
     "I still don’t feel very comfortable doing it, but I’m not going to be late because of her."
-    show natsuki m1z zorder 1 at t42
+    show natsuki 1z zorder 1 at t42
     n "I’ll go wake her up, [player]."
     n "I’m good at this type of thing."
     "I nod, and she goes in."
@@ -182,6 +186,7 @@ label natsukiroute:
     "Instead of the traditional swirl or kittens on top, she's shaped the icing into closed books," 
     "Each one uniquely decorated to mimic the cover of famous novels from around the world."
     "Quite fitting of the club's theme."
+    call groupStart()
     show sayori d3r zorder 2 at f21
     show natsuki d5j zorder 3 at t22
     s "Wow, Natsuki, these are really good!"
@@ -190,7 +195,7 @@ label natsukiroute:
     show sayori d3q at t21
     show natsuki d5t at f22
     n "{i}Aww{/i}, thanks!"
-    show natsuki d5s at t22 
+    show natsuki 5s at t22 
     mc "Seriously."
     mc "I'm impressed with how the icing's done."
     mc "Something this intricate must've taken a lot of time, effort, or both."
@@ -223,7 +228,7 @@ label natsukiroute:
     show natsuki at t42
     show yuri at t44
     mc "Speaking of guests, has anyone signed up to join the club yet?"
-    show monika d3l at f11 zorder 1
+    show monika 3l at f11 zorder 1
     show yuri at thide zorder 1
     show natsuki at thide zorder 1
     show sayori at thide zorder 1
@@ -330,7 +335,7 @@ label natsukiroute:
     show monika at f21 zorder 8
     show natsuki at t22
     m d2i "Natsuki, in case you weren’t listening, no one's asking for your opinion."
-    show natsuki d4r
+    show natsuki 4r
     m d5b "{cps=*.5}So if you don't want to do anything for the festival, then why don't you just go read manga by yourself in the corner like you usually do?!{/cps}"
     "Okay, things are getting {i}way{/i} too out of hand here!"
     "I'm trying to think of a way to stop the argument but I don't even know where to step in."
@@ -357,9 +362,9 @@ label natsukiroute:
     show yuri at f44 zorder 4
     y d2n "G-guys..."
     $ m_name = "Everyone"
-    show monika d5b at f41
-    show sayori d4j at f43
-    show natsuki d1e at f42
+    show monika 5b at f41
+    show sayori 4j at f43
+    show natsuki 1e at f42
     show yuri at t44
     m "Stay out of this, Yuri!"
     $ m_name = "Monika"
@@ -369,12 +374,14 @@ label natsukiroute:
     hide monika
     hide sayori
     hide natsuki
+    call groupClear()
     show yuri d1o at t11
     "Yuri squeals and quietly backs away from the other girls."
     show yuri d1p at t11
     "As she backs up she accidentally bumps into one of the other students and finally takes notice of the growing crowd, furthering her embarassment."
     show yuri at thide zorder 1
     hide yuri
+    call groupStart()
     show natsuki d2x at t32
     show sayori d4p at t33
     show monika d5b at t31
@@ -398,6 +405,7 @@ label natsukiroute:
     show natsuki d12b
     "At this point the crowd has mostly dispersed already, although a few students stuck around to thank Natsuki for the cupcakes."
     "Even from here it’s noticeable that our signup sheet was just as empty as when we started..."
+    call groupClear()
     pause 1.5
     scene bg club_day
     with dissolve_scene_full
@@ -405,6 +413,7 @@ label natsukiroute:
 
     show monika 3i at f11
     m "So, does everyone understand {i}why{/i} this club’s still at square one?"
+    call groupStart()
     show monika 1h at t41
     show sayori 1k at t43
     show natsuki 1u at t42
@@ -618,6 +627,7 @@ label natsukiroute:
     hide monika
     hide yuri
     hide sayori
+    call groupClear()
     show natsuki 2a at t11
     "Natsuki looks over at me and we both smile."
     "We all leave the club together, before Natsuki and I split off from the others."
@@ -655,7 +665,7 @@ label natsukiroute:
     stop music fadeout 1.0
     play music t5_natsuki
     "I arrive at second hour, science, and walk in the doorway when I see a familiar face."
-    show natsuki m1g at t11 zorder 2
+    show natsuki 1g at t11 zorder 2
     n "[player]? You’re in this class?"
     mc "Yeah, always have been." 
     mc "And you? This is a second-year class."
@@ -1261,13 +1271,13 @@ label natsukiroute:
             mc "If you did, why would you date me?"
             mc "That seems like a bad idea, doesn’t it?"
             "She looks down, ashamed with herself."
-            show natsuki e1bu at t11 zorder 2
+            show natsuki 1bu at t11 zorder 2
             n "Yeah, but that’s not an excuse."
             n "When I first came in here, I completely dismissed this, didn’t even consider it a good idea."
             n e12bd "I’m lucky you even showed it to me."
             mc "Listen."
             "I bring her up to me, so that we’re looking each other in the eyes."
-            show natsuki e2bn at t11
+            show natsuki 2bn at t11
             "I wipe her eyes, and she looks at me."
             mc "This has really been one of the best days of my life, Natsuki."
             mc "I don’t know what else to say other than thank you."
@@ -1305,7 +1315,7 @@ label natsukiroute:
             "I dim the lights, and we both sit on the couch."
             scene bg livingroom_evening
             "While she does pay attention, she doesn’t seem to enjoy it."
-            show natsuki e2bi at t11
+            show natsuki 2bi at t11
             n e2bb "I still think we should have read, instead."
             mc "Aww, come on! I’m enjoying this!"
             n e2bg "Alright, fine. But I’m going to read, okay?"
@@ -1325,7 +1335,7 @@ label natsukiroute:
             "I dim the lights, and we both sit on the couch."
             scene bg livingroom_evening
             "While she does pay attention, she doesn’t seem to enjoy it."
-            show natsuki e2bi at t11
+            show natsuki 2bi at t11
             n e2bb "I still think we should have read, instead."
             mc "Aww, come on! I’m enjoying this!"
             n e2bg "Alright, fine. But I’m going to read, okay?"
@@ -1345,10 +1355,10 @@ label natsukiroute:
             "I dim the lights, and we both sit on the couch."
             scene bg livingroom_evening
             "While she does pay attention, she doesn’t seem to enjoy it."
-            show natsuki e2bi at t11
-            n e2bb "I still think we should have read, instead."
+            show natsuki 2bi at t11
+            n 2bb "I still think we should have read, instead."
             mc "Aww, come on! I’m enjoying this!"
-            n e2bg "Alright, fine. But I’m going to read, okay?"
+            n 2bg "Alright, fine. But I’m going to read, okay?"
             "With that, she comes a bit closer to me, leaning against me." 
             "She takes out Parfait Girls and her phone light, starting to read." 
             "We go back to our own activities, once in a while grabbing cookies from the plate, until eventually things start to get dark out."
@@ -1366,16 +1376,18 @@ label natsukiroute:
     
     scene bg kitchen_sunset
     play music t3
-    "It’s Sunday, and for some reason I feel particularly off."
-    "I’m excited for Natsuki’s visit, but I feel ill; it’s only when I start sneezing that I figure out why."
-    "I’ve developed a cold. Great." 
+    "It's sunday, and what should start off as a day of excitement instead starts off with a sickness."
+    "With a few sneezes all throughout this morning, I realize the sudden cold I've developed."
+    "Great."
     "I’m just about to prep some coffee when Natsuki knocks on the door, so of course I go to greet her."
     show natsuki s3ba at t11 zorder 2
     "However, I immediately relay the bad news."
-    mc "Natsuki, I wouldn’t stay here. In case I don’t give the appearance, I’m sick today. Sorry."
+    mc "Natsuki, I'm really sick. It's probably best you don't stay over today."
     n s1be "Nice work, [player]. Guess who has to take care of you now?"
+    mc "Wait, does she mean...?"
     mc "I can take care of myself!"
-    n "Yeah, sure you can. You got yourself sick, idiot, but you probably won’t make yourself better. Come on, let’s go."
+    n "Yeah, sure you can. You got yourself sick, idiot. You probably won’t make yourself better. Come on, let’s go inside."
+    "She tries to push me back into my house to no avail."
     "I think about this for a moment."
     "On the one hand, I did warn her, and she is insisting."
     "But on the other, it’s still mean of me to willingly go along with this."
@@ -1404,6 +1416,7 @@ label natsukiroute:
             n s1bd "It helps with colds!" 
             n s1bc "And it’s better than anything else I could’ve given you."
             n s1bb "Are you going to be mad at me for it or are you going to appreciate it?"
+            "I give an apologetic look."
             mc "I appreciate it, Natsuki."
             mc "It’s really nice that you’re doing this."
             mc "Thank you."
@@ -1439,7 +1452,7 @@ label natsukiroute:
             mc "Well... I... It’s really easy to explain..."
             "My stammering betrays my words. Natsuki laughs."
             n "You’re disgusting, [player]."
-            "She laughs."
+            "She continues laughing."
             "Before I have time to think of a retort, she grabs the remote for my TV."
             n s1bh "You wanna watch anything in particular?"
             mc "Nope."
@@ -1455,7 +1468,16 @@ label natsukiroute:
             n s1bq "What is that for?"
             mc "I just...spaced out."
             mc "I’m sorry, I didn’t mean to make you uncomfortable."
-            n "...Fine."
+            n "Really?"
+            n s2by "Is that it?"
+            n "I don't want to know what you get up to when you're thinking about me like that..."
+            n "Especially with what that tissue box was sitting next to..."
+            "Natsuki chuckles to herself."
+            mc "Don't flatter yourself."
+            mc "It's not like a guy can... well... {i}get off{/i} with his imagination alone as it is."
+            n "That's unlucky of your gender."
+            n s1bo "Er! I mean..."
+            n s1bq "Anyway, let's change the subject."
             "Afterwards, she turns back to the TV."
             "We sit like this for a bit until her hand meets mine and they interlock once more."
             n s3bs "[player]...I hope you know, I don’t mind if I get sick."
@@ -1493,6 +1515,7 @@ label natsukiroute:
     scene black
     with dissolve_scene_full
     stop music fadeout 1.0
+
     
     scene livingroom_night
     with dissolve_scene_half
@@ -1635,16 +1658,15 @@ label natsukiroute:
         "As she rolls, and lays on top of me, she whispers in my ear."
         n "I can help fix that~"
         "{i}Gulp.{/i}"
-        window hide
-        stop music fadeout 2.0
         play music tbc
+        window hide
         pause 2.902
-        show natsuki 7a at t11 zorder 2
         show tbc at r11 zorder 2
         show image "mod_assets/pink.png"
         pause 10.0
         scene black
         with dissolve_scene_full
+        stop music fadeout 2.0
     elif NatsukiVar >= 0:
         "Until five minutes ago, I was really happy that I got to see Natsuki today as well."
         "But she sent me a message where she told me that she can't come today."

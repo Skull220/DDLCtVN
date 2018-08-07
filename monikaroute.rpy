@@ -235,7 +235,7 @@ label monikaroute:
     "I suddenly come to realize the now apparent emptiness where my bookbag should be."
     show monika m1f
     mc "Err... I mean... {i}I did...{/i}"
-    show monika m1e
+    show monika 1e
     mc "I must've set it down somewhere when I was waiting for Sayori."
     m m4d "Well... that isn’t very good."
     m m2d "We don't have time for you to run back and grab it..."
@@ -253,7 +253,7 @@ label monikaroute:
     show monika m1d at t21
     show sayori at f22
     s m4p "Hey, there's no need to pick on [player] like that!"
-    show monika m1g
+    show monika 1g
     s m5c "For the record, I forgot my poem too, so he's not the only one!"
     show monika at f21
     show sayori at t22
@@ -272,8 +272,8 @@ label monikaroute:
     show monika m2h at t21
     show sayori at f22
     s m5d "W-well its not like my reading was going to attract anyone new to the club anyway, so really, I don’t count!"
-    show monika m2p at f21
-    show sayori m4n at t22
+    show monika 2p at f21
+    show sayori 4n at t22
     m "Sayori, did you leave your poem behind just so that you wouldn’t have to read it in front of everyone today?"
     show monika at t21
     show sayori at f22
@@ -322,7 +322,7 @@ label monikaroute:
     show monika at f21 zorder 8
     show natsuki at t22
     m m2i "Natsuki, in case you weren’t listening, no one's asking for your opinion."
-    show natsuki m4r
+    show natsuki 4r
     m m5b "{cps=*.5}So if you don't want to do anything for the festival, then why don't you just go read manga by yourself in the corner like you usually do?!{/cps}"
     "Okay, things are getting {i}way{/i} too out of hand here!"
     "I'm trying to think of a way to stop the argument but I don't even know where to step in."
@@ -349,9 +349,9 @@ label monikaroute:
     show yuri at f44 zorder 4
     y m2n "G-guys..."
     $ m_name = "Everyone"
-    show monika m5b at f41
-    show sayori m4j at f43
-    show natsuki m1e at f42
+    show monika 5b at f41
+    show sayori 4j at f43
+    show natsuki 1e at f42
     show yuri at t44
     m "Stay out of this, Yuri!"
     $ m_name = "Monika"
@@ -936,7 +936,7 @@ label monikaroute:
     with dissolve_scene_full
     stop music fadeout 2.0
     
-    scene bg livingroom
+    scene bg kitchen
     play music t2
    
     "It’s Sunday, and before I even realize, Monika rings the doorbell." 
@@ -1005,6 +1005,8 @@ label monikaroute:
     s "I guess as long as my friends are spending time together, it’s fine." 
     s 2bl "I’ll be at home if you change your mind."
     "She walks off."
+    show sayori at thide zorder 1
+    hide sayori
     "While I’m sad for her, Monika seems indifferent at best."
     show monika 1ba at t11 zorder 2
     m 1ba "You ready, player?"
@@ -1175,7 +1177,6 @@ label monikaroute:
                 "I grab {i}Damned{/i}’s box and pop the disk in the tray." 
                 "I dim the lights, and we both sit on the couch."
                 scene bg livingroom_evening
-                show monika e2bp at t11 zorder 2
                 "While she does pay attention, she doesn’t seem to enjoy it."
                 "She still remains interested, watching what I do and commenting on different parts of the game." 
                 "But she doesn’t seem too involved in it." 
@@ -1183,8 +1184,6 @@ label monikaroute:
                 m e2bp "Bye, [player]."
                 m e2bn "Something different next week, huh?"
                 mc "Fine by me. I’ll see you Monday."
-                show monika at thide zorder 1
-                hide monika
                 "She leaves."
                 "God, I messed up so badly."
                 "What was I thinking?"
@@ -1196,7 +1195,6 @@ label monikaroute:
                 "A perfect game to appeal to Monika’s competitive sensibilities." 
                 "I pop the disk in, dim the lights, and sit on the couch."
                 scene bg livingroom_evening
-                show monika e2bk at t11 zorder 2
                 "I hand her my second controller."
                 "I start by going easy on her." 
                 "That seems to have been a mistake, as she picks up quickly and starts to get ahead."
@@ -1305,7 +1303,6 @@ label monikaroute:
                 "I grab {i}Wormhole 2{/i}’s box and pop the disk in the tray." 
                 "I dim the lights, and we both sit on the couch."
                 scene bg livingroom_evening
-                show monika e2bp at t11 zorder 2
                 "While she does pay attention, she doesn’t seem to enjoy it."
                 "She still remains interested, watching what I do and commenting on different parts of the game." 
                 "But she doesn’t seem too involved in it." 
@@ -1313,8 +1310,6 @@ label monikaroute:
                 m e2bp "Bye, [player]."
                 m e2bn "Something different next week, huh?"
                 mc "Fine by me. I’ll see you Monday."
-                show monika at thide zorder 1
-                hide monika
                 "She leaves."
                 "God, I messed up so badly."
                 "What was I thinking?"
@@ -1323,7 +1318,6 @@ label monikaroute:
                 "I grab {i}Gone Nuclear: Vegas Blues{/i}’s box and pop the disk in the tray." 
                 "I dim the lights, and we both sit on the couch."
                 scene bg livingroom_evening
-                show monika e2bp at t11 zorder 2
                 "While she does pay attention, she doesn’t seem to enjoy it."
                 "She still remains interested, watching what I do and commenting on different parts of the game." 
                 "But she doesn’t seem too involved in it." 
@@ -1331,8 +1325,6 @@ label monikaroute:
                 m e2bp "Bye, [player]."
                 m e2bn "Something different next week, huh?"
                 mc "Fine by me. I’ll see you Monday."
-                show monika at thide zorder 1
-                hide monika
                 "She leaves."
                 "God, I messed up so badly."
                 "What was I thinking?"
@@ -1345,146 +1337,91 @@ label monikaroute:
     with wipeleft_scene
     play music t3
     
-    "It’s Sunday, and for some reason I feel particularly off." 
-    "I’m excited for Monika’s visit, but I feel ill;" 
-    "it’s only when I start sneezing that I figure out why."
-    "I’ve developed a cold. Great."
-    "I’m just about to prep some coffee when Monika knocks on the door, so of course I go to greet her." 
-    "However, I tell her immediately the bad news."
-    mc "Monika, I wouldn’t stay here."
-    mc "In case I don’t give the appearance, I’m sick today."
-    mc "Sorry."
-    show monika s2bm at t11 zorder 2
-    m s2bm "You’re sick?"
-    m s3bn "[player], that’s a reason {i}for{/i} me to stay here!"
-    m s3bl "Who’s gonna take care of you?"
-    mc "I’ll be fine. I’m more concerned about you getting sick. I can take care of myself."
-    m s3bi "Yeah, but taking care of yourself is no use." 
-    m "Why else would we have doctors?"
-    m s2bh "Now come on, let me help you."
-    "I think about this for a moment." 
-    "On the one hand, I did warn her, and she is insisting." 
-    "But on the other, it’s still mean of me to willingly go along with this."
-    "She doesn’t need to be sick like this!" 
+    "It’s Sunday once again." 
+    "I would be excited for Monika's visit, except she's not showing up today." 
+    "She's homebound, which at first really bummed me out."
+    "I decided to go upstairs and laze around on my bed."
+    scene bg bedroom
+    "I read over the texts we exchanged one more time."
+    m "Hey, I won't be able to make it over today, sorry."
+    mc "Something come up?"
+    "I reply, worried."
+    m "Nothing important, it's just that my mom made plans and she wants me to housesit."
+    mc "She left you home alone?"
+    m "It's a rather quiet neighborhood."
+    m "Believe me, it makes as much sense to me as it does you."
+    m "But it's not like I can really argue, can I?"
+    mc "That's a good point."
+    "That's where the conversation ended."
+    "So I'm here, sitting in my room, wondering what I'm going to instead occupy my saturday with."
+    "I see a notification pop up on my computer."
+    "A digital call?"
+    "I don't recognize the user."
     menu:
-            "I guess I might as well—"
+            "Skeptical, I decide to..."
             
-            "Let Monika in.":
+            "Answer it anyway.":
                 $ MonikaVar += 1
-                mc "Alright, fine. But if you get sick, don’t blame me."
-                m s1ba "I won’t."
-                m "Now go lay down somewhere."
-                m s2bf "I’ll follow you."
-                "I naturally go to the only comfortable bed, the one in my bedroom, and lay in it."
-                scene bg bedroom_sunset
-                show monika s1bc at t11 zorder 2
-                "Monika practically throws my cover over me."
-                m s1bc "Here."
-                m s1bd "Now, I’m going to get you something to make you feel better."
-                m "I’ll be right back, alright?"
-                m s1be "Don’t go anywhere!"
-                "Before I can mention that I can’t really go anywhere, she leaves." 
-                "A few minutes later, she arrives back with some coffee."
-                m s3be "I think this is how you like it, right?"
-                m s2bj "You left all of this on the counter, so I assume you were gonna make it before you answered the door."
-                mc "Oh yeah, I was going to."
-                mc "Thanks."
-                "I grab it and sit up to take a sip." 
-                "I hold on to the mug with one hand, and don’t even notice when Monika pulls up a chair and grabs the other."
-                "I turn to her, holding a cup of her own."
-                m s2bm "I’m just trying to…"
-                m s2bn "Keep your pulse in check."
-                mc "That’s not how pulse works, that’d be my wrist."
-                "Also, a cold wouldn’t really affect my pulse."
-                m s1bl "Ahaha, well, you’re right."
-                mc "… so why do it?"
-                "I know exactly why, but I want to hear it out of Monika."
-                m s2bm "Well…"
-                m "It’s more because I…"
-                m s2bn "Uhh…"
-                "I decide to silence her stuttering."
-                "I squeeze her hand, and her cheeks start to turn a bit red."
-                "I smile, and she smiles at me." 
-                "A sneeze then comes out of nowhere and ruins the moment."
-                m s3bj "Oh, you need tissues!"
-                m s1bp "Here, I should get you some."
-                m s3bp "Where do you keep them?"
-                mc "Right there, over on my desk."
-                show monika s3bp at thide zorder 1
-                hide monika
-                "I pray to every god I can think of that she doesn’t put two and two together with the lotion right next to it."
-                "And seeing as her face changes when she grabs it, I’m thinking that none of them answered." 
-                "When she returns it to me, I blow my nose and throw the tissue in a nearby trash can."
-                show monika s3ba at t11 zorder 2
-                m "So, [player]."
-                m s1ba "Would you like to tell me why this was in the location it was~?"
-                "Even with the joking tone in her voice, I still hesitate to answer." 
-                "It’s really difficult to admit, and I can feel my face going redder than a tomato."
-                mc "Well, uh, kind of a funny story…"
-                mc "I…" 
-                mc "It’s more because I…"
-                m s1ba "Ahaha, no need to stress out over it." 
-                m "I’m just teasing you."
-                m s3bn "Besides, I already knew you were like this." 
-                m s2bk "Not only are you a teenage boy, but I can tell by the way you look at me sometimes."
-                "Her mischievous grin remains in place through her entire sentence, and I can feel my face getting even redder."
-                "Monika grabs my remote and turns on the TV."
-                mc "Great, now this really is a hospital." 
-                mc "Bedbound, TV on, Nurse tending to my needs."
-                m s1be "Well you’re sick, so you deserve it."
-                m s1bd "Now, is there something you wanted to watch?"
-                mc "Nope."
-                mc "You can pick if you like."
-                "With that, she flips over to Write of the Dead." 
-                "I’ve already seen it, but I don’t mind watching it again;"
-                "It’s a pretty good show."
-                m "[player]!"
-                mc "Huh? Oh, yes, what’s up, Monika?"
-                m "You were kinda… staring at me."
-                m "Is something wrong?"
-                mc "No!" 
-                mc "I just… spaced out." 
-                mc "I’m sorry, I didn’t mean to make you uncomfortable."
-                m "Ah, you’re fine."
-                m "I just didn’t want to be doing anything wrong, ahaha."
-                "With that, she turns back to the TV."
-                "We sit like this for a bit until her hand meets mine and they interlock once more."
-                m s2bg "[player]…" 
-                m s2be "I’m glad I was able to help you out." 
-                m "It’s great to spend time with you, even if I could get sick, you know?"
-                mc "Yeah, I liked this, too."
-                mc "But don’t get sick."
-                mc "You’d make me feel really bad about it."
-                m s1ba "Haha, I won’t then."
-                "With that, she returns to the show as do I." 
-                "It’s only when the sun finally starts to set that she releases my hand, and something seems to be missing the second she does."
-                m s2bd "Well, I’ve gotta go then."
-                m "Bye, [player]."
-                m s3be "Feel better!"
-                mc "I’ll feel better as long as YOU don’t get sick."
-                mc "That work?"
-                m s1ba "Yeah, I won’t be sick, promise." 
-                m s1bb "See you tomorrow!" 
-                "And with that, she walks downstairs." 
-                "Right before the door opens and closes behind her, I hear her sneeze." 
-                "Great."
-            "Tell her to come back next week.":
-                mc "Monika, I won’t let you get sick."
-                mc "Now, go."
-                mc "I’ll see you Monday, alright?"
-                m s2bd "Fine." 
-                m "But feel better, alright?"
-                mc "I will. Don’t worry about me."
-                "She looks at me once more, distraught."
-                show monika s2bd at thide zorder 1
-                hide monika
-                "When she walks off, I feel kinda bad, even if it is for her own good." 
-                "I guess we’ll both have to live with it, though."
+                "I pick up the call."
+                "Lo and behold, it's Monika, broadcasting from what appears to be her phone!"
+                show monika 2ba at t11 zorder 2
+                m 2bb "Hey, [player]!"
+                m 1bj "I've realized that I could just call you up using this here!"
+                m 1bk "I was almost afraid you weren't gonna pick up, but, here we are!"
+                "I can see what appears to be her bedroom behind her."
+                "Cheesy inspirational quotes and canvas art lines the back of her wall."
+                "Normally I despise this kind of thing, but for Monika it's oddly charming."
+                mc "Hey, that's actually pretty neat."
+                "I have never actually considered the idea that Monika used this video platform."
+                "Sayori or Natsuki, maybe, but Monika?"
+                "She's just full of suprises."
+                m "It's like we can have our date, although from two sides of a screen."
+                m 2bf "But I imagine that's not very new to you, is it?"
+                "She winks at the camera."
+                mc "Are you saying I had an internet girlfriend?"
+                m 1bh "Oh, no, I'm not saying that!"
+                m 3be "It could have been an internet boyfriend, too!"
+                "Monika laughs, and I give her that one."
+                "But really, what kind of loser would have an internet boyfriend?"
+                #haha skull this self-deprecation joke was EPIC TROLLED EPIC STYLE jesus christ I need sleep
+                m 3bd "Oh! That reminds me!"
+                m 1bb "Something I never really got to show you..."
+                m "Here, give me a minute."
+                "Monika picks up her phone and begins to move it around."
+                "She settles it in on top of something."
+                "From what I can see, it looks like piano keys."
+                m 2bn "Remember when I said I was learning to play the piano?"
+                m "Well, I wrote you a bit of a song..."
+                m "Here, take a listen."
+                play monikasong
+                pause 64.0
+                mc "Wow..."
+                m 2bp "Well, how was it?"
+                mc "That was amazing!"
+                mc "A bit slow, but..."
+                mc "Wow, you're really good for a beginner!"
+                m 1bl "Aww, [player], you're too nice to me sometimes."
+                m "But, thank you."
+                m "I'm glad you enjoyed it!"
+                m 1bk "After all, I made it for the boyfriend I love so much!"
+                "I tense up."
+                "I realize that we are dating, and this isn't out of the ordinary, but hearing that makes me kinda feel..."
+                "Warm, inside."
+                m 2bi "Oh, god, I hate to cut this short, but I've got to go deal with something outside."
+                m 1bk "Bye [player]! Thanks for listening to my song!"
+                "She hangs up."
+                "I recline back into my chair, contented."
+                "Man... what a good day."
+            "Refuse the call.":
+                "I hang up the call."
+                "I decide not to use my pc and turn it off."
+                "Instead, I put some boring white noise on TV and try to drift off to sleep."
+                "There's always next week, right?" 
 
     scene black
     with dissolve_scene_full
     stop music fadeout 2.0
-
+    
     scene bg livingroom_night
     with wipeleft_scene
     play music t5_monika
@@ -1528,7 +1465,7 @@ label monikaroute:
     "I let Monika go first for {i}obvious{/i} reasons, but she still notices."
     "God, what's with me today?"
     "Ah, whatever."
-    scene bg bedroom_night
+    scene bg bedroom
     show monika n1bo at t11 zorder 2 
     "We arrive at my bedroom."
     "Monika starts things up by grabbing a remote."
@@ -1691,18 +1628,16 @@ label monikaroute:
         "She puts a finger on my lips."
         m "Shh."
         m n1ba "The only thing I want to hear from you is the sound of you screaming my name."
-        "{i}Gulp.{/i}"       
-        window hide
-        stop music fadeout 2.0
+        "{i}Gulp.{/i}"
         play music tbc
+        window hide
         pause 2.902
-        show monika 7a t11 zorder 2
         show tbc at r11 zorder 2
         show image "mod_assets/pink.png"
         pause 10.0
         scene black
         with dissolve_scene_full
-        
+        stop music fadeout 2.0
     elif MonikaVar >= 0:
         "I take my mind off it."
         "This is just Monika being paranoid, or something."
