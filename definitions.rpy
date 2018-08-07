@@ -1,6 +1,6 @@
 define persistent.demo = False
 define persistent.steam = False
-define config.developer = False
+define config.developer = True
 
 python early:
     import singleton
@@ -83,6 +83,8 @@ define audio.t5_monika = "<loop 4.444>bgm/5_monika.ogg"
 define audio.t5_sayori = "<loop 4.444>bgm/5_sayori.ogg"
 define audio.t5_natsuki = "<loop 4.444>bgm/5_natsuki.ogg"
 define audio.t5_yuri = "<loop 4.444>bgm/5_yuri.ogg"
+define audio.tbc = "mod_assets/tbc.ogg"
+dfeine audto.monikasong = "mod_assets/monikasong.ogg"
 
 # Backgrounds
 image black = "#000000"

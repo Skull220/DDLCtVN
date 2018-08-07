@@ -270,7 +270,7 @@ label ch3_start_natsuki:
 
     # If we haven't seen her exclusive yet, play it now
     if not n_exclusivewatched and poemwinner[2] == "natsuki":
-        call natsuki_exclusive_2_ch3
+        call natsuki_exclusive_2_ch3 from _call_natsuki_exclusive_2_ch3
     else:
         jump ch3_start_none
     return
@@ -368,7 +368,7 @@ label ch3_start_yuri:
 
     # If we haven't seen her exclusive yet, play it now
     if not y_exclusivewatched and poemwinner[2] == "yuri":
-        call yuri_exclusive_2_ch3
+        call yuri_exclusive_2_ch3 from _call_yuri_exclusive_2_ch3
     else:
         jump ch3_start_none
     return
@@ -635,13 +635,13 @@ label newcontent:
     menu:
         "But of course, I'm going to go with--"
         "Natsuki.":
-            call ch3_end_natsuki
+            call ch3_end_natsuki from _call_ch3_end_natsuki
         "Yuri.":
-            call ch3_end_yuri
+            call ch3_end_yuri from _call_ch3_end_yuri
         "Monika.":
-            call ch3_end_monika
+            call ch3_end_monika from _call_ch3_end_monika
         "Sayori...":
-            call ch3_end_sayori
+            call ch3_end_sayori from _call_ch3_end_sayori
     scene bg residential_day
     with wipeleft_scene
     $ ch4_name = ch4_scene.capitalize()
@@ -656,7 +656,7 @@ label newcontent:
     "Only time will tell..."
     "But until then, I won't be able to take my mind off it."
     "I seriously can't wait!"
-    call ch4_main
+    return
 
 label ch3_end_sayori:
     $ ch4_scene = "sayori"

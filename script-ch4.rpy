@@ -14,11 +14,11 @@ label ch4_main:
         "We sent each other one after exchanging numbers to double-check, but it turned into conversation."
         "She's almost a different personality on the phone, using tons of emoji and cute language."
         "She also really likes complaining about things, but I kind of saw that one coming."
-        call ch4_exclusive_natsuki
+        call ch4_exclusive_natsuki from _call_ch4_exclusive_natsuki
     elif ch4_scene == "monika":
         "I’m sitting in my room watching something-or-another when I hear my doorbell ring." 
         "I check my hair, put on a pair of pants and go to answer the door."
-        call ch4_exclusive_monika
+        call ch4_exclusive_monika from _call_ch4_exclusive_monika
     elif ch4_scene == "yuri":
         "I've been getting increasingly anxious about Yuri's upcoming visit."
         "I keep telling myself there's no reason to be nervous, but it doesn't help much."
@@ -32,14 +32,14 @@ label ch4_main:
         "But I've been worried about her in the back of my mind."
         "Between what Sayori said, and what Monika said..."
         "Is it really okay for me to put Sayori's feelings aside when she might need me?"
-        call ch4_exclusive_yuri
+        call ch4_exclusive_yuri from _call_ch4_exclusive_yuri
     else:
         "I haven't heard a thing from Sayori since she left club early the other day."
         "It's not like we text each other all the time or anything..."
         "But I've been worried about her in the back of my mind."
         "Between what Sayori said, and what Monika said..."
         "Is it really okay for me to put Sayori's feelings aside when she might need me?"
-        call ch4_exclusive_sayori
+        call ch4_exclusive_sayori from _call_ch4_exclusive_sayori
    
     stop music fadeout 2.0
     scene bg house
@@ -428,7 +428,7 @@ label ch4_exclusive_sayori:
             "But I know that I'll give it everything I've got."
             "Sayori is the most important person to me."
             "And I'll do whatever it takes to have a happy future with her."
-            call sayoriroute
+            call sayoriroute from _call_sayoriroute
         "You'll always be my dearest friend.":
             scene black
             hide sayori
@@ -524,7 +524,7 @@ label ch4_exclusive_sayori:
             "But I know that I'll give it everything I've got."
             "Sayori is the most important person to me."
             "And I'll do whatever it takes to have a happy future with her."
-            call sayoriroute
+            call sayoriroute from _call_sayoriroute_1
 return
 
 label ch4_exclusive_natsuki:
@@ -926,7 +926,7 @@ label ch4_exclusive_natsuki:
             n 2bz "I'm already excited for it."
             n "I'll see you then!"
             "She walks off into the distance."
-            call natsukiroute
+            call natsukiroute from _call_natsukiroute
         "Reject her.":
             scene black
             show monika at thide zorder 1
@@ -969,7 +969,7 @@ label ch4_exclusive_natsuki:
             n 2bz "I'm already excited for it."
             n "I'll see you then!"
             "She walks off into the distance."
-            call natsukiroute
+            call natsukiroute from _call_natsukiroute_1
 return
 
 label ch4_exclusive_yuri:
@@ -1483,7 +1483,7 @@ label ch4_exclusive_yuri:
             "I breathe in, and breathe out."
             "..."
             "Hell yea."
-            call yuriroute
+            call yuriroute from _call_yuriroute
         "Reject her":
             scene black
             show yuri at thide zorder 1
@@ -1536,7 +1536,7 @@ label ch4_exclusive_yuri:
             "I breathe in, and breathe out."
             "..."
             "Hell yea."
-            call yuriroute
+            call yuriroute from _call_yuriroute_1
 return
 
 label ch4_exclusive_monika: 
@@ -1646,7 +1646,7 @@ label ch4_exclusive_monika:
             "Plus, I’ve never had a girlfriend before, so Monika’s a pretty good start." 
             "I turn around and walk back into my house." 
             "The festival’s going to be great!"
-            call monikaroute
+            call monikaroute from _call_monikaroute
         "Deny her":
             scene black
             show monika at thide zorder 1
@@ -1689,6 +1689,6 @@ label ch4_exclusive_monika:
             "Plus, I’ve never had a girlfriend before, so Monika’s a pretty good start." 
             "I turn around and walk back into my house." 
             "The festival’s going to be great!"
-            call monikaroute
+            call monikaroute from _call_monikaroute_1
 return
         

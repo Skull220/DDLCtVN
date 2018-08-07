@@ -3,17 +3,6 @@ label ch0_main:
     scene bg residential_day
     with dissolve_scene_full
     play music t2
-
-    "DDLCtVN is a mod that begins by playing through nearly the entirity of the first act."
-    "Would you like to skip directly to the new content?"
-    menu:
-        "Yes, skip me to where I choose my route.":
-            call newcontent
-            return
-        "No, let me play though act one.":
-            call continue
-            return
-label continue:
     s "Heeeeeeeyyy!!"
     "I see an annoying girl running toward me from the distance, waving her arms in the air like she's totally oblivious to any attention she might draw to herself."
     "That girl is Sayori, my neighbor and good friend since we were children."

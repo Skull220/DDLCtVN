@@ -335,7 +335,7 @@ label ch2_main:
     
     #Call exclusive scene
     $ nextscene = poemwinner[0] + "_exclusive_" + str(eval(poemwinner[0][0] + "_appeal"))
-    call expression nextscene
+    call expression nextscene from _call_expression_3
         
     #After exclusive scene, we go back to poem responses
 
@@ -859,13 +859,13 @@ label ch2_end:
         "Well..."
         "I would walk home with [ch2_winner].":
             if ch2_winner == "Natsuki":
-                call ch2_end_natsuki
+                call ch2_end_natsuki from _call_ch2_end_natsuki
             elif ch2_winner == "Yuri":
-                call ch2_end_yuri
+                call ch2_end_yuri from _call_ch2_end_yuri
             else:
-                call ch2_end_monika
+                call ch2_end_monika from _call_ch2_end_monika
         "I would still walk home with Sayori.":
-            call ch2_end_sayori
+            call ch2_end_sayori from _call_ch2_end_sayori
 
     "Then again, the festival is only a few days away..."
     "Who knows what will happen in that time?"
