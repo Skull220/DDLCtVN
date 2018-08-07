@@ -1035,7 +1035,7 @@ label yuriroute:
             "I grab {i}Gone Nuclear: Vegas Blues{/i}."
             "A game with this much story and intricacy might be just what Yuri'll like."
             "I pop the disk in, dim the lights, and sit on the couch."
-            scene livingroom_evening
+            scene bg livingroom_evening
             show yuri e1bh at t11 zorder 2
             "After a half hour of playing through the game, I look to Yuri."
             "She's absolutely mesmerized."
@@ -1092,7 +1092,7 @@ label yuriroute:
             "I can feel my heart pounding in my chest."
             "I can tell Yuri's enjoying this."
             "It's been what feels like forever when our lips finally part..."
-            scene bg bedroom
+            scene bg bedroom_evening
             show yuri e1bs at t11 zorder 2
             "The millisecond they do, the world comes back to me."
             mc "Yuri... that..."
@@ -1124,7 +1124,7 @@ label yuriroute:
     scene black
     with dissolve_scene_full
 
-    scene livingroom_sunset
+    scene bg livingroom_sunset
     with wipeleft_scene
     stop music fadeout 1.0
     play music t3
