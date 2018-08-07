@@ -1506,7 +1506,7 @@ label natsukiroute:
     with dissolve_scene_full
     stop music fadeout 1.0
     
-    scene livingroom_night
+    scene bg livingroom_night
     with dissolve_scene_half
     play music t10
     "It’s Sunday, as usual."
