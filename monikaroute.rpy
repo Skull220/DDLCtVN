@@ -1393,7 +1393,7 @@ label monikaroute:
                 m 2bn "Remember when I said I was learning to play the piano?"
                 m "Well, I wrote you a bit of a song..."
                 m "Here, take a listen."
-                play monikasong
+                play music monikasong
                 pause 64.0
                 mc "Wow..."
                 m 2bp "Well, how was it?"
