@@ -235,7 +235,7 @@ label monikaroute:
     "I suddenly come to realize the now apparent emptiness where my bookbag should be."
     show monika m1f
     mc "Err... I mean... {i}I did...{/i}"
-    show monika 1e
+    show monika m1e
     mc "I must've set it down somewhere when I was waiting for Sayori."
     m m4d "Well... that isn’t very good."
     m m2d "We don't have time for you to run back and grab it..."
@@ -253,7 +253,7 @@ label monikaroute:
     show monika m1d at t21
     show sayori at f22
     s m4p "Hey, there's no need to pick on [player] like that!"
-    show monika 1g
+    show monika m1g
     s m5c "For the record, I forgot my poem too, so he's not the only one!"
     show monika at f21
     show sayori at t22
@@ -272,8 +272,8 @@ label monikaroute:
     show monika m2h at t21
     show sayori at f22
     s m5d "W-well its not like my reading was going to attract anyone new to the club anyway, so really, I don’t count!"
-    show monika 2p at f21
-    show sayori 4n at t22
+    show monika m2p at f21
+    show sayori m4n at t22
     m "Sayori, did you leave your poem behind just so that you wouldn’t have to read it in front of everyone today?"
     show monika at t21
     show sayori at f22
@@ -322,7 +322,7 @@ label monikaroute:
     show monika at f21 zorder 8
     show natsuki at t22
     m m2i "Natsuki, in case you weren’t listening, no one's asking for your opinion."
-    show natsuki 4r
+    show natsuki m4r
     m m5b "{cps=*.5}So if you don't want to do anything for the festival, then why don't you just go read manga by yourself in the corner like you usually do?!{/cps}"
     "Okay, things are getting {i}way{/i} too out of hand here!"
     "I'm trying to think of a way to stop the argument but I don't even know where to step in."
@@ -349,9 +349,9 @@ label monikaroute:
     show yuri at f44 zorder 4
     y m2n "G-guys..."
     $ m_name = "Everyone"
-    show monika 5b at f41
-    show sayori 4j at f43
-    show natsuki 1e at f42
+    show monika m5b at f41
+    show sayori m4j at f43
+    show natsuki m1e at f42
     show yuri at t44
     m "Stay out of this, Yuri!"
     $ m_name = "Monika"
@@ -936,7 +936,7 @@ label monikaroute:
     with dissolve_scene_full
     stop music fadeout 2.0
     
-    scene bg kitchen
+    scene bg livingroom
     play music t2
    
     "It’s Sunday, and before I even realize, Monika rings the doorbell." 
@@ -1005,8 +1005,6 @@ label monikaroute:
     s "I guess as long as my friends are spending time together, it’s fine." 
     s 2bl "I’ll be at home if you change your mind."
     "She walks off."
-    show sayori at thide zorder 1
-    hide sayori
     "While I’m sad for her, Monika seems indifferent at best."
     show monika 1ba at t11 zorder 2
     m 1ba "You ready, player?"
@@ -1177,6 +1175,7 @@ label monikaroute:
                 "I grab {i}Damned{/i}’s box and pop the disk in the tray." 
                 "I dim the lights, and we both sit on the couch."
                 scene bg livingroom_evening
+                show monika e2bp at t11 zorder 2
                 "While she does pay attention, she doesn’t seem to enjoy it."
                 "She still remains interested, watching what I do and commenting on different parts of the game." 
                 "But she doesn’t seem too involved in it." 
@@ -1184,6 +1183,8 @@ label monikaroute:
                 m e2bp "Bye, [player]."
                 m e2bn "Something different next week, huh?"
                 mc "Fine by me. I’ll see you Monday."
+                show monika at thide zorder 1
+                hide monika
                 "She leaves."
                 "God, I messed up so badly."
                 "What was I thinking?"
@@ -1195,6 +1196,7 @@ label monikaroute:
                 "A perfect game to appeal to Monika’s competitive sensibilities." 
                 "I pop the disk in, dim the lights, and sit on the couch."
                 scene bg livingroom_evening
+                show monika e2bk at t11 zorder 2
                 "I hand her my second controller."
                 "I start by going easy on her." 
                 "That seems to have been a mistake, as she picks up quickly and starts to get ahead."
@@ -1303,6 +1305,7 @@ label monikaroute:
                 "I grab {i}Wormhole 2{/i}’s box and pop the disk in the tray." 
                 "I dim the lights, and we both sit on the couch."
                 scene bg livingroom_evening
+                show monika e2bp at t11 zorder 2
                 "While she does pay attention, she doesn’t seem to enjoy it."
                 "She still remains interested, watching what I do and commenting on different parts of the game." 
                 "But she doesn’t seem too involved in it." 
@@ -1310,6 +1313,8 @@ label monikaroute:
                 m e2bp "Bye, [player]."
                 m e2bn "Something different next week, huh?"
                 mc "Fine by me. I’ll see you Monday."
+                show monika at thide zorder 1
+                hide monika
                 "She leaves."
                 "God, I messed up so badly."
                 "What was I thinking?"
@@ -1318,6 +1323,7 @@ label monikaroute:
                 "I grab {i}Gone Nuclear: Vegas Blues{/i}’s box and pop the disk in the tray." 
                 "I dim the lights, and we both sit on the couch."
                 scene bg livingroom_evening
+                show monika e2bp at t11 zorder 2
                 "While she does pay attention, she doesn’t seem to enjoy it."
                 "She still remains interested, watching what I do and commenting on different parts of the game." 
                 "But she doesn’t seem too involved in it." 
@@ -1325,6 +1331,8 @@ label monikaroute:
                 m e2bp "Bye, [player]."
                 m e2bn "Something different next week, huh?"
                 mc "Fine by me. I’ll see you Monday."
+                show monika at thide zorder 1
+                hide monika
                 "She leaves."
                 "God, I messed up so badly."
                 "What was I thinking?"
@@ -1418,10 +1426,11 @@ label monikaroute:
                 "Instead, I put some boring white noise on TV and try to drift off to sleep."
                 "There's always next week, right?" 
 
+
     scene black
     with dissolve_scene_full
     stop music fadeout 2.0
-    
+
     scene bg livingroom_night
     with wipeleft_scene
     play music t5_monika
@@ -1465,7 +1474,7 @@ label monikaroute:
     "I let Monika go first for {i}obvious{/i} reasons, but she still notices."
     "God, what's with me today?"
     "Ah, whatever."
-    scene bg bedroom
+    scene bg bedroom_night
     show monika n1bo at t11 zorder 2 
     "We arrive at my bedroom."
     "Monika starts things up by grabbing a remote."
@@ -1628,16 +1637,18 @@ label monikaroute:
         "She puts a finger on my lips."
         m "Shh."
         m n1ba "The only thing I want to hear from you is the sound of you screaming my name."
-        "{i}Gulp.{/i}"
-        play music tbc
+        "{i}Gulp.{/i}"       
         window hide
+        stop music fadeout 2.0
+        play music tbc
         pause 2.902
+        show monika 7a t11 zorder 2
         show tbc at r11 zorder 2
         show image "mod_assets/pink.png"
         pause 10.0
         scene black
         with dissolve_scene_full
-        stop music fadeout 2.0
+        
     elif MonikaVar >= 0:
         "I take my mind off it."
         "This is just Monika being paranoid, or something."
