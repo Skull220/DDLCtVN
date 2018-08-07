@@ -403,23 +403,6 @@ transform vignetteflicker(t=0):
     parallel:
         easeout 20 zoom 3.0
 
-transform layerflicker(t=0):
-    truecenter
-    t + 2.030
-    parallel:
-        zoom 1.05
-        linear 0.2 zoom 1.04
-        0.1
-        zoom 1.035
-        linear 0.1 zoom 1.05
-        zoom 1.0
-        1.19
-        repeat
-    parallel:
-        easeout_bounce 0.3 xalign 0.6
-        easeout_bounce 0.3 xalign 0.4
-        repeat
-
 transform rewind:
     truecenter
     zoom 1.20
