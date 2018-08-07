@@ -1963,10 +1963,6 @@ image monika m5a = morning(im.Composite((960, 960), (0, 0), "monika/3a.png"))
 image monika m5b = morning(im.Composite((960, 960), (0, 0), "monika/3b.png"))
 
 # Casual
-image monika m1b = morning(im.Composite((960, 960), (0, 0), "mod_assets/1bl.png", (0, 0), "mod_assets/1br.png", (0, 0), "monika/a.png"))
-image monika m2b = morning(im.Composite((960, 960), (0, 0), "mod_assets/1bl.png", (0, 0), "mod_assets/2br.png", (0, 0), "monika/a.png"))
-image monika m3b = morning(im.Composite((960, 960), (0, 0), "mod_assets/2bl.png", (0, 0), "mod_assets/1br.png", (0, 0), "monika/a.png"))
-image monika m4b = morning(im.Composite((960, 960), (0, 0), "mod_assets/2bl.png", (0, 0), "mod_assets/2br.png", (0, 0), "monika/a.png"))
 
 image monika m1ba = morning(im.Composite((960, 960), (0, 0), "mod_assets/1bl.png", (0, 0), "mod_assets/1br.png", (0, 0), "monika/a.png"))
 image monika m1bb = morning(im.Composite((960, 960), (0, 0), "mod_assets/1bl.png", (0, 0), "mod_assets/1br.png", (0, 0), "monika/b.png"))
