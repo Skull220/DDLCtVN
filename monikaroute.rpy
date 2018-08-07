@@ -168,7 +168,7 @@ label monikaroute:
     scene black
     with dissolve_scene_full
     
-    scene bg club_day2
+    scene bg club_morning
     with wipeleft_scene
     
     "Half an hour later and we're finished."
