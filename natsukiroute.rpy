@@ -190,7 +190,7 @@ label natsukiroute:
     show sayori d3q at t21
     show natsuki d5t at f22
     n "{i}Aww{/i}, thanks!"
-    show natsuki 5s at t22 
+    show natsuki d5s at t22 
     mc "Seriously."
     mc "I'm impressed with how the icing's done."
     mc "Something this intricate must've taken a lot of time, effort, or both."
