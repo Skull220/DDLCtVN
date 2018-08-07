@@ -811,7 +811,6 @@ label monikaroute:
             y "Very well. Next up is… Alex."
             "Even if she deserved it, it’s hard not to feel bad for Monika." 
             "I turn back to my computer, and she to hers, both trying to avoid eye contact."
-            show monika at thide zorder 1
             hide monika
             $ y_name = "Yuri"
             "The class ends after the last presentation, and as we both head out a simple \"bye\" is exchanged between us."
