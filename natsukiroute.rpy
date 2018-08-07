@@ -133,7 +133,7 @@ label natsukiroute:
     "But if Monika's insistent on bringing it back up, I guess we have no choice but to remember..."
     
     
-    scene bg house 
+    scene bg house_morning
     with dissolve_scene_half
     pause 1.5
 
@@ -142,14 +142,14 @@ label natsukiroute:
     "I’ve always enjoyed these, as they were essentially a day off from school, but I never got involved in anything like this."
     "I can’t believe I have to read out a poem!"
     "I’m still not even that proud of the one I chose!"
-    show natsuki 1a at t11 zorder 2
+    show natsuki m1a at t11 zorder 2
     "Natsuki’s over, helping me carry the cupcakes to school."
     "It’s so many though, that we need help even from Sayori."
     "We’re standing outside her door, and so far, she hasn’t come out."
     "It seems she overslept again."
     "I suggest moving on."
     "I still don’t feel very comfortable doing it, but I’m not going to be late because of her."
-    show natsuki 1z zorder 1 at t42
+    show natsuki m1z zorder 1 at t42
     n "I’ll go wake her up, [player]."
     n "I’m good at this type of thing."
     "I nod, and she goes in."
@@ -223,7 +223,7 @@ label natsukiroute:
     show natsuki at t42
     show yuri at t44
     mc "Speaking of guests, has anyone signed up to join the club yet?"
-    show monika 3l at f11 zorder 1
+    show monika d3l at f11 zorder 1
     show yuri at thide zorder 1
     show natsuki at thide zorder 1
     show sayori at thide zorder 1
@@ -330,7 +330,7 @@ label natsukiroute:
     show monika at f21 zorder 8
     show natsuki at t22
     m d2i "Natsuki, in case you weren’t listening, no one's asking for your opinion."
-    show natsuki 4r
+    show natsuki d4r
     m d5b "{cps=*.5}So if you don't want to do anything for the festival, then why don't you just go read manga by yourself in the corner like you usually do?!{/cps}"
     "Okay, things are getting {i}way{/i} too out of hand here!"
     "I'm trying to think of a way to stop the argument but I don't even know where to step in."
@@ -357,9 +357,9 @@ label natsukiroute:
     show yuri at f44 zorder 4
     y d2n "G-guys..."
     $ m_name = "Everyone"
-    show monika 5b at f41
-    show sayori 4j at f43
-    show natsuki 1e at f42
+    show monika d5b at f41
+    show sayori d4j at f43
+    show natsuki d1e at f42
     show yuri at t44
     m "Stay out of this, Yuri!"
     $ m_name = "Monika"
@@ -655,7 +655,7 @@ label natsukiroute:
     stop music fadeout 1.0
     play music t5_natsuki
     "I arrive at second hour, science, and walk in the doorway when I see a familiar face."
-    show natsuki 1g at t11 zorder 2
+    show natsuki m1g at t11 zorder 2
     n "[player]? You’re in this class?"
     mc "Yeah, always have been." 
     mc "And you? This is a second-year class."
@@ -1261,13 +1261,13 @@ label natsukiroute:
             mc "If you did, why would you date me?"
             mc "That seems like a bad idea, doesn’t it?"
             "She looks down, ashamed with herself."
-            show natsuki 1bu at t11 zorder 2
+            show natsuki e1bu at t11 zorder 2
             n "Yeah, but that’s not an excuse."
             n "When I first came in here, I completely dismissed this, didn’t even consider it a good idea."
             n e12bd "I’m lucky you even showed it to me."
             mc "Listen."
             "I bring her up to me, so that we’re looking each other in the eyes."
-            show natsuki 2bn at t11
+            show natsuki e2bn at t11
             "I wipe her eyes, and she looks at me."
             mc "This has really been one of the best days of my life, Natsuki."
             mc "I don’t know what else to say other than thank you."
@@ -1305,7 +1305,7 @@ label natsukiroute:
             "I dim the lights, and we both sit on the couch."
             scene bg livingroom_evening
             "While she does pay attention, she doesn’t seem to enjoy it."
-            show natsuki 2bi at t11
+            show natsuki e2bi at t11
             n e2bb "I still think we should have read, instead."
             mc "Aww, come on! I’m enjoying this!"
             n e2bg "Alright, fine. But I’m going to read, okay?"
@@ -1325,7 +1325,7 @@ label natsukiroute:
             "I dim the lights, and we both sit on the couch."
             scene bg livingroom_evening
             "While she does pay attention, she doesn’t seem to enjoy it."
-            show natsuki 2bi at t11
+            show natsuki e2bi at t11
             n e2bb "I still think we should have read, instead."
             mc "Aww, come on! I’m enjoying this!"
             n e2bg "Alright, fine. But I’m going to read, okay?"
@@ -1345,10 +1345,10 @@ label natsukiroute:
             "I dim the lights, and we both sit on the couch."
             scene bg livingroom_evening
             "While she does pay attention, she doesn’t seem to enjoy it."
-            show natsuki 2bi at t11
-            n 2bb "I still think we should have read, instead."
+            show natsuki e2bi at t11
+            n e2bb "I still think we should have read, instead."
             mc "Aww, come on! I’m enjoying this!"
-            n 2bg "Alright, fine. But I’m going to read, okay?"
+            n e2bg "Alright, fine. But I’m going to read, okay?"
             "With that, she comes a bit closer to me, leaning against me." 
             "She takes out Parfait Girls and her phone light, starting to read." 
             "We go back to our own activities, once in a while grabbing cookies from the plate, until eventually things start to get dark out."
@@ -1505,7 +1505,6 @@ label natsukiroute:
     scene black
     with dissolve_scene_full
     stop music fadeout 1.0
-
     
     scene livingroom_night
     with dissolve_scene_half
@@ -1648,15 +1647,16 @@ label natsukiroute:
         "As she rolls, and lays on top of me, she whispers in my ear."
         n "I can help fix that~"
         "{i}Gulp.{/i}"
-        play music tbc
         window hide
+        stop music fadeout 2.0
+        play music tbc
         pause 2.902
+        show natsuki 7a at t11 zorder 2
         show tbc at r11 zorder 2
         show image "mod_assets/pink.png"
         pause 10.0
         scene black
         with dissolve_scene_full
-        stop music fadeout 2.0
     elif NatsukiVar >= 0:
         "Until five minutes ago, I was really happy that I got to see Natsuki today as well."
         "But she sent me a message where she told me that she can't come today."
