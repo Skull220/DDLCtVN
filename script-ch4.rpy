@@ -1689,6 +1689,5 @@ label ch4_exclusive_monika:
             "Plus, I’ve never had a girlfriend before, so Monika’s a pretty good start." 
             "I turn around and walk back into my house." 
             "The festival’s going to be great!"
-            call monikaroute from _call_monikaroute_1
 return
         
