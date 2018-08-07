@@ -1391,7 +1391,7 @@ label natsukiroute:
             n s2bh "I won’t."
             n "Now go lay down somewhere."
             n s2bk "Hurry up."
-            scene bg bedroom
+            scene bg bedroom_night
             show natsuki s1bi at t11 zorder 2
             "I naturally go to the only comfortable bed, the one in my bedroom, and lay in it."
             "Natsuki practically throws my cover at me."
@@ -1542,7 +1542,7 @@ label natsukiroute:
         "Tears begin to well up in Natsuki’s eyes."
         "I grab the box from her and set it down, and she buries her face in my chest, lightly sobbing."
         "Without really thinking, I wipe tears from her eyes."
-        scene bg livingroom_night
+        scene bg bedroom_night
         show natsuki n1bm at t11 zorder 2
         "She looks at me, for a straight half minute."
         "Her eyes are still slightly glistening from the tears."
