@@ -12,6 +12,8 @@ Monika's jealousy, Sayori's depression, Natsuki's home life, and Yuri's self har
 
 >Will it keep the element of choice?
 
+VERSION 1.5 IS RIGHT AROUND THE CORNER!
+
 Each chapter will include one choice. At the final chapter, your choices will decide your ending.
 
 >After the added chapters, is that all?
