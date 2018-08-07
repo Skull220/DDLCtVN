@@ -22,7 +22,7 @@ The mod is episodic, meaning new chapters will be added semifreqently. Episode 2
 
 >Anything else I should know?
 
-This mod is 100% Copyleft; However, make sure if you redistribute, substantial changes are made, and give credit to me as Skull217. Anything and everything can be changed to your desire, if you wish. And hell, if you do change it, contact me! If I like the changes, I'll feature it as a branch of the mod!
+This mod is 100% Copyleft; However, make sure if you redistribute, substantial changes are made, the product is released for free, and give credit to me as Skull217. Anything and everything can be changed to your desire, if you wish. And hell, if you do change it, contact me! If I like the changes, I'll feature it as a branch of the mod!
 
 # INSTALLATION GUIDE
 
