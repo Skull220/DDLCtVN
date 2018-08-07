@@ -6,7 +6,6 @@ label natsukiroute:
     "I walk into the literature club and the usual scene greets me." 
     "Yuri’s sitting at her desk, reading a book, and Natsuki and Sayori are talking about something. Monika’s late again."
     "I walk over to Natsuki and Sayori, asking what they're on about."
-    call groupStart()
     show sayori 2c at t21 zorder 2
     show natsuki 4b at t22 zorder 3
     s "Natsuki thinks cupcakes are better than cookies!"
@@ -62,8 +61,6 @@ label natsukiroute:
     show natsuki at thide zorder 1
     hide sayori
     hide natsuki
-    call groupClear()
-    call groupStart()
     show yuri 2e zorder 3 at t22
     show monika 2k zorder 2 at l21
     m "Sorry that I'm late, everyone!"
@@ -136,7 +133,6 @@ label natsukiroute:
     "But if Monika's insistent on bringing it back up, I guess we have no choice but to remember..."
     
     
-    call groupClear()
     scene bg house 
     with dissolve_scene_half
     pause 1.5
@@ -186,7 +182,6 @@ label natsukiroute:
     "Instead of the traditional swirl or kittens on top, she's shaped the icing into closed books," 
     "Each one uniquely decorated to mimic the cover of famous novels from around the world."
     "Quite fitting of the club's theme."
-    call groupStart()
     show sayori d3r zorder 2 at f21
     show natsuki d5j zorder 3 at t22
     s "Wow, Natsuki, these are really good!"
@@ -374,14 +369,12 @@ label natsukiroute:
     hide monika
     hide sayori
     hide natsuki
-    call groupClear()
     show yuri d1o at t11
     "Yuri squeals and quietly backs away from the other girls."
     show yuri d1p at t11
     "As she backs up she accidentally bumps into one of the other students and finally takes notice of the growing crowd, furthering her embarassment."
     show yuri at thide zorder 1
     hide yuri
-    call groupStart()
     show natsuki d2x at t32
     show sayori d4p at t33
     show monika d5b at t31
@@ -405,7 +398,6 @@ label natsukiroute:
     show natsuki d12b
     "At this point the crowd has mostly dispersed already, although a few students stuck around to thank Natsuki for the cupcakes."
     "Even from here it’s noticeable that our signup sheet was just as empty as when we started..."
-    call groupClear()
     pause 1.5
     scene bg club_day
     with dissolve_scene_full
@@ -413,7 +405,6 @@ label natsukiroute:
 
     show monika 3i at f11
     m "So, does everyone understand {i}why{/i} this club’s still at square one?"
-    call groupStart()
     show monika 1h at t41
     show sayori 1k at t43
     show natsuki 1u at t42
@@ -627,7 +618,6 @@ label natsukiroute:
     hide monika
     hide yuri
     hide sayori
-    call groupClear()
     show natsuki 2a at t11
     "Natsuki looks over at me and we both smile."
     "We all leave the club together, before Natsuki and I split off from the others."
