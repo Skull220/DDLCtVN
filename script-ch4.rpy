@@ -428,7 +428,7 @@ label ch4_exclusive_sayori:
             "But I know that I'll give it everything I've got."
             "Sayori is the most important person to me."
             "And I'll do whatever it takes to have a happy future with her."
-            call sayoriroute from _call_sayoriroute
+            call sayoriroute
         "You'll always be my dearest friend.":
             scene black
             hide sayori
@@ -969,7 +969,7 @@ label ch4_exclusive_natsuki:
             n 2bz "I'm already excited for it."
             n "I'll see you then!"
             "She walks off into the distance."
-            call natsukiroute from _call_natsukiroute_1
+            call natsukiroute
 return
 
 label ch4_exclusive_yuri:
@@ -1483,7 +1483,7 @@ label ch4_exclusive_yuri:
             "I breathe in, and breathe out."
             "..."
             "Hell yea."
-            call yuriroute from _call_yuriroute
+            call yuriroute
         "Reject her":
             scene black
             show yuri at thide zorder 1
@@ -1689,5 +1689,6 @@ label ch4_exclusive_monika:
             "Plus, I’ve never had a girlfriend before, so Monika’s a pretty good start." 
             "I turn around and walk back into my house." 
             "The festival’s going to be great!"
+            call monikaroute
 return
         
