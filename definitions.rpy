@@ -84,7 +84,7 @@ define audio.t5_sayori = "<loop 4.444>bgm/5_sayori.ogg"
 define audio.t5_natsuki = "<loop 4.444>bgm/5_natsuki.ogg"
 define audio.t5_yuri = "<loop 4.444>bgm/5_yuri.ogg"
 define audio.tbc = "mod_assets/tbc.ogg"
-dfeine audto.monikasong = "mod_assets/monikasong.ogg"
+dfeine audio.monikasong = "mod_assets/monikasong.ogg"
 
 # Backgrounds
 image black = "#000000"
