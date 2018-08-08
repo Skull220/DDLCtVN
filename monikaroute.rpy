@@ -222,7 +222,7 @@ label monikaroute:
     hide natsuki
     hide sayori
     m m1n "No, not so far."
-    m m2b "But then again, the festival hasn’t really picked up yet either."
+    m m1b "But then again, the festival hasn’t really picked up yet either."
     m m3g "All in due time, I suppose."
     m m2e "..."
     m m2d "We haven’t started to read any of our poetry yet either."
