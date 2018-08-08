@@ -175,7 +175,7 @@ label monikaroute:
     "Sayori immediately stuffs it into her mouth while I take a moment to inspect Natsuki's latest design."
     "Instead of the traditional swirl or kittens on top, she's shaped the icing into closed books," 
     "Each one uniquely decorated to mimic the cover of famous novels from around the world."
-    "Quite fitting f the club's theme."
+    "Quite fitting of the club's theme."
     show sayori m3r zorder 2 at f21
     show natsuki m5j zorder 3 at t22
     s "Wow, Natsuki, these are really good!"
@@ -222,7 +222,7 @@ label monikaroute:
     hide natsuki
     hide sayori
     m m1n "No, not so far."
-    m m1b "But then again, the festival hasn’t really picked up yet either."
+    m m2b "But then again, the festival hasn’t really picked up yet either."
     m m3g "All in due time, I suppose."
     m m2e "..."
     m m2d "We haven’t started to read any of our poetry yet either."
