@@ -1156,7 +1156,7 @@ label yuriroute:
             mc "Alright, fine. Just try not to get sick, alright?."
             y s1bf "I'm not the one to be worried about here, [player]."
             y "You should lay down in a b-bed somewhere."
-            scene bedroom_sunset
+            scene bg bedroom_sunset
             with wipeleft_scene
             
             "I naturally go to the only comfortable bed, the one in my bedroom, and lay in it."
