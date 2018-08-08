@@ -1295,7 +1295,7 @@ label yuriroute:
     "I motion her to follow me."
     "She does, apprehensively."
     "We arrive."
-    scene bg bedroom
+    scene bg bedroom_night
     "We're again standing around awkwardly."
     "I choose to break the silence."
     mc "So... what would you like to do?"
