@@ -1530,7 +1530,7 @@ label yuriroute:
         "We both stare at each other for all of 30 seconds, catching our breath, before going right back to making out again."
         "On about our fifth break, Yuri looks at me."
         stop music fadeout 2.0
-        scene bg bedroom
+        scene bg bedroom_night
         show yuri n2bs zorder 2 at t11
         play music t6
         y "[player]... You give me confidence, you know that?"
