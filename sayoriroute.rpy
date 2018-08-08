@@ -1319,8 +1319,8 @@ label sayoriroute:
            play music t8
            "I open the door to see Sayori laying in bed, room messy as ever."
            "I walk over to her and crouch by her side."
-           "Hey, Sayori?"
-           "What's wrong?"
+           mc "Hey, Sayori?"
+           mc "What's wrong?"
            s s2bf "My... my head, [player]..."
            "Before I let her finish, I put my hand on her head. She's burning up..."
            mc "Oh, god, Sayori, yea, you are sick..."
