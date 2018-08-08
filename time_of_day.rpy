@@ -1068,11 +1068,6 @@ image monika d5b = dawn(im.Composite((960, 960), (0, 0), "monika/3b.png"))
 
 # Casual
 
-image monika d1b = dawn(im.Composite((960, 960), (0, 0), "mod_assets/1bl.png", (0, 0), "mod_assets/1br.png", (0, 0), "monika/a.png"))
-image monika d2b = dawn(im.Composite((960, 960), (0, 0), "mod_assets/1bl.png", (0, 0), "mod_assets/2br.png", (0, 0), "monika/a.png"))
-image monika d3b = dawn(im.Composite((960, 960), (0, 0), "mod_assets/2bl.png", (0, 0), "mod_assets/1br.png", (0, 0), "monika/a.png"))
-image monika d4b = dawn(im.Composite((960, 960), (0, 0), "mod_assets/2bl.png", (0, 0), "mod_assets/2br.png", (0, 0), "monika/a.png"))
-
 image monika d1ba = dawn(im.Composite((960, 960), (0, 0), "mod_assets/1bl.png", (0, 0), "mod_assets/1br.png", (0, 0), "monika/a.png"))
 image monika d1bb = dawn(im.Composite((960, 960), (0, 0), "mod_assets/1bl.png", (0, 0), "mod_assets/1br.png", (0, 0), "monika/b.png"))
 image monika d1bc = dawn(im.Composite((960, 960), (0, 0), "mod_assets/1bl.png", (0, 0), "mod_assets/1br.png", (0, 0), "monika/c.png"))
@@ -2852,10 +2847,6 @@ image monika s5a = sunset(im.Composite((960, 960), (0, 0), "monika/3a.png"))
 image monika s5b = sunset(im.Composite((960, 960), (0, 0), "monika/3b.png"))
 
 #Casual
-image monika s1b = sunset(im.Composite((960, 960), (0, 0), "mod_assets/1bl.png", (0, 0), "mod_assets/1br.png", (0, 0), "monika/a.png"))
-image monika s2b = sunset(im.Composite((960, 960), (0, 0), "mod_assets/1bl.png", (0, 0), "mod_assets/2br.png", (0, 0), "monika/a.png"))
-image monika s3b = sunset(im.Composite((960, 960), (0, 0), "mod_assets/2bl.png", (0, 0), "mod_assets/1br.png", (0, 0), "monika/a.png"))
-image monika s4b = sunset(im.Composite((960, 960), (0, 0), "mod_assets/2bl.png", (0, 0), "mod_assets/2br.png", (0, 0), "monika/a.png"))
 
 image monika s1ba = sunset(im.Composite((960, 960), (0, 0), "mod_assets/1bl.png", (0, 0), "mod_assets/1br.png", (0, 0), "monika/a.png"))
 image monika s1bb = sunset(im.Composite((960, 960), (0, 0), "mod_assets/1bl.png", (0, 0), "mod_assets/1br.png", (0, 0), "monika/b.png"))
@@ -3747,12 +3738,6 @@ image monika e5a = evening(im.Composite((960, 960), (0, 0), "monika/3a.png"))
 image monika e5b = evening(im.Composite((960, 960), (0, 0), "monika/3b.png"))
 
 #Casual
-
-image monika e1b = evening(im.Composite((960, 960), (0, 0), "mod_assets/1bl.png", (0, 0), "mod_assets/1br.png", (0, 0), "monika/a.png"))
-image monika e2b = evening(im.Composite((960, 960), (0, 0), "mod_assets/1bl.png", (0, 0), "mod_assets/2br.png", (0, 0), "monika/a.png"))
-image monika e3b = evening(im.Composite((960, 960), (0, 0), "mod_assets/2bl.png", (0, 0), "mod_assets/1br.png", (0, 0), "monika/a.png"))
-image monika e4b = evening(im.Composite((960, 960), (0, 0), "mod_assets/2bl.png", (0, 0), "mod_assets/2br.png", (0, 0), "monika/a.png"))
-
 image monika e1ba = evening(im.Composite((960, 960), (0, 0), "mod_assets/1bl.png", (0, 0), "mod_assets/1br.png", (0, 0), "monika/a.png"))
 image monika e1bb = evening(im.Composite((960, 960), (0, 0), "mod_assets/1bl.png", (0, 0), "mod_assets/1br.png", (0, 0), "monika/b.png"))
 image monika e1bc = evening(im.Composite((960, 960), (0, 0), "mod_assets/1bl.png", (0, 0), "mod_assets/1br.png", (0, 0), "monika/c.png"))
@@ -4642,10 +4627,6 @@ image monika n5a = night(im.Composite((960, 960), (0, 0), "monika/3a.png"))
 image monika n5b = night(im.Composite((960, 960), (0, 0), "monika/3b.png"))
 
 #Casual
-image monika n1b = night(im.Composite((960, 960), (0, 0), "mod_assets/1bl.png", (0, 0), "mod_assets/1br.png", (0, 0), "monika/a.png"))
-image monika n2b = night(im.Composite((960, 960), (0, 0), "mod_assets/1bl.png", (0, 0), "mod_assets/2br.png", (0, 0), "monika/a.png"))
-image monika n3b = night(im.Composite((960, 960), (0, 0), "mod_assets/2bl.png", (0, 0), "mod_assets/1br.png", (0, 0), "monika/a.png"))
-image monika n4b = night(im.Composite((960, 960), (0, 0), "mod_assets/2bl.png", (0, 0), "mod_assets/2br.png", (0, 0), "monika/a.png"))
 
 image monika n1ba = night(im.Composite((960, 960), (0, 0), "mod_assets/1bl.png", (0, 0), "mod_assets/1br.png", (0, 0), "monika/a.png"))
 image monika n1bb = night(im.Composite((960, 960), (0, 0), "mod_assets/1bl.png", (0, 0), "mod_assets/1br.png", (0, 0), "monika/b.png"))
