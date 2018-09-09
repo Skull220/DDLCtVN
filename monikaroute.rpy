@@ -1643,7 +1643,7 @@ label monikaroute:
         stop music fadeout 2.0
         play music tbc
         pause 2.902
-        show monika 7a t11 zorder 2
+        show monika 8a t11 zorder 2
         show tbc at r11 zorder 2
         show image "mod_assets/pink.png"
         pause 10.0
