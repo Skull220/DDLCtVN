@@ -1326,7 +1326,7 @@ image monika 4bp = im.Composite((960, 960), (0, 0), "mod_assets/2bl.png", (0, 0)
 image monika 4bq = im.Composite((960, 960), (0, 0), "mod_assets/2bl.png", (0, 0), "mod_assets/2br.png", (0, 0), "monika/q.png")
 image monika 4br = im.Composite((960, 960), (0, 0), "mod_assets/2bl.png", (0, 0), "mod_assets/2br.png", (0, 0), "monika/r.png")
 
-image monika 7a = "mod_assets/mEnd.png"
+image monika 8a = "mod_assets/mEnd.png"
 
 
 image monika g1:
