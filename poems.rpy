@@ -457,6 +457,21 @@ But a poem is never actually finished.
 It just stops moving."""
     )
 
+    poem_s101 = Poem(
+    author = "sayori",
+    title = "%",
+    text = """\
+Hey babe,
+Thanks for a wonderful Sunday evening! 
+Oh, and for letting me sleep over and making me breakfast, too! 
+I really just wanted to say that I’m looking forward to tonight! I hope it’s just as fun as last night! ;)
+-Love,
+Sayori <3
+P.S: Where are we going? I promise I won't tell Sayori ;)"""
+    )
+
+
+
     poem_m1 = Poem(
     author = "monika",
     title = "Hole in Wall",
@@ -476,6 +491,19 @@ I realize now, that I wasn't looking in.
 I was looking out.
 And he, on the other side, was looking in."""
     )
+
+    poem_m101 = Poem(
+    author = "monika",
+    title = "Literature Club Cancelled",
+    text = """\
+    Dear everyone,
+
+Sorry for not getting to you all personally, but I have to inform you that the Literature Club will be cancelled today.This is due to personal reasons I am currently unable to say. However the club should return tomorrow!
+
+Sincerely,
+Monika"""
+    )
+
 
     poem_m21 = Poem(
     author = "monika",
