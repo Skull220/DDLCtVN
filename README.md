@@ -44,7 +44,7 @@ VI. Run the game. If all goes well, the application name at the top should say "
 
 >Game Design/Writing Head
 
-Skull(#5043)
+Skull(#8867)
 
 >Beta Readers/Beta Testers
 
