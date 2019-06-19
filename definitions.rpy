@@ -1372,6 +1372,7 @@ image monika g2:
     repeat
 
 image tbc = "mod_assets/tbc.png"
+image jojo = "mod_assets/mista.png"
 
 
 # Character variables
