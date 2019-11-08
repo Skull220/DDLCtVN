@@ -34,7 +34,7 @@ II. Click "Releases", and find the latest release. Hotfix instructions will appe
 
 III. Unzip the file.
 
-IV. Delete Scripts.rpa.
+IV. Delete Scripts.rpa in your /game/ folder of your DDLC install.
 
 V. Drag and Drop the contents of the file to your /game/ folder in your DDLC install. 
 
