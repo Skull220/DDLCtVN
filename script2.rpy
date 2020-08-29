@@ -5,15 +5,26 @@ label start:
     $ quick_menu = True
     # Intro
     $ chapter = 0
-    "DDLCtVN is a mod that begins by playing through nearly the entirity of the first act."
-    "Would you like to skip directly to the new content?"
+    "Please select an option."
     menu:
-        "Yes, skip me to where I choose my route.":
+        "Let me play through DDLC from the beginning.":
+            call ch0_main from _call_ch0_main
+        "Skip me to the new content for 1.0.":
             call newcontent from _call_newcontent
             jump day4
-        "No, let me play though act one.":
-            call ch0_main from _call_ch0_main
-            
+        "Skip me to the new content for 2.0.":
+            "You have chosen to skip to 2.0."
+            menu:
+                "Please, select a character."
+                "Sayori":
+                    call Sayori2 from _call_Sayori2
+                "Natsuki":
+                    call Natsuki2 from _call_Natsuki2
+                "Yuri":
+                    call Yuri2 from _call_Yuri2            
+                "Monika":
+                    call Monika2 from _call_Monika2
+            return
             
     # Poem minigame 1
     call poem from _call_poem_1
