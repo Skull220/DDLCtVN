@@ -229,7 +229,7 @@ label monikaroute:
     m m4d "Speaking of which, do you have your poem on you, [player]?"
     show monika m4c
     "I finish the last bite of my cupcake and reply."
-    mc "Oh yeah, it’s right here in my bookba-"
+    mc "Oh yeah, it’s right here in my bookba--"
     "I cut myself off."
     "I suddenly come to realize the now apparent emptiness where my bookbag should be."
     show monika m1f
@@ -270,7 +270,7 @@ label monikaroute:
     m "How are we supposed to attract new club members now?"
     show monika m2h at t21
     show sayori at f22
-    s m5d "W-well its not like my reading was going to attract anyone new to the club anyway, so really, I don’t count!"
+    s m5d "W-Well its not like my reading was going to attract anyone new to the club anyway, so really, I don’t count!"
     show monika m2p at f21
     show sayori m4n at t22
     m "Sayori, did you leave your poem behind just so that you wouldn’t have to read it in front of everyone today?"
@@ -346,7 +346,7 @@ label monikaroute:
     show sayori at t43 zorder 3
     show natsuki at t42 zorder 2
     show yuri at f44 zorder 4
-    y m2n "G-guys..."
+    y m2n "G-Guys..."
     $ m_name = "Everyone"
     show monika m5b at f41
     show sayori m4j at f43
@@ -441,7 +441,7 @@ label monikaroute:
     hide yuri
     "Monika turns to address the whole group again."
     m 2r "I should have listened to all of you the first time around."
-    m 1p "{i}..It's just...{/i}"
+    m 1p "{i}...It's just...{/i}"
     show monika 1o
     "She takes a moment to gather her thoughts again and continues."
     m 2d "...I've been working {i}so{/i} hard on getting preparations set up for this festival."
@@ -635,7 +635,7 @@ label monikaroute:
     "My heart skips a beat..."
     "God, Monika and I really are a couple now."
     "It's so weird. I never really expected it to happen, but here we are."
-    "I always thought she was so out of my league. That I would be just crushing on her for the rest of highschool, to see her as my.. {i}girlfriend...{/i}"
+    "I always thought she was so out of my league. That I would be just crushing on her for the rest of highschool, to see her as my... {i}girlfriend...{/i}"
     "I smile to myself."
     "I can't wait for Sunday."
     
@@ -759,13 +759,13 @@ label monikaroute:
             "As I get to the fourth slide, I begin my routine."
             mc "Wait… where is it?" 
             "I ask to myself, loud enough for the rest of the class to hear."
-            y "Very good question, Mr.[player]. Where is the rest of your presentation?"
+            y "Very good question, Mr. [player]. Where is the rest of your presentation?"
             mc "It must not have saved on my flash drive last night when I was working on it." 
             mc "It’s still at home."
             "Both statements are lies, and our teacher doesn’t seem to have bought them."
             y "It's... still at your home?" 
             y "You forgot to save your project?"
-            mc "Y-yes..."
+            mc "Y-Yes..."
             y "[player], why did you do it at your home, anyway?" 
             y "I gave you plenty of class time."
             mc "Well yes, but my topic was… hard to research." 
@@ -776,7 +776,7 @@ label monikaroute:
             "She seems to look at me, trying to read whether or not I’m lying." 
             y "Well, [player], maybe you should have checked for that before you volunteered to present." 
             y "You understand I am docking you of half the project grade?"
-            mc "Y-yes." 
+            mc "Y-Yes." 
             "I manage to stammer out." 
             "The teacher tells me to sit down, and as I retreat Monika expresses her happiness." 
             show monika m2k at t11 zorder 2
@@ -872,7 +872,7 @@ label monikaroute:
                 "But quickly closes it." 
                 "We missed about 5 minutes of the movie, but nothing important." 
                 "It's only when the movie really pick up that things really start to change." 
-                "It's a frame story. Some criminals go into an abandoned house, finding some dvds."
+                "It's a frame story. Some criminals go into an abandoned house, finding some DVDs."
                 "They play each one, containing its own miniature horror story. Each scarier than the last."
                 "The fifth one in particular gets to me."
                 "In fear, I close my eyes and close the gap between us, burying my face in her side."
@@ -978,7 +978,7 @@ label monikaroute:
     mc "I do have a plastic baseball bat and a ball." 
     "I could probably use some pieces of old wood as bases or something."
     "So I do just that." 
-    "I play both Pitcher and catcher, and we only switch off after 3 outs or a run." 
+    "I play both pitcher and catcher, and we only switch off after 3 outs or a run." 
     "True to her athleticism, even if my backyard is small, she completely dominates me." 
     "I’ve just gotten to third base for the third time when I notice someone approach us." 
     "As she gets closer, it appears to be Sayori."
@@ -1019,14 +1019,14 @@ label monikaroute:
                     mc "No. Monika, that wasn’t right."
                     m 2bb "What do you mean?"
                     mc "Is Sayori your friend, Monika?"
-                    m 2bn "Y-yes. Why?"
+                    m 2bn "Y-Yes. Why?"
                     mc "Because how you acted is not how a friend treats another."
                     mc "Are you jealous of her, Monika?"
                     m "No! I just thought it would be unbalanced, and she wasn’t even invited…"
                     "The normal confidence in her voice is gone, and I can tell she regrets it."
                     "I choose to accept that."
                     mc "Monika, I l-like you, and only you." 
-                    mc" There’s no reason to let Sayori threaten you."
+                    mc "There’s no reason to let Sayori threaten you."
                     mc "I am also Sayori’s friend."
                     mc "And I’m going to talk to her about this."
                     mc "I’d recommend you do the same."
@@ -1059,7 +1059,7 @@ label monikaroute:
                     m "I’m sorry for how I acted back there." 
                     m "I-I realize it’s not best for me to act jealous like that." 
                     m "I really did let my emotions get the best of me."
-                    m "S-sorry."
+                    m "S-Sorry."
                     "Sayori walks up to Monika, grabs her on the shoulders (despite their height difference), and looks at her." 
                     "Monika looks back."
                     s 1bl "Monika… It’s alright."
@@ -1242,7 +1242,7 @@ label monikaroute:
                 "I don't mean that in the game sense."
                 m e3bk "I’m tired, [player], I need someone to hold me up~" 
                 "She says, faking a yawn." 
-                "She then puts her arms around my body in a sort of ‘side-hug’, setting her up to be held up by me."
+                "She then puts her arms around my body in a sort of \"side-hug\", setting her up to be held up by me."
                 "She still manages to hold her controller and pay attention." 
                 "She’s practically sitting in my lap, and I pray to every deity I can think of that she does not start shifting around."
                 "As if she somehow heard those prayers and wanted to spite me, she pushes up and pushes back down a little, feigning uncomfortableness."
@@ -1360,7 +1360,7 @@ label monikaroute:
     m "But it's not like I can really argue, can I?"
     mc "That's a good point."
     "That's where the conversation ended."
-    "So I'm here, sitting in my room, wondering what I'm going to instead occupy my saturday with."
+    "So I'm here, sitting in my room, wondering what I'm going to instead occupy my Saturday with."
     "I see a notification pop up on my computer."
     "A digital call?"
     "I don't recognize the user."
@@ -1423,7 +1423,7 @@ label monikaroute:
                 "Man... what a good day."
             "Refuse the call.":
                 "I hang up the call."
-                "I decide not to use my pc and turn it off."
+                "I decide not to use my PC and turn it off."
                 "Instead, I put some boring white noise on TV and try to drift off to sleep."
                 "There's always next week, right?" 
 
@@ -1480,7 +1480,7 @@ label monikaroute:
     "We arrive at my bedroom."
     "Monika starts things up by grabbing a remote."
     "She's flipping it over to some action show."
-    "Jonathan's strange escapades..."
+    "Jonathan's Strange Escapades..."
     #You were expecting some random action anime, but it was I, Dio!
     "It's on commercial break right now." 
     "We stand there, awkwardly."
@@ -1555,7 +1555,7 @@ label monikaroute:
     mc "Here we are!"
     "I hand her her cup and hold mine, as she reopens the cover fort."
     show monika n1bj at t11 zorder 2
-    m n1bj "Oh, with Marshmallows, too! Aww, thank you!"
+    m n1bj "Oh, with marshmallows, too! Aww, thank you!"
     mc "You’re welcome."
     "She plays the show."
     "I get a text from Sayori."
@@ -1565,8 +1565,6 @@ label monikaroute:
     play music t10
     m n3bi "[player], are you talking to {i}her?{/i}"
     mc "...Yeah? She is my friend..."
-    stop music fadeout 2.0
-    play music t10
     m "I can’t believe this. Are you… cheating on me?"
     mc "What?"
     "Where the hell did she get {i}that{/i} from?"
@@ -1631,10 +1629,10 @@ label monikaroute:
         m n2ba "[player]…"
         mc "Yes, Monika?"
         m "Why are we stopping here?"
-        mc "W-what do you mean?"
+        mc "W-What do you mean?"
         m n3bl "I mean, when two people really love each other, and they start making out, normally something comes after it…"
         "At once I realize what she means. I’m stunned."
-        mc "I-we-but-"
+        mc "I-- we-- but--"
         "She puts a finger on my lips."
         m "Shh."
         m n1ba "The only thing I want to hear from you is the sound of you screaming my name."
@@ -1706,7 +1704,7 @@ label monikaroute:
         "How fucking pathetic are you?"
         "You managed to get EVERY FUCKING ONE wrong."
         "I've met fucking vegetables who are smarter than you!"
-        "Frankly, i'm surprised that you were smart enough to install the mod."
+        "Frankly, I'm surprised that you were smart enough to install the mod."
         "You came in here expecting your doki to go all like:"
         "\"Oh [player]! I love you! I love you, I love you, I love you!\""
         "But you had to go and get everything utterly fucking wrong like a retard!"
